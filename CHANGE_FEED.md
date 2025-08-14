@@ -1,5 +1,89 @@
 # CHANGE FEED (last 14 days)
 
+## "01 \342\200\223 Game Bible/index.html"  _(last: 2025-08-14 07:22 UTC, 4 commits)_
+- 2025-08-14 07:22 — `a3f4dcb` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci]
+- 2025-08-14 05:25 — `69be6ca` by site-index-bot: chore: auto-update folder indexes [skip ci]
+- 2025-08-14 05:21 — `a37bda2` by site-index-bot: chore: auto-update folder indexes [skip ci]
+- 2025-08-14 05:14 — `13546cf` by site-index-bot: chore: auto-update folder indexes [skip ci]
+
+## "02 \342\200\223 R&D Lab/index.html"  _(last: 2025-08-14 07:22 UTC, 4 commits)_
+- 2025-08-14 07:22 — `a3f4dcb` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci]
+- 2025-08-14 05:25 — `69be6ca` by site-index-bot: chore: auto-update folder indexes [skip ci]
+- 2025-08-14 05:21 — `a37bda2` by site-index-bot: chore: auto-update folder indexes [skip ci]
+- 2025-08-14 05:14 — `13546cf` by site-index-bot: chore: auto-update folder indexes [skip ci]
+
+## "03 \342\200\223 Assets/index.html"  _(last: 2025-08-14 07:22 UTC, 4 commits)_
+- 2025-08-14 07:22 — `a3f4dcb` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci]
+- 2025-08-14 05:25 — `69be6ca` by site-index-bot: chore: auto-update folder indexes [skip ci]
+- 2025-08-14 05:21 — `a37bda2` by site-index-bot: chore: auto-update folder indexes [skip ci]
+- 2025-08-14 05:14 — `13546cf` by site-index-bot: chore: auto-update folder indexes [skip ci]
+
+## "04 \342\200\223 Builds & Exports/index.html"  _(last: 2025-08-14 07:22 UTC, 4 commits)_
+- 2025-08-14 07:22 — `a3f4dcb` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci]
+- 2025-08-14 05:25 — `69be6ca` by site-index-bot: chore: auto-update folder indexes [skip ci]
+- 2025-08-14 05:21 — `a37bda2` by site-index-bot: chore: auto-update folder indexes [skip ci]
+- 2025-08-14 05:14 — `13546cf` by site-index-bot: chore: auto-update folder indexes [skip ci]
+
+## "05 \342\200\223 References & Tools/index.html"  _(last: 2025-08-14 07:22 UTC, 4 commits)_
+- 2025-08-14 07:22 — `a3f4dcb` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci]
+- 2025-08-14 05:25 — `69be6ca` by site-index-bot: chore: auto-update folder indexes [skip ci]
+- 2025-08-14 05:21 — `a37bda2` by site-index-bot: chore: auto-update folder indexes [skip ci]
+- 2025-08-14 05:14 — `13546cf` by site-index-bot: chore: auto-update folder indexes [skip ci]
+
+## AI_INDEX.md  _(last: 2025-08-14 07:22 UTC, 32 commits)_
+- 2025-08-14 07:22 — `a3f4dcb` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci]
+- 2025-08-14 06:50 — `8f31445` by build-all-bot: chore: build all (AI index, quicklinks, site index) [skip ci]
+- 2025-08-14 06:44 — `4144b94` by build-all-bot: chore: build all (AI index, quicklinks, site index) [skip ci]
+- 2025-08-14 06:42 — `c5f8d79` by build-all-bot: chore: build all (AI index, quicklinks, site index) [skip ci]
+- 2025-08-14 06:36 — `3a2b324` by build-all-bot: chore: build all (AI index, quicklinks, site index) [skip ci]
+- 2025-08-14 06:17 — `005e82b` by quicklinks-bot: chore: auto-update quicklinks + redirects [skip ci]
+- 2025-08-14 06:16 — `8c944f0` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
+- 2025-08-14 06:06 — `26058a3` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
+- 2025-08-14 06:02 — `e9a2a20` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
+- 2025-08-14 06:01 — `f9dd556` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
+- 2025-08-14 05:56 — `eb59eb6` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
+- 2025-08-14 05:54 — `c6269a2` by quicklinks-bot: chore: auto-update quicklinks + redirects [skip ci]
+- 2025-08-14 05:25 — `f753712` by quicklinks-bot: chore: auto-update quicklinks + redirects [skip ci]
+- 2025-08-14 05:21 — `32fe1e0` by quicklinks-bot: chore: auto-update quicklinks + redirects [skip ci]
+- 2025-08-14 05:14 — `a1ca40c` by quicklinks-bot: chore: auto-update quicklinks + redirects [skip ci]
+- 2025-08-14 05:14 — `30b00d1` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
+- 2025-08-14 05:09 — `0c99b46` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
+- 2025-08-14 05:08 — `4f67e45` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
+- 2025-08-14 04:57 — `3c3c48e` by quicklinks-bot: chore: auto-update quicklinks + redirects [skip ci]
+- 2025-08-14 04:54 — `94144b5` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
+- 2025-08-14 04:54 — `55a47ea` by altondavisver4: vault backup: 2025-08-13 21:54:30
+- 2025-08-14 04:07 — `ffe5eab` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
+- 2025-08-14 04:05 — `71ab839` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
+- 2025-08-14 03:56 — `79c776f` by quicklinks-bot: chore: auto-update quicklinks + redirects [skip ci]
+- 2025-08-14 03:44 — `5e14554` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
+- 2025-08-14 03:24 — `bf7a2c9` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
+- 2025-08-14 03:17 — `ed53770` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
+- 2025-08-14 02:48 — `f942c92` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
+- 2025-08-14 02:17 — `5bab4b7` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
+- 2025-08-14 02:09 — `9a223bb` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
+- 2025-08-14 02:02 — `65c1232` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
+- 2025-08-14 02:02 — `9db419c` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
+
+## AI_QUICKLINKS.md  _(last: 2025-08-14 07:22 UTC, 6 commits)_
+- 2025-08-14 07:22 — `a3f4dcb` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci]
+- 2025-08-14 06:44 — `4144b94` by build-all-bot: chore: build all (AI index, quicklinks, site index) [skip ci]
+- 2025-08-14 06:42 — `c5f8d79` by build-all-bot: chore: build all (AI index, quicklinks, site index) [skip ci]
+- 2025-08-14 05:54 — `c6269a2` by quicklinks-bot: chore: auto-update quicklinks + redirects [skip ci]
+- 2025-08-14 05:25 — `f753712` by quicklinks-bot: chore: auto-update quicklinks + redirects [skip ci]
+- 2025-08-14 03:56 — `79c776f` by quicklinks-bot: chore: auto-update quicklinks + redirects [skip ci]
+
+## CHANGE_FEED.md  _(last: 2025-08-14 07:22 UTC, 1 commits)_
+- 2025-08-14 07:22 — `a3f4dcb` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci]
+
+## TAGS_INDEX.md  _(last: 2025-08-14 07:22 UTC, 1 commits)_
+- 2025-08-14 07:22 — `a3f4dcb` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci]
+
+## cache.html  _(last: 2025-08-14 07:22 UTC, 1 commits)_
+- 2025-08-14 07:22 — `a3f4dcb` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci]
+
+## tags/tag.md  _(last: 2025-08-14 07:22 UTC, 1 commits)_
+- 2025-08-14 07:22 — `a3f4dcb` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci]
+
 ## .github/workflows/build-all.yml  _(last: 2025-08-14 07:22 UTC, 2 commits)_
 - 2025-08-14 07:22 — `561338c` by altondavisver4: vault backup: 2025-08-14 00:22:41
 - 2025-08-14 06:35 — `9d38776` by altondavisver4: Create build-all.yml
@@ -51,39 +135,6 @@
 ## generate_tags_index.py  _(last: 2025-08-14 07:22 UTC, 1 commits)_
 - 2025-08-14 07:22 — `561338c` by altondavisver4: vault backup: 2025-08-14 00:22:41
 
-## AI_INDEX.md  _(last: 2025-08-14 06:50 UTC, 31 commits)_
-- 2025-08-14 06:50 — `8f31445` by build-all-bot: chore: build all (AI index, quicklinks, site index) [skip ci]
-- 2025-08-14 06:44 — `4144b94` by build-all-bot: chore: build all (AI index, quicklinks, site index) [skip ci]
-- 2025-08-14 06:42 — `c5f8d79` by build-all-bot: chore: build all (AI index, quicklinks, site index) [skip ci]
-- 2025-08-14 06:36 — `3a2b324` by build-all-bot: chore: build all (AI index, quicklinks, site index) [skip ci]
-- 2025-08-14 06:17 — `005e82b` by quicklinks-bot: chore: auto-update quicklinks + redirects [skip ci]
-- 2025-08-14 06:16 — `8c944f0` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
-- 2025-08-14 06:06 — `26058a3` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
-- 2025-08-14 06:02 — `e9a2a20` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
-- 2025-08-14 06:01 — `f9dd556` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
-- 2025-08-14 05:56 — `eb59eb6` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
-- 2025-08-14 05:54 — `c6269a2` by quicklinks-bot: chore: auto-update quicklinks + redirects [skip ci]
-- 2025-08-14 05:25 — `f753712` by quicklinks-bot: chore: auto-update quicklinks + redirects [skip ci]
-- 2025-08-14 05:21 — `32fe1e0` by quicklinks-bot: chore: auto-update quicklinks + redirects [skip ci]
-- 2025-08-14 05:14 — `a1ca40c` by quicklinks-bot: chore: auto-update quicklinks + redirects [skip ci]
-- 2025-08-14 05:14 — `30b00d1` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
-- 2025-08-14 05:09 — `0c99b46` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
-- 2025-08-14 05:08 — `4f67e45` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
-- 2025-08-14 04:57 — `3c3c48e` by quicklinks-bot: chore: auto-update quicklinks + redirects [skip ci]
-- 2025-08-14 04:54 — `94144b5` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
-- 2025-08-14 04:54 — `55a47ea` by altondavisver4: vault backup: 2025-08-13 21:54:30
-- 2025-08-14 04:07 — `ffe5eab` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
-- 2025-08-14 04:05 — `71ab839` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
-- 2025-08-14 03:56 — `79c776f` by quicklinks-bot: chore: auto-update quicklinks + redirects [skip ci]
-- 2025-08-14 03:44 — `5e14554` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
-- 2025-08-14 03:24 — `bf7a2c9` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
-- 2025-08-14 03:17 — `ed53770` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
-- 2025-08-14 02:48 — `f942c92` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
-- 2025-08-14 02:17 — `5bab4b7` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
-- 2025-08-14 02:09 — `9a223bb` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
-- 2025-08-14 02:02 — `65c1232` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
-- 2025-08-14 02:02 — `9db419c` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
-
 ## index.html  _(last: 2025-08-14 06:49 UTC, 6 commits)_
 - 2025-08-14 06:49 — `25cd40e` by altondavisver4: vault backup: 2025-08-13 23:49:39
 - 2025-08-14 05:25 — `69be6ca` by site-index-bot: chore: auto-update folder indexes [skip ci]
@@ -91,13 +142,6 @@
 - 2025-08-14 05:14 — `13546cf` by site-index-bot: chore: auto-update folder indexes [skip ci]
 - 2025-08-14 04:07 — `7ffeeb1` by altondavisver4: Delete index.html
 - 2025-08-14 00:17 — `efd39d8` by altondavisver4: vault backup: 2025-08-13 17:17:34
-
-## AI_QUICKLINKS.md  _(last: 2025-08-14 06:44 UTC, 5 commits)_
-- 2025-08-14 06:44 — `4144b94` by build-all-bot: chore: build all (AI index, quicklinks, site index) [skip ci]
-- 2025-08-14 06:42 — `c5f8d79` by build-all-bot: chore: build all (AI index, quicklinks, site index) [skip ci]
-- 2025-08-14 05:54 — `c6269a2` by quicklinks-bot: chore: auto-update quicklinks + redirects [skip ci]
-- 2025-08-14 05:25 — `f753712` by quicklinks-bot: chore: auto-update quicklinks + redirects [skip ci]
-- 2025-08-14 03:56 — `79c776f` by quicklinks-bot: chore: auto-update quicklinks + redirects [skip ci]
 
 ## README.md  _(last: 2025-08-14 06:44 UTC, 2 commits)_
 - 2025-08-14 06:44 — `23580d7` by altondavisver4: vault backup: 2025-08-13 23:44:00
@@ -182,11 +226,6 @@
 - 2025-08-14 05:21 — `a37bda2` by site-index-bot: chore: auto-update folder indexes [skip ci]
 - 2025-08-14 05:14 — `13546cf` by site-index-bot: chore: auto-update folder indexes [skip ci]
 
-## "01 \342\200\223 Game Bible/index.html"  _(last: 2025-08-14 05:25 UTC, 3 commits)_
-- 2025-08-14 05:25 — `69be6ca` by site-index-bot: chore: auto-update folder indexes [skip ci]
-- 2025-08-14 05:21 — `a37bda2` by site-index-bot: chore: auto-update folder indexes [skip ci]
-- 2025-08-14 05:14 — `13546cf` by site-index-bot: chore: auto-update folder indexes [skip ci]
-
 ## "02 \342\200\223 R&D Lab/Comparative Analysis/index.html"  _(last: 2025-08-14 05:25 UTC, 3 commits)_
 - 2025-08-14 05:25 — `69be6ca` by site-index-bot: chore: auto-update folder indexes [skip ci]
 - 2025-08-14 05:21 — `a37bda2` by site-index-bot: chore: auto-update folder indexes [skip ci]
@@ -213,11 +252,6 @@
 - 2025-08-14 05:14 — `13546cf` by site-index-bot: chore: auto-update folder indexes [skip ci]
 
 ## "02 \342\200\223 R&D Lab/Thought Experiments/index.html"  _(last: 2025-08-14 05:25 UTC, 3 commits)_
-- 2025-08-14 05:25 — `69be6ca` by site-index-bot: chore: auto-update folder indexes [skip ci]
-- 2025-08-14 05:21 — `a37bda2` by site-index-bot: chore: auto-update folder indexes [skip ci]
-- 2025-08-14 05:14 — `13546cf` by site-index-bot: chore: auto-update folder indexes [skip ci]
-
-## "02 \342\200\223 R&D Lab/index.html"  _(last: 2025-08-14 05:25 UTC, 3 commits)_
 - 2025-08-14 05:25 — `69be6ca` by site-index-bot: chore: auto-update folder indexes [skip ci]
 - 2025-08-14 05:21 — `a37bda2` by site-index-bot: chore: auto-update folder indexes [skip ci]
 - 2025-08-14 05:14 — `13546cf` by site-index-bot: chore: auto-update folder indexes [skip ci]
@@ -252,11 +286,6 @@
 - 2025-08-14 05:21 — `a37bda2` by site-index-bot: chore: auto-update folder indexes [skip ci]
 - 2025-08-14 05:14 — `13546cf` by site-index-bot: chore: auto-update folder indexes [skip ci]
 
-## "03 \342\200\223 Assets/index.html"  _(last: 2025-08-14 05:25 UTC, 3 commits)_
-- 2025-08-14 05:25 — `69be6ca` by site-index-bot: chore: auto-update folder indexes [skip ci]
-- 2025-08-14 05:21 — `a37bda2` by site-index-bot: chore: auto-update folder indexes [skip ci]
-- 2025-08-14 05:14 — `13546cf` by site-index-bot: chore: auto-update folder indexes [skip ci]
-
 ## "04 \342\200\223 Builds & Exports/Demo Scenes/index.html"  _(last: 2025-08-14 05:25 UTC, 3 commits)_
 - 2025-08-14 05:25 — `69be6ca` by site-index-bot: chore: auto-update folder indexes [skip ci]
 - 2025-08-14 05:21 — `a37bda2` by site-index-bot: chore: auto-update folder indexes [skip ci]
@@ -268,11 +297,6 @@
 - 2025-08-14 05:14 — `13546cf` by site-index-bot: chore: auto-update folder indexes [skip ci]
 
 ## "04 \342\200\223 Builds & Exports/Public Builds/index.html"  _(last: 2025-08-14 05:25 UTC, 3 commits)_
-- 2025-08-14 05:25 — `69be6ca` by site-index-bot: chore: auto-update folder indexes [skip ci]
-- 2025-08-14 05:21 — `a37bda2` by site-index-bot: chore: auto-update folder indexes [skip ci]
-- 2025-08-14 05:14 — `13546cf` by site-index-bot: chore: auto-update folder indexes [skip ci]
-
-## "04 \342\200\223 Builds & Exports/index.html"  _(last: 2025-08-14 05:25 UTC, 3 commits)_
 - 2025-08-14 05:25 — `69be6ca` by site-index-bot: chore: auto-update folder indexes [skip ci]
 - 2025-08-14 05:21 — `a37bda2` by site-index-bot: chore: auto-update folder indexes [skip ci]
 - 2025-08-14 05:14 — `13546cf` by site-index-bot: chore: auto-update folder indexes [skip ci]
@@ -293,11 +317,6 @@
 - 2025-08-14 05:14 — `13546cf` by site-index-bot: chore: auto-update folder indexes [skip ci]
 
 ## "05 \342\200\223 References & Tools/Tool Guides/index.html"  _(last: 2025-08-14 05:25 UTC, 3 commits)_
-- 2025-08-14 05:25 — `69be6ca` by site-index-bot: chore: auto-update folder indexes [skip ci]
-- 2025-08-14 05:21 — `a37bda2` by site-index-bot: chore: auto-update folder indexes [skip ci]
-- 2025-08-14 05:14 — `13546cf` by site-index-bot: chore: auto-update folder indexes [skip ci]
-
-## "05 \342\200\223 References & Tools/index.html"  _(last: 2025-08-14 05:25 UTC, 3 commits)_
 - 2025-08-14 05:25 — `69be6ca` by site-index-bot: chore: auto-update folder indexes [skip ci]
 - 2025-08-14 05:21 — `a37bda2` by site-index-bot: chore: auto-update folder indexes [skip ci]
 - 2025-08-14 05:14 — `13546cf` by site-index-bot: chore: auto-update folder indexes [skip ci]
