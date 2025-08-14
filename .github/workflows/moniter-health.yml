@@ -11,22 +11,28 @@ jobs:
     steps:
       - name: Check health.json
         run: |
+          set -e
           echo "Checking health.json..."
-          STATUS=$(curl -s -o /tmp/health.json -w "%{http_code}" https://psiopera-octopus-ogre-4372.netlify.app/health.json)
           
+          # Download the file and capture HTTP status
+          STATUS=$(curl -s -o /tmp/health.json -w "%{http_code}" https://psiopera-octopus-ogre-4372.netlify.app/health.json)
+
           if [ "$STATUS" != "200" ]; then
             echo "❌ Site returned status $STATUS"
             exit 1
           fi
 
-          # Check timestamp freshness
+          # Parse timestamp from JSON
           TIMESTAMP=$(jq -r '.timestamp' /tmp/health.json)
           NOW=$(date +%s)
-          DIFF=$((NOW - TIMESTAMP))
-          
-          if [ "$DIFF" -gt 900 ]; then # 900 seconds = 15 min
-            echo "❌ Timestamp is too old: $DIFF seconds"
+          DIFF=$(( NOW - TIMESTAMP ))
+
+          echo "now=$NOW ts=$TIMESTAMP age=${DIFF}s"
+
+          # Fail if older than 15 minutes
+          if [ "$DIFF" -gt 900 ]; then
+            echo "❌ Timestamp is too old: ${DIFF} seconds"
             exit 1
           fi
-          
-          echo "✅ Health OK — Timestamp is $DIFF seconds old"
+
+          echo "✅ Health OK – Timestamp is ${DIFF} seconds old"
