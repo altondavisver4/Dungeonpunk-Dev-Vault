@@ -1,0 +1,41 @@
+name: Build Quicklinks + Redirects
+
+on:
+  push:
+    branches: [ "main" ]
+  schedule:
+    - cron: "33 7 * * *"   # daily at 07:33 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  quicklinks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Generate quicklinks + redirects
+        run: python generate_quicklinks.py
+
+      - name: Commit changes (if any)
+        env:
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          git config user.name "quicklinks-bot"
+          git config user.email "quicklinks-bot@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain | grep -E 'AI_INDEX.md|AI_QUICKLINKS.md|_redirects' || true)" ]]; then
+            git add AI_INDEX.md AI_QUICKLINKS.md _redirects || true
+            git commit -m "chore: auto-update quicklinks + redirects [skip ci]" || echo "Nothing to commit"
+            git push origin HEAD:${BRANCH}
+          else
+            echo "No changes to commit."
