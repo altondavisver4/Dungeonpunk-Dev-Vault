@@ -195,6 +195,7 @@
   },
   "active": "b2c367ad5a682473",
   "lastOpenFiles": [
+    "404.html",
     "requirements.txt",
     "netlify.toml",
     "netlify-build.sh",
@@ -209,7 +210,6 @@
     "scripts/generate_tiered_indexes.py",
     "search.html",
     "_brain/search_index.json.gz",
-    "_brain/search_index.json",
     "tags/tag.md",
     "TAGS_INDEX.md",
     "CHANGE_FEED.md",
