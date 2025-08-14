@@ -3,22 +3,29 @@ name: Build AI Index
 on:
   push:
     branches: [ "main" ]
-  workflow_dispatch: {}
+    paths:
+      - "**/*.md"
+      - "generate_ai_index.py"
+      - ".github/workflows/build-ai-index.yml"
   schedule:
-    - cron: "23 6 * * *"   # every day at 06:23 UTC
+    - cron: "23 6 * * *"   # daily 06:23 UTC
+  workflow_dispatch: {}
 
-# <-- fix #1: allow the workflow to commit/push
 permissions:
   contents: write
+
+concurrency:
+  group: ai-index-main
+  cancel-in-progress: false
 
 jobs:
   build-index:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
+      - name: Checkout repo (full history so git status works)
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0   # get full history so git status works reliably
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -36,11 +43,13 @@ jobs:
           set -e
           git config user.name "ai-index-bot"
           git config user.email "ai-index-bot@users.noreply.github.com"
-      
-          # Only consider AI_INDEX.md
-          if [[ -n "$(git status --porcelain -- AI_INDEX.md)" ]]; then
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+
+          CHANGED="$(git status --porcelain -- AI_INDEX.md)"
+          if [ -n "$CHANGED" ]; then
             git add AI_INDEX.md
             git commit -m "chore: auto-update AI_INDEX.md [skip ci]" || true
+            git pull --rebase origin "$BRANCH" || true
             git push origin "HEAD:${BRANCH}" --force
           else
             echo "No changes to commit."
