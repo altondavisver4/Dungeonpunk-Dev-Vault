@@ -3,17 +3,17 @@
 <!-- QUICKLINKS:START -->
 - [AI_INDEX.md](/AI_INDEX.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_INDEX.md)
 - [AI_QUICKLINKS.md](/AI_QUICKLINKS.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_QUICKLINKS.md)
+- [CHANGE_FEED.md](/CHANGE_FEED.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/CHANGE_FEED.md)
 - [QUICKLINK_PINS.txt](/QUICKLINK_PINS.txt) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/QUICKLINK_PINS.txt)
 - [README.md](/README.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README.md)
 - [0000-00-00_META_File-Naming-Rules_v1.md](/0000-00-00_META_File-Naming-Rules_v1.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/0000-00-00_META_File-Naming-Rules_v1.md)
 - [2025-08-13_ROOT_INDEX.md](/2025-08-13_ROOT_INDEX.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/2025-08-13_ROOT_INDEX.md)
 - [2025-08-14_META_File-Naming-Rules_v1.md](/2025-08-14_META_File-Naming-Rules_v1.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/2025-08-14_META_File-Naming-Rules_v1.md)
-- [CHANGE_FEED.md](/CHANGE_FEED.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/CHANGE_FEED.md)
 <!-- QUICKLINKS:END -->
 
 # AI Index
 
-_Auto-generated on 2025-08-14 07:23:45 UTC_
+_Auto-generated on 2025-08-14 07:51:50 UTC_
 
 > Links go to **raw** files when possible (best for AI), with a fallback GitHub view.
 

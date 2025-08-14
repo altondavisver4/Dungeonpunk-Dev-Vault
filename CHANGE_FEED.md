@@ -1,36 +1,44 @@
 # CHANGE FEED (last 14 days)
 
-## "01 \342\200\223 Game Bible/index.html"  _(last: 2025-08-14 07:22 UTC, 4 commits)_
-- 2025-08-14 07:22 — `a3f4dcb` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci]
+## generate_site_index.py  _(last: 2025-08-14 07:51 UTC, 4 commits)_
+- 2025-08-14 07:51 — `a839893` by altondavisver4: Update generate_site_index.py
+- 2025-08-14 07:22 — `561338c` by altondavisver4: vault backup: 2025-08-14 00:22:41
+- 2025-08-14 05:24 — `067048e` by altondavisver4: vault backup: 2025-08-13 22:24:19
+- 2025-08-14 02:48 — `b750b3d` by altondavisver4: vault backup: 2025-08-13 19:48:25
+
+## .obsidian/workspace.json  _(last: 2025-08-14 07:50 UTC, 20 commits)_
+- 2025-08-14 07:50 — `5a4177a` by altondavisver4: vault auto-commit
+- 2025-08-14 07:29 — `8281180` by altondavisver4: vault auto-commit
+- 2025-08-14 07:22 — `561338c` by altondavisver4: vault backup: 2025-08-14 00:22:41
+- 2025-08-14 06:42 — `8aa17f1` by altondavisver4: vault backup: 2025-08-13 23:42:16
+- 2025-08-14 05:21 — `04b4f0f` by altondavisver4: vault auto-commit
+- 2025-08-14 04:54 — `55a47ea` by altondavisver4: vault backup: 2025-08-13 21:54:30
+- 2025-08-14 04:05 — `decde9e` by altondavisver4: vault auto-commit
+- 2025-08-14 03:24 — `f6dc2ef` by altondavisver4: vault auto-commit
+- 2025-08-14 03:16 — `60b3276` by altondavisver4: vault backup: 2025-08-13 20:16:50
+- 2025-08-14 02:48 — `b750b3d` by altondavisver4: vault backup: 2025-08-13 19:48:25
+- 2025-08-14 02:17 — `80b450a` by altondavisver4: vault backup: 2025-08-13 19:17:02
+- 2025-08-14 02:08 — `44a88b4` by altondavisver4: vault auto-commit
+- 2025-08-14 01:45 — `0b2c3e9` by altondavisver4: vault backup: 2025-08-13 18:45:56
+- 2025-08-14 01:27 — `336160d` by altondavisver4: vault backup: 2025-08-13 18:27:13
+- 2025-08-14 01:24 — `1b702a8` by altondavisver4: vault backup: 2025-08-13 18:24:41
+- 2025-08-14 01:16 — `fad56ac` by altondavisver4: vault backup: 2025-08-13 18:16:09
+- 2025-08-14 00:17 — `efd39d8` by altondavisver4: vault backup: 2025-08-13 17:17:34
+- 2025-08-14 00:01 — `58b5be2` by altondavisver4: vault backup: 2025-08-13 17:01:18
+- 2025-08-13 23:40 — `af5d6e4` by altondavisver4: vault auto-commit
+- 2025-08-13 22:17 — `2287e7d` by altondavisver4: Initial commit
+
+## index.html  _(last: 2025-08-14 07:41 UTC, 7 commits)_
+- 2025-08-14 07:41 — `0877ceb` by altondavisver4: Create index.html
+- 2025-08-14 06:49 — `25cd40e` by altondavisver4: vault backup: 2025-08-13 23:49:39
 - 2025-08-14 05:25 — `69be6ca` by site-index-bot: chore: auto-update folder indexes [skip ci]
 - 2025-08-14 05:21 — `a37bda2` by site-index-bot: chore: auto-update folder indexes [skip ci]
 - 2025-08-14 05:14 — `13546cf` by site-index-bot: chore: auto-update folder indexes [skip ci]
+- 2025-08-14 04:07 — `7ffeeb1` by altondavisver4: Delete index.html
+- 2025-08-14 00:17 — `efd39d8` by altondavisver4: vault backup: 2025-08-13 17:17:34
 
-## "02 \342\200\223 R&D Lab/index.html"  _(last: 2025-08-14 07:22 UTC, 4 commits)_
-- 2025-08-14 07:22 — `a3f4dcb` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci]
-- 2025-08-14 05:25 — `69be6ca` by site-index-bot: chore: auto-update folder indexes [skip ci]
-- 2025-08-14 05:21 — `a37bda2` by site-index-bot: chore: auto-update folder indexes [skip ci]
-- 2025-08-14 05:14 — `13546cf` by site-index-bot: chore: auto-update folder indexes [skip ci]
-
-## "03 \342\200\223 Assets/index.html"  _(last: 2025-08-14 07:22 UTC, 4 commits)_
-- 2025-08-14 07:22 — `a3f4dcb` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci]
-- 2025-08-14 05:25 — `69be6ca` by site-index-bot: chore: auto-update folder indexes [skip ci]
-- 2025-08-14 05:21 — `a37bda2` by site-index-bot: chore: auto-update folder indexes [skip ci]
-- 2025-08-14 05:14 — `13546cf` by site-index-bot: chore: auto-update folder indexes [skip ci]
-
-## "04 \342\200\223 Builds & Exports/index.html"  _(last: 2025-08-14 07:22 UTC, 4 commits)_
-- 2025-08-14 07:22 — `a3f4dcb` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci]
-- 2025-08-14 05:25 — `69be6ca` by site-index-bot: chore: auto-update folder indexes [skip ci]
-- 2025-08-14 05:21 — `a37bda2` by site-index-bot: chore: auto-update folder indexes [skip ci]
-- 2025-08-14 05:14 — `13546cf` by site-index-bot: chore: auto-update folder indexes [skip ci]
-
-## "05 \342\200\223 References & Tools/index.html"  _(last: 2025-08-14 07:22 UTC, 4 commits)_
-- 2025-08-14 07:22 — `a3f4dcb` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci]
-- 2025-08-14 05:25 — `69be6ca` by site-index-bot: chore: auto-update folder indexes [skip ci]
-- 2025-08-14 05:21 — `a37bda2` by site-index-bot: chore: auto-update folder indexes [skip ci]
-- 2025-08-14 05:14 — `13546cf` by site-index-bot: chore: auto-update folder indexes [skip ci]
-
-## AI_INDEX.md  _(last: 2025-08-14 07:22 UTC, 32 commits)_
+## AI_INDEX.md  _(last: 2025-08-14 07:23 UTC, 33 commits)_
+- 2025-08-14 07:23 — `49b578f` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci]
 - 2025-08-14 07:22 — `a3f4dcb` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci]
 - 2025-08-14 06:50 — `8f31445` by build-all-bot: chore: build all (AI index, quicklinks, site index) [skip ci]
 - 2025-08-14 06:44 — `4144b94` by build-all-bot: chore: build all (AI index, quicklinks, site index) [skip ci]
@@ -64,7 +72,8 @@
 - 2025-08-14 02:02 — `65c1232` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
 - 2025-08-14 02:02 — `9db419c` by ai-index-bot: chore: auto-update AI_INDEX.md [skip ci]
 
-## AI_QUICKLINKS.md  _(last: 2025-08-14 07:22 UTC, 6 commits)_
+## AI_QUICKLINKS.md  _(last: 2025-08-14 07:23 UTC, 7 commits)_
+- 2025-08-14 07:23 — `49b578f` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci]
 - 2025-08-14 07:22 — `a3f4dcb` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci]
 - 2025-08-14 06:44 — `4144b94` by build-all-bot: chore: build all (AI index, quicklinks, site index) [skip ci]
 - 2025-08-14 06:42 — `c5f8d79` by build-all-bot: chore: build all (AI index, quicklinks, site index) [skip ci]
@@ -72,13 +81,48 @@
 - 2025-08-14 05:25 — `f753712` by quicklinks-bot: chore: auto-update quicklinks + redirects [skip ci]
 - 2025-08-14 03:56 — `79c776f` by quicklinks-bot: chore: auto-update quicklinks + redirects [skip ci]
 
-## CHANGE_FEED.md  _(last: 2025-08-14 07:22 UTC, 1 commits)_
+## CHANGE_FEED.md  _(last: 2025-08-14 07:23 UTC, 2 commits)_
+- 2025-08-14 07:23 — `49b578f` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci]
 - 2025-08-14 07:22 — `a3f4dcb` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci]
+
+## cache.html  _(last: 2025-08-14 07:23 UTC, 2 commits)_
+- 2025-08-14 07:23 — `49b578f` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci]
+- 2025-08-14 07:22 — `a3f4dcb` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci]
+
+## tags/index.html  _(last: 2025-08-14 07:23 UTC, 1 commits)_
+- 2025-08-14 07:23 — `49b578f` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci]
+
+## "01 \342\200\223 Game Bible/index.html"  _(last: 2025-08-14 07:22 UTC, 4 commits)_
+- 2025-08-14 07:22 — `a3f4dcb` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci]
+- 2025-08-14 05:25 — `69be6ca` by site-index-bot: chore: auto-update folder indexes [skip ci]
+- 2025-08-14 05:21 — `a37bda2` by site-index-bot: chore: auto-update folder indexes [skip ci]
+- 2025-08-14 05:14 — `13546cf` by site-index-bot: chore: auto-update folder indexes [skip ci]
+
+## "02 \342\200\223 R&D Lab/index.html"  _(last: 2025-08-14 07:22 UTC, 4 commits)_
+- 2025-08-14 07:22 — `a3f4dcb` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci]
+- 2025-08-14 05:25 — `69be6ca` by site-index-bot: chore: auto-update folder indexes [skip ci]
+- 2025-08-14 05:21 — `a37bda2` by site-index-bot: chore: auto-update folder indexes [skip ci]
+- 2025-08-14 05:14 — `13546cf` by site-index-bot: chore: auto-update folder indexes [skip ci]
+
+## "03 \342\200\223 Assets/index.html"  _(last: 2025-08-14 07:22 UTC, 4 commits)_
+- 2025-08-14 07:22 — `a3f4dcb` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci]
+- 2025-08-14 05:25 — `69be6ca` by site-index-bot: chore: auto-update folder indexes [skip ci]
+- 2025-08-14 05:21 — `a37bda2` by site-index-bot: chore: auto-update folder indexes [skip ci]
+- 2025-08-14 05:14 — `13546cf` by site-index-bot: chore: auto-update folder indexes [skip ci]
+
+## "04 \342\200\223 Builds & Exports/index.html"  _(last: 2025-08-14 07:22 UTC, 4 commits)_
+- 2025-08-14 07:22 — `a3f4dcb` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci]
+- 2025-08-14 05:25 — `69be6ca` by site-index-bot: chore: auto-update folder indexes [skip ci]
+- 2025-08-14 05:21 — `a37bda2` by site-index-bot: chore: auto-update folder indexes [skip ci]
+- 2025-08-14 05:14 — `13546cf` by site-index-bot: chore: auto-update folder indexes [skip ci]
+
+## "05 \342\200\223 References & Tools/index.html"  _(last: 2025-08-14 07:22 UTC, 4 commits)_
+- 2025-08-14 07:22 — `a3f4dcb` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci]
+- 2025-08-14 05:25 — `69be6ca` by site-index-bot: chore: auto-update folder indexes [skip ci]
+- 2025-08-14 05:21 — `a37bda2` by site-index-bot: chore: auto-update folder indexes [skip ci]
+- 2025-08-14 05:14 — `13546cf` by site-index-bot: chore: auto-update folder indexes [skip ci]
 
 ## TAGS_INDEX.md  _(last: 2025-08-14 07:22 UTC, 1 commits)_
-- 2025-08-14 07:22 — `a3f4dcb` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci]
-
-## cache.html  _(last: 2025-08-14 07:22 UTC, 1 commits)_
 - 2025-08-14 07:22 — `a3f4dcb` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci]
 
 ## tags/tag.md  _(last: 2025-08-14 07:22 UTC, 1 commits)_
@@ -87,26 +131,6 @@
 ## .github/workflows/build-all.yml  _(last: 2025-08-14 07:22 UTC, 2 commits)_
 - 2025-08-14 07:22 — `561338c` by altondavisver4: vault backup: 2025-08-14 00:22:41
 - 2025-08-14 06:35 — `9d38776` by altondavisver4: Create build-all.yml
-
-## .obsidian/workspace.json  _(last: 2025-08-14 07:22 UTC, 18 commits)_
-- 2025-08-14 07:22 — `561338c` by altondavisver4: vault backup: 2025-08-14 00:22:41
-- 2025-08-14 06:42 — `8aa17f1` by altondavisver4: vault backup: 2025-08-13 23:42:16
-- 2025-08-14 05:21 — `04b4f0f` by altondavisver4: vault auto-commit
-- 2025-08-14 04:54 — `55a47ea` by altondavisver4: vault backup: 2025-08-13 21:54:30
-- 2025-08-14 04:05 — `decde9e` by altondavisver4: vault auto-commit
-- 2025-08-14 03:24 — `f6dc2ef` by altondavisver4: vault auto-commit
-- 2025-08-14 03:16 — `60b3276` by altondavisver4: vault backup: 2025-08-13 20:16:50
-- 2025-08-14 02:48 — `b750b3d` by altondavisver4: vault backup: 2025-08-13 19:48:25
-- 2025-08-14 02:17 — `80b450a` by altondavisver4: vault backup: 2025-08-13 19:17:02
-- 2025-08-14 02:08 — `44a88b4` by altondavisver4: vault auto-commit
-- 2025-08-14 01:45 — `0b2c3e9` by altondavisver4: vault backup: 2025-08-13 18:45:56
-- 2025-08-14 01:27 — `336160d` by altondavisver4: vault backup: 2025-08-13 18:27:13
-- 2025-08-14 01:24 — `1b702a8` by altondavisver4: vault backup: 2025-08-13 18:24:41
-- 2025-08-14 01:16 — `fad56ac` by altondavisver4: vault backup: 2025-08-13 18:16:09
-- 2025-08-14 00:17 — `efd39d8` by altondavisver4: vault backup: 2025-08-13 17:17:34
-- 2025-08-14 00:01 — `58b5be2` by altondavisver4: vault backup: 2025-08-13 17:01:18
-- 2025-08-13 23:40 — `af5d6e4` by altondavisver4: vault auto-commit
-- 2025-08-13 22:17 — `2287e7d` by altondavisver4: Initial commit
 
 ## README_AUTOGENERATED_PAGES_SNIPPET.md  _(last: 2025-08-14 07:22 UTC, 1 commits)_
 - 2025-08-14 07:22 — `561338c` by altondavisver4: vault backup: 2025-08-14 00:22:41
@@ -127,21 +151,8 @@
 - 2025-08-14 03:43 — `884caa3` by altondavisver4: vault backup: 2025-08-13 20:43:07
 - 2025-08-14 03:16 — `60b3276` by altondavisver4: vault backup: 2025-08-13 20:16:50
 
-## generate_site_index.py  _(last: 2025-08-14 07:22 UTC, 3 commits)_
-- 2025-08-14 07:22 — `561338c` by altondavisver4: vault backup: 2025-08-14 00:22:41
-- 2025-08-14 05:24 — `067048e` by altondavisver4: vault backup: 2025-08-13 22:24:19
-- 2025-08-14 02:48 — `b750b3d` by altondavisver4: vault backup: 2025-08-13 19:48:25
-
 ## generate_tags_index.py  _(last: 2025-08-14 07:22 UTC, 1 commits)_
 - 2025-08-14 07:22 — `561338c` by altondavisver4: vault backup: 2025-08-14 00:22:41
-
-## index.html  _(last: 2025-08-14 06:49 UTC, 6 commits)_
-- 2025-08-14 06:49 — `25cd40e` by altondavisver4: vault backup: 2025-08-13 23:49:39
-- 2025-08-14 05:25 — `69be6ca` by site-index-bot: chore: auto-update folder indexes [skip ci]
-- 2025-08-14 05:21 — `a37bda2` by site-index-bot: chore: auto-update folder indexes [skip ci]
-- 2025-08-14 05:14 — `13546cf` by site-index-bot: chore: auto-update folder indexes [skip ci]
-- 2025-08-14 04:07 — `7ffeeb1` by altondavisver4: Delete index.html
-- 2025-08-14 00:17 — `efd39d8` by altondavisver4: vault backup: 2025-08-13 17:17:34
 
 ## README.md  _(last: 2025-08-14 06:44 UTC, 2 commits)_
 - 2025-08-14 06:44 — `23580d7` by altondavisver4: vault backup: 2025-08-13 23:44:00
