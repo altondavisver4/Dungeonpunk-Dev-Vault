@@ -7,13 +7,13 @@
 - [0000-00-00_META_File-Naming-Rules_v1.md](/0000-00-00_META_File-Naming-Rules_v1.md)
 - [2025-08-13_ROOT_INDEX.md](/2025-08-13_ROOT_INDEX.md)
 - [2025-08-14_META_File-Naming-Rules_v1.md](/2025-08-14_META_File-Naming-Rules_v1.md)
+- [README.md](/README.md)
 - [README_AUTO_INDEX.md](/README_AUTO_INDEX.md)
-- [README_AUTO_NETLIFY_INDEX.md](/README_AUTO_NETLIFY_INDEX.md)
 <!-- QUICKLINKS:END -->
 
 # AI Index
 
-_Auto-generated on 2025-08-14 06:36:09 UTC_
+_Auto-generated on 2025-08-14 06:42:30 UTC_
 
 > Links go to **raw** files when possible (best for AI), with a fallback GitHub view.
 
@@ -31,6 +31,8 @@ _Auto-generated on 2025-08-14 06:36:09 UTC_
   <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI_QUICKLINKS.md">(view on GitHub)</a></sup></sub>
 - [QUICKLINK PINS](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/QUICKLINK_PINS.txt)  
   <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/QUICKLINK_PINS.txt">(view on GitHub)</a></sup></sub>
+- [README](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/README.md">(view on GitHub)</a></sup></sub>
 - [README AUTO INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README_AUTO_INDEX.md)  
   <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/README_AUTO_INDEX.md">(view on GitHub)</a></sup></sub>
 - [README AUTO NETLIFY INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README_AUTO_NETLIFY_INDEX.md)  
