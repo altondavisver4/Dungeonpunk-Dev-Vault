@@ -195,6 +195,7 @@
   },
   "active": "b2c367ad5a682473",
   "lastOpenFiles": [
+    "_brain/ai_super_index.json",
     "README_SUPER_INDEX.md",
     "scripts/write_content_snapshot.py",
     "scripts/build_super_index.py",
@@ -229,7 +230,6 @@
     "01 – Game Bible/Core Vision/01 - Game BibleCore Vision2025-08-14_CORE_Vision_Goals_v1.md",
     "04 – Builds & Exports/Demo Scenes/2025-08-13_INDEX.md",
     "04 – Builds & Exports/Public Builds/2025-08-13_INDEX.md",
-    "04 – Builds & Exports/Playtest Builds/2025-08-13_INDEX.md",
-    "04 – Builds & Exports/2025-08-13_INDEX.md"
+    "04 – Builds & Exports/Playtest Builds/2025-08-13_INDEX.md"
   ]
 }
