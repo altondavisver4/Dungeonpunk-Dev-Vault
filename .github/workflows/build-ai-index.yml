@@ -1,14 +1,6 @@
 name: Build AI Index
 
 on:
-  push:
-    branches: [ "main" ]
-    paths:
-      - "**/*.md"
-      - "generate_ai_index.py"
-      - ".github/workflows/build-ai-index.yml"
-  schedule:
-    - cron: "23 6 * * *"   # daily 06:23 UTC
   workflow_dispatch: {}
 
 permissions:
