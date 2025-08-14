@@ -4,16 +4,16 @@
 - [AI_INDEX.md](/AI_INDEX.md)
 - [AI_QUICKLINKS.md](/AI_QUICKLINKS.md)
 - [QUICKLINK_PINS.txt](/QUICKLINK_PINS.txt)
+- [README.md](/README.md)
 - [0000-00-00_META_File-Naming-Rules_v1.md](/0000-00-00_META_File-Naming-Rules_v1.md)
 - [2025-08-13_ROOT_INDEX.md](/2025-08-13_ROOT_INDEX.md)
 - [2025-08-14_META_File-Naming-Rules_v1.md](/2025-08-14_META_File-Naming-Rules_v1.md)
-- [README.md](/README.md)
 - [README_AUTO_INDEX.md](/README_AUTO_INDEX.md)
 <!-- QUICKLINKS:END -->
 
 # AI Index
 
-_Auto-generated on 2025-08-14 06:42:30 UTC_
+_Auto-generated on 2025-08-14 06:44:13 UTC_
 
 > Links go to **raw** files when possible (best for AI), with a fallback GitHub view.
 
