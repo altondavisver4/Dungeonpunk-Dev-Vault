@@ -14,9 +14,6 @@ on:
     - cron: "27 6 * * *"   # keep the daily if you want
   workflow_dispatch: {}
 
-  schedule:
-    - cron: "27 6 * * *"
-  workflow_dispatch: {}
 permissions:
   contents: write
 concurrency:
