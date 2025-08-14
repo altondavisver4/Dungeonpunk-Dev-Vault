@@ -1,0 +1,831 @@
+{
+  "schema": "psiopera.ai_index.v2",
+  "generated_from": "ai_brain.json",
+  "chunks": [
+    {
+      "id": "8a4841cfafb2:001",
+      "file_id": "8a4841cfafb2",
+      "path": "0000-00-00_META_File-Naming-Rules_v1.md",
+      "title": "Dungeonpunk Dev Vault – File Naming Rules",
+      "anchor": null,
+      "tags": [],
+      "summary": "`YYYY-MM-DD_CATEGORY_Short-Slug_vN.md` --- - **YYYY-MM-DD** – Date of creation (date first written, not last edited) - **CATEGORY** – All caps, one word, main type: - `MECHANIC` – Core gameplay mechanics - `SYSTEM` – Game systems and subsystems - `LORE` – Setting, story, characters, factions - `QUES…"
+    },
+    {
+      "id": "0c61ea67fe7c:001",
+      "file_id": "0c61ea67fe7c",
+      "path": "01 – Game Bible/2025-08-13_INDEX.md",
+      "title": "Folder: 01 – Game Bible",
+      "anchor": null,
+      "tags": [
+        "01-–-Game-Bible"
+      ],
+      "summary": "(Placeholder – content coming soon)"
+    },
+    {
+      "id": "2d3f8d96e3c3:001",
+      "file_id": "2d3f8d96e3c3",
+      "path": "01 – Game Bible/Art Bible/2025-08-13_INDEX.md",
+      "title": "Folder: 01 – Game Bible/Art Bible",
+      "anchor": null,
+      "tags": [
+        "01-–-Game-Bible",
+        "Art-Bible"
+      ],
+      "summary": "(Placeholder – content coming soon)"
+    },
+    {
+      "id": "b090535ccfac:001",
+      "file_id": "b090535ccfac",
+      "path": "01 – Game Bible/Assets (Final Approved)/2025-08-13_INDEX.md",
+      "title": "Folder: 01 – Game Bible/Assets (Final Approved)",
+      "anchor": null,
+      "tags": [
+        "01-–-Game-Bible",
+        "Assets-(Final-Approved)"
+      ],
+      "summary": "(Placeholder – content coming soon)"
+    },
+    {
+      "id": "33f490b32bc9:001",
+      "file_id": "33f490b32bc9",
+      "path": "01 – Game Bible/Characters/2025-08-13_INDEX.md",
+      "title": "Folder: 01 – Game Bible/Characters",
+      "anchor": null,
+      "tags": [
+        "01-–-Game-Bible",
+        "Characters"
+      ],
+      "summary": "(Placeholder – content coming soon)"
+    },
+    {
+      "id": "07c414547039:001",
+      "file_id": "07c414547039",
+      "path": "01 – Game Bible/Core Vision/01 - Game BibleCore Vision2025-08-14_CORE_Vision_Goals_v1.md",
+      "title": "Core Vision – Goals (v1)",
+      "anchor": null,
+      "tags": [
+        "01-–-Game-Bible",
+        "Core-Vision"
+      ],
+      "summary": "- Sword & sorcery heat: brutal, decadent, scarce mercy - Bard-only diegetic music system (music from bards in-world) - Harem-bond telepathy as social glue & combat spice"
+    },
+    {
+      "id": "31b396c9213b:001",
+      "file_id": "31b396c9213b",
+      "path": "01 – Game Bible/Core Vision/2025-08-13_INDEX.md",
+      "title": "Folder: 01 – Game Bible/Core Vision",
+      "anchor": null,
+      "tags": [
+        "01-–-Game-Bible",
+        "Core-Vision"
+      ],
+      "summary": "(Placeholder – content coming soon)"
+    },
+    {
+      "id": "b79bcd21f0e2:001",
+      "file_id": "b79bcd21f0e2",
+      "path": "01 – Game Bible/Core Vision/2025-08-14_CORE_Vision_Goals_v1.md",
+      "title": "Core Vision Goals",
+      "anchor": null,
+      "tags": [
+        "01-–-Game-Bible",
+        "Core-Vision"
+      ],
+      "summary": "Seed content."
+    },
+    {
+      "id": "287d64feab9a:001",
+      "file_id": "287d64feab9a",
+      "path": "01 – Game Bible/Encounters/2025-08-13_INDEX.md",
+      "title": "Folder: 01 – Game Bible/Encounters",
+      "anchor": null,
+      "tags": [
+        "01-–-Game-Bible",
+        "Encounters"
+      ],
+      "summary": "(Placeholder – content coming soon)"
+    },
+    {
+      "id": "ad787ae8d051:001",
+      "file_id": "ad787ae8d051",
+      "path": "01 – Game Bible/Roadmap/2025-08-13_INDEX.md",
+      "title": "Folder: 01 – Game Bible/Roadmap",
+      "anchor": null,
+      "tags": [
+        "01-–-Game-Bible",
+        "Roadmap"
+      ],
+      "summary": "(Placeholder – content coming soon)"
+    },
+    {
+      "id": "85fa661b6ab9:001",
+      "file_id": "85fa661b6ab9",
+      "path": "01 – Game Bible/Systems/2025-08-13_INDEX.md",
+      "title": "Folder: 01 – Game Bible/Systems",
+      "anchor": null,
+      "tags": [
+        "01-–-Game-Bible",
+        "Systems"
+      ],
+      "summary": "(Placeholder – content coming soon)"
+    },
+    {
+      "id": "e54d6e0a81f8:001",
+      "file_id": "e54d6e0a81f8",
+      "path": "01 – Game Bible/Systems/2025-08-14_SYSTEM_Key-Systems_Overview_v1.md",
+      "title": "Key Systems Overview",
+      "anchor": null,
+      "tags": [
+        "01-–-Game-Bible",
+        "Systems"
+      ],
+      "summary": "<!-- hot: true --> Seed content."
+    },
+    {
+      "id": "22449fa5eb9e:001",
+      "file_id": "22449fa5eb9e",
+      "path": "01 – Game Bible/World & Lore/2025-08-13_INDEX.md",
+      "title": "Folder: 01 – Game Bible/World & Lore",
+      "anchor": null,
+      "tags": [
+        "01-–-Game-Bible",
+        "World-&-Lore"
+      ],
+      "summary": "(Placeholder – content coming soon)"
+    },
+    {
+      "id": "2bad8531231b:001",
+      "file_id": "2bad8531231b",
+      "path": "02 – R&D Lab/2025-08-13_INDEX.md",
+      "title": "Folder: 02 – R&D Lab",
+      "anchor": null,
+      "tags": [
+        "02-–-R&D-Lab"
+      ],
+      "summary": "(Placeholder – content coming soon)"
+    },
+    {
+      "id": "2f97e0d5adf1:001",
+      "file_id": "2f97e0d5adf1",
+      "path": "02 – R&D Lab/Comparative Analysis/2025-08-13_INDEX.md",
+      "title": "Folder: 02 – R&D Lab/Comparative Analysis",
+      "anchor": null,
+      "tags": [
+        "02-–-R&D-Lab",
+        "Comparative-Analysis"
+      ],
+      "summary": "(Placeholder – content coming soon)"
+    },
+    {
+      "id": "79c7721f26c9:001",
+      "file_id": "79c7721f26c9",
+      "path": "02 – R&D Lab/Daily Dumps/2025-08-13_INDEX.md",
+      "title": "Folder: 02 – R&D Lab/Daily Dumps",
+      "anchor": null,
+      "tags": [
+        "02-–-R&D-Lab",
+        "Daily-Dumps"
+      ],
+      "summary": "(Placeholder – content coming soon)"
+    },
+    {
+      "id": "905a0ab09d26:001",
+      "file_id": "905a0ab09d26",
+      "path": "02 – R&D Lab/Discarded Gold/2025-08-13_INDEX.md",
+      "title": "Folder: 02 – R&D Lab/Discarded Gold",
+      "anchor": null,
+      "tags": [
+        "02-–-R&D-Lab",
+        "Discarded-Gold"
+      ],
+      "summary": "(Placeholder – content coming soon)"
+    },
+    {
+      "id": "1d05bbdf7e24:001",
+      "file_id": "1d05bbdf7e24",
+      "path": "02 – R&D Lab/Mechanics Studies/2025-08-13_INDEX.md",
+      "title": "Folder: 02 – R&D Lab/Mechanics Studies",
+      "anchor": null,
+      "tags": [
+        "02-–-R&D-Lab",
+        "Mechanics-Studies"
+      ],
+      "summary": "(Placeholder – content coming soon)"
+    },
+    {
+      "id": "09219d2cbb38:001",
+      "file_id": "09219d2cbb38",
+      "path": "02 – R&D Lab/Theme & Setting Studies/2025-08-13_INDEX.md",
+      "title": "Folder: 02 – R&D Lab/Theme & Setting Studies",
+      "anchor": null,
+      "tags": [
+        "02-–-R&D-Lab",
+        "Theme-&-Setting-Studies"
+      ],
+      "summary": "(Placeholder – content coming soon)"
+    },
+    {
+      "id": "e298be243e6c:001",
+      "file_id": "e298be243e6c",
+      "path": "02 – R&D Lab/Thought Experiments/2025-08-13_INDEX.md",
+      "title": "Folder: 02 – R&D Lab/Thought Experiments",
+      "anchor": null,
+      "tags": [
+        "02-–-R&D-Lab",
+        "Thought-Experiments"
+      ],
+      "summary": "(Placeholder – content coming soon)"
+    },
+    {
+      "id": "d537f1a84dd8:001",
+      "file_id": "d537f1a84dd8",
+      "path": "03 – Assets/2025-08-13_INDEX.md",
+      "title": "Folder: 03 – Assets",
+      "anchor": null,
+      "tags": [
+        "03-–-Assets"
+      ],
+      "summary": "(Placeholder – content coming soon)"
+    },
+    {
+      "id": "f402f6c364b3:001",
+      "file_id": "f402f6c364b3",
+      "path": "03 – Assets/AI Prompt Recipes/2025-08-13_INDEX.md",
+      "title": "Folder: 03 – Assets/AI Prompt Recipes",
+      "anchor": null,
+      "tags": [
+        "03-–-Assets",
+        "AI-Prompt-Recipes"
+      ],
+      "summary": "(Placeholder – content coming soon)"
+    },
+    {
+      "id": "9c14d390f749:001",
+      "file_id": "9c14d390f749",
+      "path": "03 – Assets/Art – Concept/2025-08-13_INDEX.md",
+      "title": "Folder: 03 – Assets/Art – Concept",
+      "anchor": null,
+      "tags": [
+        "03-–-Assets",
+        "Art-–-Concept"
+      ],
+      "summary": "(Placeholder – content coming soon)"
+    },
+    {
+      "id": "111e2e210fc3:001",
+      "file_id": "111e2e210fc3",
+      "path": "03 – Assets/Art – Production/2025-08-13_INDEX.md",
+      "title": "Folder: 03 – Assets/Art – Production",
+      "anchor": null,
+      "tags": [
+        "03-–-Assets",
+        "Art-–-Production"
+      ],
+      "summary": "(Placeholder – content coming soon)"
+    },
+    {
+      "id": "4bacdf1f6784:001",
+      "file_id": "4bacdf1f6784",
+      "path": "03 – Assets/Art – UI & Icons/2025-08-13_INDEX.md",
+      "title": "Folder: 03 – Assets/Art – UI & Icons",
+      "anchor": null,
+      "tags": [
+        "03-–-Assets",
+        "Art-–-UI-&-Icons"
+      ],
+      "summary": "(Placeholder – content coming soon)"
+    },
+    {
+      "id": "734cdffd2d55:001",
+      "file_id": "734cdffd2d55",
+      "path": "03 – Assets/Music & SFX – Drafts/2025-08-13_INDEX.md",
+      "title": "Folder: 03 – Assets/Music & SFX – Drafts",
+      "anchor": null,
+      "tags": [
+        "03-–-Assets",
+        "Music-&-SFX-–-Drafts"
+      ],
+      "summary": "(Placeholder – content coming soon)"
+    },
+    {
+      "id": "3a624e71727c:001",
+      "file_id": "3a624e71727c",
+      "path": "03 – Assets/Music & SFX – Final/2025-08-13_INDEX.md",
+      "title": "Folder: 03 – Assets/Music & SFX – Final",
+      "anchor": null,
+      "tags": [
+        "03-–-Assets",
+        "Music-&-SFX-–-Final"
+      ],
+      "summary": "(Placeholder – content coming soon)"
+    },
+    {
+      "id": "678105612afe:001",
+      "file_id": "678105612afe",
+      "path": "04 – Builds & Exports/2025-08-13_INDEX.md",
+      "title": "Folder: 04 – Builds & Exports",
+      "anchor": null,
+      "tags": [
+        "04-–-Builds-&-Exports"
+      ],
+      "summary": "(Placeholder – content coming soon)"
+    },
+    {
+      "id": "8edad44c391f:001",
+      "file_id": "8edad44c391f",
+      "path": "04 – Builds & Exports/Demo Scenes/2025-08-13_INDEX.md",
+      "title": "Folder: 04 – Builds & Exports/Demo Scenes",
+      "anchor": null,
+      "tags": [
+        "04-–-Builds-&-Exports",
+        "Demo-Scenes"
+      ],
+      "summary": "(Placeholder – content coming soon)"
+    },
+    {
+      "id": "0d56990517ef:001",
+      "file_id": "0d56990517ef",
+      "path": "04 – Builds & Exports/Playtest Builds/2025-08-13_INDEX.md",
+      "title": "Folder: 04 – Builds & Exports/Playtest Builds",
+      "anchor": null,
+      "tags": [
+        "04-–-Builds-&-Exports",
+        "Playtest-Builds"
+      ],
+      "summary": "(Placeholder – content coming soon)"
+    },
+    {
+      "id": "771f3fcff167:001",
+      "file_id": "771f3fcff167",
+      "path": "04 – Builds & Exports/Public Builds/2025-08-13_INDEX.md",
+      "title": "Folder: 04 – Builds & Exports/Public Builds",
+      "anchor": null,
+      "tags": [
+        "04-–-Builds-&-Exports",
+        "Public-Builds"
+      ],
+      "summary": "(Placeholder – content coming soon)"
+    },
+    {
+      "id": "e7e0aeb29f47:001",
+      "file_id": "e7e0aeb29f47",
+      "path": "05 – References & Tools/2025-08-13_INDEX.md",
+      "title": "Folder: 05 – References & Tools",
+      "anchor": null,
+      "tags": [
+        "05-–-References-&-Tools"
+      ],
+      "summary": "(Placeholder – content coming soon)"
+    },
+    {
+      "id": "f400a49385e5:001",
+      "file_id": "f400a49385e5",
+      "path": "05 – References & Tools/Reference Art/2025-08-13_INDEX.md",
+      "title": "Folder: 05 – References & Tools/Reference Art",
+      "anchor": null,
+      "tags": [
+        "05-–-References-&-Tools",
+        "Reference-Art"
+      ],
+      "summary": "(Placeholder – content coming soon)"
+    },
+    {
+      "id": "33218ccb2379:001",
+      "file_id": "33218ccb2379",
+      "path": "05 – References & Tools/Rulebooks & PDFs/2025-08-13_INDEX.md",
+      "title": "Folder: 05 – References & Tools/Rulebooks & PDFs",
+      "anchor": null,
+      "tags": [
+        "05-–-References-&-Tools",
+        "Rulebooks-&-PDFs"
+      ],
+      "summary": "(Placeholder – content coming soon)"
+    },
+    {
+      "id": "5afa8d3d7e2c:001",
+      "file_id": "5afa8d3d7e2c",
+      "path": "05 – References & Tools/Scripts & Code Snippets/2025-08-13_INDEX.md",
+      "title": "Folder: 05 – References & Tools/Scripts & Code Snippets",
+      "anchor": null,
+      "tags": [
+        "05-–-References-&-Tools",
+        "Scripts-&-Code-Snippets"
+      ],
+      "summary": "(Placeholder – content coming soon)"
+    },
+    {
+      "id": "b7e909738ba6:001",
+      "file_id": "b7e909738ba6",
+      "path": "05 – References & Tools/Tool Guides/2025-08-13_INDEX.md",
+      "title": "Folder: 05 – References & Tools/Tool Guides",
+      "anchor": null,
+      "tags": [
+        "05-–-References-&-Tools",
+        "Tool-Guides"
+      ],
+      "summary": "(Placeholder – content coming soon)"
+    },
+    {
+      "id": "c7af9f0c0be4:001",
+      "file_id": "c7af9f0c0be4",
+      "path": "05 – References & Tools/Tool Guides/2025-08-14_META_Glossary_v1.md",
+      "title": "Glossary",
+      "anchor": null,
+      "tags": [
+        "05-–-References-&-Tools",
+        "Tool-Guides"
+      ],
+      "summary": "Seed content."
+    },
+    {
+      "id": "57882bf07480:001",
+      "file_id": "57882bf07480",
+      "path": "2025-08-13_ROOT_INDEX.md",
+      "title": "PsiOpera / Dungeonpunk — AI Brain Root Index",
+      "anchor": null,
+      "tags": [],
+      "summary": "- 01 – Game Bible/ - 02 – R&D Lab/ - 03 – Assets/ - 04 – Builds & Exports/ - 05 – References & Tools/"
+    },
+    {
+      "id": "1fdc749db24a:001",
+      "file_id": "1fdc749db24a",
+      "path": "2025-08-14_META_File-Naming-Rules_v1.md",
+      "title": "File Naming Rules",
+      "anchor": null,
+      "tags": [],
+      "summary": "(put naming conventions here)"
+    },
+    {
+      "id": "439f4a44c75a:001",
+      "file_id": "439f4a44c75a",
+      "path": "AI_INDEX.md",
+      "title": "# Quicklinks",
+      "anchor": null,
+      "tags": [],
+      "summary": "<!-- QUICKLINKS:START --> - [AI_INDEX.md](/AI_INDEX.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_INDEX.md) - [AI_QUICKLINKS.md](/AI_QUICKLINKS.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_QUICKLINKS.md) - [CH…"
+    },
+    {
+      "id": "439f4a44c75a:002",
+      "file_id": "439f4a44c75a",
+      "path": "AI_INDEX.md",
+      "title": "# Quicklinks",
+      "anchor": null,
+      "tags": [],
+      "summary": "_Auto-generated on 2025-08-14 07:57:47 UTC_ > Links go to **raw** files when possible (best for AI), with a fallback GitHub view."
+    },
+    {
+      "id": "439f4a44c75a:003",
+      "file_id": "439f4a44c75a",
+      "path": "AI_INDEX.md",
+      "title": "# Quicklinks",
+      "anchor": null,
+      "tags": [],
+      "summary": "- [0000 00 00 META File Naming Rules v1](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/0000-00-00_META_File-Naming-Rules_v1.md) <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/0000-00-00_META_File-Naming-Rules_v1.md\">(view on GitHub)…"
+    },
+    {
+      "id": "439f4a44c75a:004",
+      "file_id": "439f4a44c75a",
+      "path": "AI_INDEX.md",
+      "title": "# Quicklinks",
+      "anchor": null,
+      "tags": [],
+      "summary": "- [2025 08 13 INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/01%20%E2%80%93%20Game%20Bible/2025-08-13_INDEX.md) <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/01%20%E2%80%93%20Game%20Bible/2025-08-13_INDEX.md\">(view on GitHub)…"
+    },
+    {
+      "id": "439f4a44c75a:005",
+      "file_id": "439f4a44c75a",
+      "path": "AI_INDEX.md",
+      "title": "# Quicklinks",
+      "anchor": null,
+      "tags": [],
+      "summary": "- [2025 08 13 INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/2025-08-13_INDEX.md) <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/2025-08-13_INDEX.md\">(view on GitHub)</…"
+    },
+    {
+      "id": "439f4a44c75a:006",
+      "file_id": "439f4a44c75a",
+      "path": "AI_INDEX.md",
+      "title": "# Quicklinks",
+      "anchor": null,
+      "tags": [],
+      "summary": "- [2025 08 13 INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/03%20%E2%80%93%20Assets/2025-08-13_INDEX.md) <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/03%20%E2%80%93%20Assets/2025-08-13_INDEX.md\">(view on GitHub)</a></sup></…"
+    },
+    {
+      "id": "439f4a44c75a:007",
+      "file_id": "439f4a44c75a",
+      "path": "AI_INDEX.md",
+      "title": "# Quicklinks",
+      "anchor": null,
+      "tags": [],
+      "summary": "- [2025 08 13 INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/04%20%E2%80%93%20Builds%20%26%20Exports/2025-08-13_INDEX.md) <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/04%20%E2%80%93%20Builds%20%26%20Exports/2025-08-13_INDEX.…"
+    },
+    {
+      "id": "439f4a44c75a:008",
+      "file_id": "439f4a44c75a",
+      "path": "AI_INDEX.md",
+      "title": "# Quicklinks",
+      "anchor": null,
+      "tags": [],
+      "summary": "- [2025 08 13 INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/05%20%E2%80%93%20References%20%26%20Tools/2025-08-13_INDEX.md) <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/05%20%E2%80%93%20References%20%26%20Tools/2025-08-13_IN…"
+    },
+    {
+      "id": "439f4a44c75a:009",
+      "file_id": "439f4a44c75a",
+      "path": "AI_INDEX.md",
+      "title": "# Quicklinks",
+      "anchor": null,
+      "tags": [],
+      "summary": "- [tag](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/tags/tag.md) <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/tags/tag.md\">(view on GitHub)</a></sup></sub>"
+    },
+    {
+      "id": "493376de54c7:001",
+      "file_id": "493376de54c7",
+      "path": "AI_QUICKLINKS.md",
+      "title": "AI Quicklinks",
+      "anchor": null,
+      "tags": [],
+      "summary": "_Auto-generated; top active notes._ - [AI_INDEX.md](/AI_INDEX.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_INDEX.md) - [AI_QUICKLINKS.md](/AI_QUICKLINKS.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_QUICKLINKS…"
+    },
+    {
+      "id": "2e9db42a6519:001",
+      "file_id": "2e9db42a6519",
+      "path": "CHANGE_FEED.md",
+      "title": "CHANGE FEED (last 14 days)",
+      "anchor": null,
+      "tags": [],
+      "summary": "- 2025-08-14 07:53 — `096d7d8` by site-index-bot: chore: auto-update folder indexes [skip ci] - 2025-08-14 07:41 — `0877ceb` by altondavisver4: Create index.html - 2025-08-14 06:49 — `25cd40e` by altondavisver4: vault backup: 2025-08-13 23:49:39 - 2025-08-14 05:25 — `69be6ca` by site-index-bot: chor…"
+    },
+    {
+      "id": "2e9db42a6519:002",
+      "file_id": "2e9db42a6519",
+      "path": "CHANGE_FEED.md",
+      "title": "CHANGE FEED (last 14 days)",
+      "anchor": null,
+      "tags": [],
+      "summary": "- 2025-08-14 07:51 — `403862e` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci] - 2025-08-14 07:22 — `a3f4dcb` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci] - 2025-08-14 05:25 — `69be6ca` b…"
+    },
+    {
+      "id": "2e9db42a6519:003",
+      "file_id": "2e9db42a6519",
+      "path": "CHANGE_FEED.md",
+      "title": "CHANGE FEED (last 14 days)",
+      "anchor": null,
+      "tags": [],
+      "summary": "- 2025-08-14 07:51 — `403862e` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci] - 2025-08-14 07:22 — `a3f4dcb` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci] - 2025-08-14 05:25 — `69be6ca` b…"
+    },
+    {
+      "id": "2e9db42a6519:004",
+      "file_id": "2e9db42a6519",
+      "path": "CHANGE_FEED.md",
+      "title": "CHANGE FEED (last 14 days)",
+      "anchor": null,
+      "tags": [],
+      "summary": "- 2025-08-14 07:51 — `403862e` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci] - 2025-08-14 07:23 — `49b578f` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci] - 2025-08-14 07:22 — `a3f4dcb` b…"
+    },
+    {
+      "id": "2e9db42a6519:005",
+      "file_id": "2e9db42a6519",
+      "path": "CHANGE_FEED.md",
+      "title": "CHANGE FEED (last 14 days)",
+      "anchor": null,
+      "tags": [],
+      "summary": "- 2025-08-14 07:51 — `403862e` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci] - 2025-08-14 07:23 — `49b578f` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci] - 2025-08-14 07:22 — `a3f4dcb` b…"
+    },
+    {
+      "id": "2e9db42a6519:006",
+      "file_id": "2e9db42a6519",
+      "path": "CHANGE_FEED.md",
+      "title": "CHANGE FEED (last 14 days)",
+      "anchor": null,
+      "tags": [],
+      "summary": "- 2025-08-14 07:51 — `403862e` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci] - 2025-08-14 07:23 — `49b578f` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci] - 2025-08-14 07:22 — `a3f4dcb` b…"
+    },
+    {
+      "id": "2e9db42a6519:007",
+      "file_id": "2e9db42a6519",
+      "path": "CHANGE_FEED.md",
+      "title": "CHANGE FEED (last 14 days)",
+      "anchor": null,
+      "tags": [],
+      "summary": "- 2025-08-14 07:50 — `5a4177a` by altondavisver4: vault auto-commit - 2025-08-14 07:29 — `8281180` by altondavisver4: vault auto-commit - 2025-08-14 07:22 — `561338c` by altondavisver4: vault backup: 2025-08-14 00:22:41 - 2025-08-14 06:42 — `8aa17f1` by altondavisver4: vault backup: 2025-08-13 23:42…"
+    },
+    {
+      "id": "2e9db42a6519:008",
+      "file_id": "2e9db42a6519",
+      "path": "CHANGE_FEED.md",
+      "title": "CHANGE FEED (last 14 days)",
+      "anchor": null,
+      "tags": [],
+      "summary": "- 2025-08-14 07:22 — `a3f4dcb` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci] - 2025-08-14 07:22 — `a3f4dcb` by build-all-bot: chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci] - 2025-08-14 07:22 — `561338c` b…"
+    },
+    {
+      "id": "2e9db42a6519:009",
+      "file_id": "2e9db42a6519",
+      "path": "CHANGE_FEED.md",
+      "title": "CHANGE FEED (last 14 days)",
+      "anchor": null,
+      "tags": [],
+      "summary": "- 2025-08-14 06:44 — `23580d7` by altondavisver4: vault backup: 2025-08-13 23:44:00 - 2025-08-14 06:42 — `8aa17f1` by altondavisver4: vault backup: 2025-08-13 23:42:16 - 2025-08-14 06:37 — `d992205` by altondavisver4: Update build-site-index.yml - 2025-08-14 06:17 — `3dda107` by altondavisver4: Upda…"
+    },
+    {
+      "id": "2e9db42a6519:010",
+      "file_id": "2e9db42a6519",
+      "path": "CHANGE_FEED.md",
+      "title": "CHANGE FEED (last 14 days)",
+      "anchor": null,
+      "tags": [],
+      "summary": "- 2025-08-14 06:36 — `ce53849` by altondavisver4: Update build-ai-index.yml - 2025-08-14 06:16 — `da00bf5` by altondavisver4: Update build-ai-index.yml - 2025-08-14 06:00 — `8918287` by altondavisver4: Update build-ai-index.yml - 2025-08-14 05:56 — `6f3fc8e` by altondavisver4: Update build-ai-index.…"
+    },
+    {
+      "id": "2e9db42a6519:011",
+      "file_id": "2e9db42a6519",
+      "path": "CHANGE_FEED.md",
+      "title": "CHANGE FEED (last 14 days)",
+      "anchor": null,
+      "tags": [],
+      "summary": "- 2025-08-14 05:25 — `69be6ca` by site-index-bot: chore: auto-update folder indexes [skip ci] - 2025-08-14 05:21 — `a37bda2` by site-index-bot: chore: auto-update folder indexes [skip ci] - 2025-08-14 05:14 — `13546cf` by site-index-bot: chore: auto-update folder indexes [skip ci] - 2025-08-14 05:25…"
+    },
+    {
+      "id": "2e9db42a6519:012",
+      "file_id": "2e9db42a6519",
+      "path": "CHANGE_FEED.md",
+      "title": "CHANGE FEED (last 14 days)",
+      "anchor": null,
+      "tags": [],
+      "summary": "- 2025-08-14 05:25 — `69be6ca` by site-index-bot: chore: auto-update folder indexes [skip ci] - 2025-08-14 05:21 — `a37bda2` by site-index-bot: chore: auto-update folder indexes [skip ci] - 2025-08-14 05:14 — `13546cf` by site-index-bot: chore: auto-update folder indexes [skip ci] - 2025-08-14 05:25…"
+    },
+    {
+      "id": "2e9db42a6519:013",
+      "file_id": "2e9db42a6519",
+      "path": "CHANGE_FEED.md",
+      "title": "CHANGE FEED (last 14 days)",
+      "anchor": null,
+      "tags": [],
+      "summary": "- 2025-08-14 05:25 — `69be6ca` by site-index-bot: chore: auto-update folder indexes [skip ci] - 2025-08-14 05:21 — `a37bda2` by site-index-bot: chore: auto-update folder indexes [skip ci] - 2025-08-14 05:14 — `13546cf` by site-index-bot: chore: auto-update folder indexes [skip ci] - 2025-08-14 05:25…"
+    },
+    {
+      "id": "2e9db42a6519:014",
+      "file_id": "2e9db42a6519",
+      "path": "CHANGE_FEED.md",
+      "title": "CHANGE FEED (last 14 days)",
+      "anchor": null,
+      "tags": [],
+      "summary": "- 2025-08-14 05:25 — `69be6ca` by site-index-bot: chore: auto-update folder indexes [skip ci] - 2025-08-14 05:21 — `a37bda2` by site-index-bot: chore: auto-update folder indexes [skip ci] - 2025-08-14 05:14 — `13546cf` by site-index-bot: chore: auto-update folder indexes [skip ci] - 2025-08-14 05:25…"
+    },
+    {
+      "id": "2e9db42a6519:015",
+      "file_id": "2e9db42a6519",
+      "path": "CHANGE_FEED.md",
+      "title": "CHANGE FEED (last 14 days)",
+      "anchor": null,
+      "tags": [],
+      "summary": "- 2025-08-14 05:25 — `69be6ca` by site-index-bot: chore: auto-update folder indexes [skip ci] - 2025-08-14 05:21 — `a37bda2` by site-index-bot: chore: auto-update folder indexes [skip ci] - 2025-08-14 05:14 — `13546cf` by site-index-bot: chore: auto-update folder indexes [skip ci] - 2025-08-14 05:25…"
+    },
+    {
+      "id": "2e9db42a6519:016",
+      "file_id": "2e9db42a6519",
+      "path": "CHANGE_FEED.md",
+      "title": "CHANGE FEED (last 14 days)",
+      "anchor": null,
+      "tags": [],
+      "summary": "- 2025-08-14 04:54 — `55a47ea` by altondavisver4: vault backup: 2025-08-13 21:54:30 - 2025-08-14 04:54 — `55a47ea` by altondavisver4: vault backup: 2025-08-13 21:54:30 - 2025-08-14 04:54 — `55a47ea` by altondavisver4: vault backup: 2025-08-13 21:54:30 - 2025-08-14 04:54 — `55a47ea` by altondavisver4…"
+    },
+    {
+      "id": "2e9db42a6519:017",
+      "file_id": "2e9db42a6519",
+      "path": "CHANGE_FEED.md",
+      "title": "CHANGE FEED (last 14 days)",
+      "anchor": null,
+      "tags": [],
+      "summary": "- 2025-08-14 01:27 — `336160d` by altondavisver4: vault backup: 2025-08-13 18:27:13 - 2025-08-14 01:24 — `1b702a8` by altondavisver4: vault backup: 2025-08-13 18:24:41 - 2025-08-14 01:16 — `fad56ac` by altondavisver4: vault backup: 2025-08-13 18:16:09 - 2025-08-13 23:36 — `80894d0` by altondavisver4…"
+    },
+    {
+      "id": "2e9db42a6519:018",
+      "file_id": "2e9db42a6519",
+      "path": "CHANGE_FEED.md",
+      "title": "CHANGE FEED (last 14 days)",
+      "anchor": null,
+      "tags": [],
+      "summary": "- 2025-08-14 01:16 — `fad56ac` by altondavisver4: vault backup: 2025-08-13 18:16:09 - 2025-08-14 01:16 — `fad56ac` by altondavisver4: vault backup: 2025-08-13 18:16:09 - 2025-08-14 01:16 — `fad56ac` by altondavisver4: vault backup: 2025-08-13 18:16:09 - 2025-08-14 01:16 — `fad56ac` by altondavisver4…"
+    },
+    {
+      "id": "2e9db42a6519:019",
+      "file_id": "2e9db42a6519",
+      "path": "CHANGE_FEED.md",
+      "title": "CHANGE FEED (last 14 days)",
+      "anchor": null,
+      "tags": [],
+      "summary": "- 2025-08-14 01:16 — `fad56ac` by altondavisver4: vault backup: 2025-08-13 18:16:09 - 2025-08-14 01:16 — `fad56ac` by altondavisver4: vault backup: 2025-08-13 18:16:09 - 2025-08-14 01:16 — `fad56ac` by altondavisver4: vault backup: 2025-08-13 18:16:09 - 2025-08-14 01:16 — `fad56ac` by altondavisver4…"
+    },
+    {
+      "id": "2e9db42a6519:020",
+      "file_id": "2e9db42a6519",
+      "path": "CHANGE_FEED.md",
+      "title": "CHANGE FEED (last 14 days)",
+      "anchor": null,
+      "tags": [],
+      "summary": "- 2025-08-14 01:16 — `fad56ac` by altondavisver4: vault backup: 2025-08-13 18:16:09 - 2025-08-14 01:16 — `fad56ac` by altondavisver4: vault backup: 2025-08-13 18:16:09 - 2025-08-14 01:16 — `fad56ac` by altondavisver4: vault backup: 2025-08-13 18:16:09 - 2025-08-14 01:16 — `fad56ac` by altondavisver4…"
+    },
+    {
+      "id": "2e9db42a6519:021",
+      "file_id": "2e9db42a6519",
+      "path": "CHANGE_FEED.md",
+      "title": "CHANGE FEED (last 14 days)",
+      "anchor": null,
+      "tags": [],
+      "summary": "- 2025-08-14 01:16 — `fad56ac` by altondavisver4: vault backup: 2025-08-13 18:16:09 - 2025-08-13 22:17 — `2287e7d` by altondavisver4: Initial commit - 2025-08-14 01:16 — `fad56ac` by altondavisver4: vault backup: 2025-08-13 18:16:09 - 2025-08-13 22:17 — `2287e7d` by altondavisver4: Initial commit - …"
+    },
+    {
+      "id": "2e9db42a6519:022",
+      "file_id": "2e9db42a6519",
+      "path": "CHANGE_FEED.md",
+      "title": "CHANGE FEED (last 14 days)",
+      "anchor": null,
+      "tags": [],
+      "summary": "- 2025-08-14 00:01 — `58b5be2` by altondavisver4: vault backup: 2025-08-13 17:01:18 - 2025-08-13 23:36 — `80894d0` by altondavisver4: vault backup: 2025-08-13 16:36:50 - 2025-08-13 23:31 — `6466b81` by altondavisver4: vault auto-commit - 2025-08-13 23:31 — `6466b81` by altondavisver4: vault auto-com…"
+    },
+    {
+      "id": "2e9db42a6519:023",
+      "file_id": "2e9db42a6519",
+      "path": "CHANGE_FEED.md",
+      "title": "CHANGE FEED (last 14 days)",
+      "anchor": null,
+      "tags": [],
+      "summary": "- 2025-08-13 22:17 — `2287e7d` by altondavisver4: Initial commit"
+    },
+    {
+      "id": "8ec9a00bfd09:001",
+      "file_id": "8ec9a00bfd09",
+      "path": "README.md",
+      "title": "README",
+      "anchor": null,
+      "tags": [],
+      "summary": "<!-- Workflow status badges --> [![Build All](https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/actions/workflows/build-all.yml/badge.svg)](https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/actions/workflows/build-all.yml) [![AI Index](https://github.com/altondavisver4/Dungeonpunk-Dev-Va…"
+    },
+    {
+      "id": "8ec9a00bfd09:002",
+      "file_id": "8ec9a00bfd09",
+      "path": "README.md",
+      "title": "README",
+      "anchor": null,
+      "tags": [],
+      "summary": "---"
+    },
+    {
+      "id": "298d84852253:001",
+      "file_id": "298d84852253",
+      "path": "README_AUTO_INDEX.md",
+      "title": "Auto AI Index Pack",
+      "anchor": null,
+      "tags": [],
+      "summary": "This pack adds: - `generate_ai_index.py` — scans the repo for `.md` / `.txt` files and writes `AI_INDEX.md` with raw links. - `.github/workflows/build-ai-index.yml` — GitHub Action that runs on every push to `main` and commits updates."
+    },
+    {
+      "id": "3b53d8606204:001",
+      "file_id": "3b53d8606204",
+      "path": "README_AUTO_NETLIFY_INDEX.md",
+      "title": "Auto Netlify Index Pack",
+      "anchor": null,
+      "tags": [],
+      "summary": "Generates `index.html` in the root **and every subfolder** with correctly URL-encoded links. Runs on every push via GitHub Actions; Netlify will deploy browsable indexes automatically. 1) Unzip into the **root of your repo**. 2) Commit & push: git add generate_site_index.py .github/workflows/build-s…"
+    },
+    {
+      "id": "8b0e592f3e17:001",
+      "file_id": "8b0e592f3e17",
+      "path": "README_AUTOGENERATED_PAGES_SNIPPET.md",
+      "title": "# Auto-Generated Pages",
+      "anchor": null,
+      "tags": [],
+      "summary": "- [AI Quicklinks](AI_QUICKLINKS.md) — top active notes (with Raw links) - [Tags Index](TAGS_INDEX.md) — browse by #tag (see /tags/) - [Change Feed](CHANGE_FEED.md) — commits in the last 14 days - [Cache Snapshot](cache.html) — inline content of top notes for fast reads"
+    },
+    {
+      "id": "2923ba2d8606:001",
+      "file_id": "2923ba2d8606",
+      "path": "README_QUICKLINKS_AUTOMATION.md",
+      "title": "Quicklinks Automation Pack",
+      "anchor": null,
+      "tags": [],
+      "summary": "This pack auto-builds: - AI_QUICKLINKS.md (top active notes) - Injects a Quicklinks block at the top of AI_INDEX.md (between markers) - Updates Netlify `_redirects` (/quick, /core, /systems, /lore, /rd) 1) Unzip into the **root of your repo**. 2) Commit & push: git add generate_quicklinks.py .github…"
+    },
+    {
+      "id": "9baae657abad:001",
+      "file_id": "9baae657abad",
+      "path": "tags/tag.md",
+      "title": "#tag",
+      "anchor": null,
+      "tags": [
+        "tags"
+      ],
+      "summary": "- [README_AUTOGENERATED_PAGES_SNIPPET.md](/README_AUTOGENERATED_PAGES_SNIPPET.md)"
+    },
+    {
+      "id": "b1e13b81e4ad:001",
+      "file_id": "b1e13b81e4ad",
+      "path": "TAGS_INDEX.md",
+      "title": "TAGS INDEX",
+      "anchor": null,
+      "tags": [],
+      "summary": "- [tag](./tags/tag.md) (1)"
+    }
+  ]
+}
