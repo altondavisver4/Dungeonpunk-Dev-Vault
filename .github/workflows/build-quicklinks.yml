@@ -52,7 +52,9 @@ jobs:
           if [ -n "$CHANGED" ]; then
             git add AI_INDEX.md AI_QUICKLINKS.md _redirects || true
             git commit -m "chore: auto-update quicklinks + redirects [skip ci]" || echo "Nothing to commit (race)."
-            git pull --rebase origin "${BRANCH}" || true
+            -  git pull --rebase origin "${BRANCH}" || true
+            -  git push origin "HEAD:${BRANCH}"
+            +  git push origin "HEAD:${BRANCH}" --force
             git push origin "HEAD:${BRANCH}"
           else
             echo "No changes to commit."
