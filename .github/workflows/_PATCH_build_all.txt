@@ -1,0 +1,11 @@
+Add these steps before the Commit & Push step:
+
+      - name: Build Super Index (unified + link graph)
+        run: python3 scripts/build_super_index.py
+
+      - name: Write content snapshot (jsonl.gz)
+        run: python3 scripts/write_content_snapshot.py
+
+And include these in the commit 'git add' list:
+  _brain/ai_super_index.json
+  _brain/snapshots/*

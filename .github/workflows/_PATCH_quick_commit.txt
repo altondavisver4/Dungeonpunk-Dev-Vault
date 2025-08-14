@@ -1,0 +1,3 @@
+In commit steps for fast workflows, also stage (if present):
+  _brain/ai_super_index.json
+  _brain/snapshots/LATEST
