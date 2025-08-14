@@ -11,10 +11,14 @@
             "id": "d860e1971df0b8ec",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "AI_INDEX.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "AI_INDEX"
             }
           }
         ]
@@ -189,8 +193,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b2c367ad5a682473",
+  "active": "d860e1971df0b8ec",
   "lastOpenFiles": [
+    "01 - Game Bible/Art Bible/2025-08-13_INDEX.md",
     "README_QUICKLINKS_AUTOMATION.md",
     "QUICKLINK_PINS.txt",
     "new_note.ps1",
@@ -225,7 +230,6 @@
     "03 – Assets/AI Prompt Recipes/2025-08-13_INDEX.md",
     "03 – Assets/2025-08-13_INDEX.md",
     "02 – R&D Lab/Thought Experiments/2025-08-13_INDEX.md",
-    "02 – R&D Lab/Theme & Setting Studies/2025-08-13_INDEX.md",
-    "02 – R&D Lab/Mechanics Studies/2025-08-13_INDEX.md"
+    "02 – R&D Lab/Theme & Setting Studies/2025-08-13_INDEX.md"
   ]
 }
