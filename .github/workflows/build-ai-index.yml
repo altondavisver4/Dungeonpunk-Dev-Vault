@@ -29,20 +29,17 @@ jobs:
 - name: Commit changes (if any)
   env:
     BRANCH: ${{ github.ref_name }}
+  shell: bash
   run: |
+    set -e
     git config user.name "ai-index-bot"
     git config user.email "ai-index-bot@users.noreply.github.com"
 
-    if [[ -n "$(git status --porcelain AI_INDEX.md)" ]]; then
+    # Only consider AI_INDEX.md
+    if [[ -n "$(git status --porcelain -- AI_INDEX.md)" ]]; then
       git add AI_INDEX.md
-      git commit -m "chore: auto-update AI_INDEX.md [skip ci]"
-      
-      # pull latest changes to avoid non-fast-forward errors
-      -  git pull --rebase origin ${BRANCH}
-      -  git push origin HEAD:${BRANCH}
-      +  git push origin HEAD:${BRANCH} --force
-      
-      git push origin HEAD:${BRANCH}
+      git commit -m "chore: auto-update AI_INDEX.md [skip ci]" || true
+      git push origin "HEAD:${BRANCH}" --force
     else
       echo "No changes to commit."
     fi
