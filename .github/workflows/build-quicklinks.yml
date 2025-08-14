@@ -9,7 +9,8 @@ on:
 
 permissions:
   contents: write
-  concurrency:
+
+concurrency:
   group: quicklinks-main
   cancel-in-progress: false
 
