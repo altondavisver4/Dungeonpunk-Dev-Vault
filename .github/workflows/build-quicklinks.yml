@@ -45,14 +45,14 @@ jobs:
         shell: bash
         run: |
           set -e
-          git config user.name "quicklinks-bot"
-          git config user.email "quicklinks-bot@users.noreply.github.com"
+          git config user.name "ai-index-bot"
+          git config user.email "ai-index-bot@users.noreply.github.com"
       
-          # Check if any of these files changed
-          CHANGED="$(git status --porcelain -- AI_INDEX.md AI_QUICKLINKS.md _redirects || true)"
+          # Only consider AI_INDEX.md
+          CHANGED="$(git status --porcelain -- AI_INDEX.md || true)"
           if [[ -n "$CHANGED" ]]; then
-            git add AI_INDEX.md AI_QUICKLINKS.md _redirects || true
-            git commit -m "chore: auto-update quicklinks + redirects [skip ci]" || true
+            git add AI_INDEX.md
+            git commit -m "chore: auto-update AI_INDEX.md [skip ci]" || true
             git push origin "HEAD:${BRANCH}" --force
           else
             echo "No changes to commit."
