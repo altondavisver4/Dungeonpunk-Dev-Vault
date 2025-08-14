@@ -6,10 +6,10 @@ on:
     paths:
       - "**/*.md"
       - "generate_site_index.py"
-  workflow_dispatch: {}
+      - ".github/workflows/build-site-index.yml"
   schedule:
     - cron: "12 7 * * 1"   # Mondays 07:12 UTC
-
+  workflow_dispatch: {}
 
 permissions:
   contents: write
@@ -22,10 +22,10 @@ jobs:
   build-site-index:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo (shallow ok)
+      - name: Checkout repo (full history)
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          fetch-depth: 0
 
       - name: Python version
         run: python3 --version
@@ -41,11 +41,15 @@ jobs:
           set -e
           git config user.name "site-index-bot"
           git config user.email "site-index-bot@users.noreply.github.com"
-      
-          CHANGED="$(git status --porcelain || true)"
-          if [[ -n "$CHANGED" ]]; then
-            git add -A
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+
+          # Try to add only index files; fall back to -A if none matched
+          git add index.html **/index.html 2>/dev/null || true
+
+          CHANGED="$(git status --porcelain)"
+          if [ -n "$CHANGED" ]; then
             git commit -m "chore: auto-update folder indexes [skip ci]" || true
+            git pull --rebase origin "$BRANCH" || true
             git push origin "HEAD:${BRANCH}" --force
           else
             echo "No changes to commit."
