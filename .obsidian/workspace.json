@@ -195,6 +195,7 @@
   },
   "active": "b2c367ad5a682473",
   "lastOpenFiles": [
+    "robots.txt",
     "scripts/build_sitemap.py",
     "404.html",
     "requirements.txt",
@@ -209,7 +210,6 @@
     "AI_INDEX_LORE.md",
     "AI_INDEX_CORE.md",
     "scripts/generate_tiered_indexes.py",
-    "search.html",
     "tags/tag.md",
     "TAGS_INDEX.md",
     "CHANGE_FEED.md",
