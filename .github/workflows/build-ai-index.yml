@@ -38,7 +38,9 @@ jobs:
       git commit -m "chore: auto-update AI_INDEX.md [skip ci]"
       
       # pull latest changes to avoid non-fast-forward errors
-      git pull --rebase origin ${BRANCH}
+      -  git pull --rebase origin ${BRANCH}
+      -  git push origin HEAD:${BRANCH}
+      +  git push origin HEAD:${BRANCH} --force
       
       git push origin HEAD:${BRANCH}
     else
