@@ -195,6 +195,8 @@
   },
   "active": "b2c367ad5a682473",
   "lastOpenFiles": [
+    "health.json",
+    "health.html",
     "scripts/write_health.py",
     "scripts/update_search_timestamp.py",
     "AI_INDEX_SYSTEMS.md",
@@ -208,8 +210,6 @@
     "_brain/ai_index.json.gz",
     "_brain/ai_index.json",
     "_brain/ai_brain.json.gz",
-    "_brain/ai_brain.json",
-    "_brain",
     "tags/tag.md",
     "TAGS_INDEX.md",
     "CHANGE_FEED.md",
