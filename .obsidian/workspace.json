@@ -195,6 +195,7 @@
   },
   "active": "b2c367ad5a682473",
   "lastOpenFiles": [
+    "scripts/generate_tiered_indexes.py",
     "search.html",
     "_brain/search_index.json.gz",
     "_brain/search_index.json",
@@ -205,7 +206,6 @@
     "_brain",
     "scripts/build_search_page.py",
     "scripts/build_ai_index.py",
-    "scripts/export_brain.py",
     "tags/tag.md",
     "TAGS_INDEX.md",
     "CHANGE_FEED.md",
