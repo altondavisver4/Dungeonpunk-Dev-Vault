@@ -1,6 +1,6 @@
 # AI Index
 
-_Auto-generated on 2025-08-14 04:05:27 UTC_
+_Auto-generated on 2025-08-14 04:07:36 UTC_
 
 > Links go to **raw** files when possible (best for AI), with a fallback GitHub view.
 
