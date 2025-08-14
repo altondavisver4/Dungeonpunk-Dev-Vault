@@ -31,6 +31,9 @@ jobs:
       - name: Generate folder index HTMLs
         run: python3 generate_site_index.py
 
+      - name: Write health endpoints
+        run: python3 scripts/write_health.py
+
       - name: Commit index files (if changed)
         env:
           BRANCH: ${{ github.ref_name }}
@@ -41,14 +44,15 @@ jobs:
           git config user.email "site-index-bot@users.noreply.github.com"
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
 
-          # Try to add only index files; fall back to -A if none matched
-          git add index.html **/index.html 2>/dev/null || true
-
-          CHANGED="$(git status --porcelain)"
+          # Try to add only index + health files; fall back to -A if none matched
+          git add index.html **/index.html health.html health.json 2>/dev/null || true
+          
+          CHANGED="$(git status --porcelain -- index.html **/index.html health.html health.json)"
           if [ -n "$CHANGED" ]; then
-            git commit -m "chore: auto-update folder indexes [skip ci]" || true
+            git commit -m "chore: auto-update folder indexes + health [skip ci]" || true
             git pull --rebase origin "$BRANCH" || true
-            git push origin "HEAD:${BRANCH}" --force
+            git push origin "HEAD:${BRANCH}" --force || true
           else
             echo "No changes to commit."
           fi
+
