@@ -163,13 +163,23 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "b2c367ad5a682473",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,8 +193,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d860e1971df0b8ec",
+  "active": "106da0aec8fa7108",
   "lastOpenFiles": [
+    "robots.txt.txt",
+    "New Text Document.txt",
     "Welcome.md",
     "dungeonpunk-vault/README.md",
     "dungeonpunk-vault",
@@ -211,7 +223,6 @@
     "01 - Game Bible/Systems/2025-08-13_INDEX.md",
     "01 - Game Bible/Roadmap/2025-08-13_INDEX.md",
     "01 - Game Bible/Encounters/2025-08-13_INDEX.md",
-    "01 - Game Bible/Core Vision/2025-08-13_INDEX.md",
     "05 - References & Tools/Tool Guides",
     "05 - References & Tools/Scripts & Code Snippets",
     "05 - References & Tools/Rulebooks & PDFs",
@@ -219,7 +230,6 @@
     "04 - Builds & Exports/Demo Scenes",
     "04 - Builds & Exports/Public Builds",
     "04 - Builds & Exports/Playtest Builds",
-    "03 - Assets/AI Prompt Recipes",
-    "03 - Assets/Music & SFX - Final"
+    "03 - Assets/AI Prompt Recipes"
   ]
 }
