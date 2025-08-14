@@ -1,9 +1,9 @@
 name: Build Site Index (fast)
 
 on:
-  schedule:
-    - cron: "12 7 * * 1"   # Mondays 07:12 UTC
   workflow_dispatch: {}
+  schedule:
+    - cron: "12 7 * * 1"   # optional weekly
 permissions:
   contents: write
 concurrency:
