@@ -37,6 +37,10 @@ jobs:
           QL_DAYS_WINDOW: "14"
           QL_DEBUG: "1"
         run: python3 generate_quicklinks.py
+
+      - name: Build search page
+        run: python3 scripts/build_search_page.py
+
   
       # NEW: keep folder index pages fresh on normal edits
       - name: Generate folder indexes (fast)
