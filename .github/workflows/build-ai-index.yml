@@ -5,12 +5,18 @@ on:
     branches: [ "main" ]
   workflow_dispatch: {}
 
+# <-- fix #1: allow the workflow to commit/push
+permissions:
+  contents: write
+
 jobs:
   build-index:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # get full history so git status works reliably
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -18,17 +24,21 @@ jobs:
           python-version: "3.x"
 
       - name: Generate AI_INDEX.md
-        run: |
-          python generate_ai_index.py
+        run: python generate_ai_index.py
 
       - name: Commit changes (if any)
+        env:
+          BRANCH: ${{ github.ref_name }}
         run: |
           git config user.name "ai-index-bot"
           git config user.email "ai-index-bot@users.noreply.github.com"
+
           if [[ -n "$(git status --porcelain AI_INDEX.md)" ]]; then
             git add AI_INDEX.md
-            git commit -m "chore: auto-update AI_INDEX.md"
-            git push
+            git commit -m "chore: auto-update AI_INDEX.md [skip ci]"
+
+            # <-- fix #2: push to the real branch, not detached HEAD
+            git push origin HEAD:${BRANCH}
           else
             echo "No changes to commit."
           fi
