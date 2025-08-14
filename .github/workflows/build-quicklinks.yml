@@ -1,13 +1,9 @@
 name: Build Quicklinks + Redirects (fast)
 
 on:
-  push:
-    branches: [ "main" ]
-    paths:
-      - "**/*.md"
-      - "generate_quicklinks.py"
-      - ".github/workflows/build-quicklinks.yml"
   workflow_dispatch: {}
+  schedule:
+    - cron: "33 7 * * *"   # optional daily
 permissions:
   contents: write
 concurrency:
