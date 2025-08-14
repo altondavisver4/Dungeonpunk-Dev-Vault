@@ -1,10 +1,62 @@
-<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Vault Search</title>
-<style>:root{--bg:#0b0c0f;--fg:#e9eef5;--muted:#9aa6b2;--card:#141821}body{background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;margin:0}main{max-width:900px;margin:40px auto;padding:0 20px 80px}h1{margin:.2rem 0 .6rem}.card{background:var(--card);border-radius:16px;padding:22px}input{width:100%;padding:12px;border-radius:12px;border:1px solid #2a3240;background:#0f1115;color:#e9eef5}small{color:var(--muted)}a{color:#8ad;text-decoration:none}a:hover{text-decoration:underline}.result{margin:12px 0;padding:12px;border-radius:12px;background:#10141b}.k{font-size:13px;color:#cbd5e1}</style>
-<body><main><h1>Vault Search</h1>
-  <p class="muted">Last updated 2025-08-14 18:33 UTC.</p><p class="k">Client-side search on the exported index.</p><div class="card"><input id="q" placeholder="type to search… (title, path, tags, summary)"><div id="out"></div></div><p><small>Index loads from <code>/_brain/search_index.json</code>.</small></p></main>
+<!doctype html><meta charset="utf-8">
+<title>Search — PsiOpera</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+  body{font:16px/1.5 system-ui,Segoe UI,Roboto,Arial,sans-serif;margin:24px;background:#0b0c0f;color:#e8eaed}
+  h1{font-size:1.5rem;margin:0 0 1rem}
+  input{width:100%;padding:12px;border-radius:12px;border:1px solid #2b2f36;background:#12151a;color:#e8eaed}
+  .muted{color:#97a1ad}
+  .hit{padding:12px;border:1px solid #2b2f36;border-radius:12px;margin:.75rem 0}
+  .path{font-size:.9rem;color:#97a1ad}
+  mark{background:#2a4b8a}
+</style>
+<h1>Search</h1>
+<p class="muted">Type to search notes, systems, and lore. ↑/↓ to move, Enter to open.</p>
+<input id="q" autofocus placeholder="Search…">
+<div id="out"></div>
 <script>
-async function loadIndex(){ const r=await fetch('/_brain/search_index.json',{cache:'no-store'}); return await r.json();}
-function esc(s){return (s||'').replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
-function h(str,q){if(!q) return esc(str); const re=new RegExp('('+q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','ig'); return esc(str).replace(re,'<mark>$1</mark>');}
-(async function(){ const data=await loadIndex(); const out=document.getElementById('out'); const q=document.getElementById('q'); function render(list,needle){ out.innerHTML=list.slice(0,80).map(d=>{ const url='/' + encodeURI(d.p).replace(/%5C/g, '/'); const tags=(d.g||[]).map(x=>'<code>#'+esc(x)+'</code>').join(' '); return `<div class="result"><div><a href="${url}">${h(d.t,needle)}</a> — <small>${h(d.p,needle)}</small></div><div class="k">${tags}</div><div>${h(d.s,needle)}</div></div>`; }).join(''); } q.addEventListener('input',()=>{ const needle=q.value.trim(); if(!needle){ out.innerHTML=''; return;} const n=needle.toLowerCase(); const hits=data.filter(d=> (d.t||'').toLowerCase().includes(n)||(d.p||'').toLowerCase().includes(n)||(d.s||'').toLowerCase().includes(n)||(d.g||[]).join(' ').toLowerCase().includes(n)); render(hits,needle); }); })();</script></body>
+let idx=[], qEl=document.getElementById('q'), out=document.getElementById('out'), pos=0, last='';
+const esc=s=>s.replace(/[&<>]/g,m=>({ '&':'&amp;','<':'&lt;','>':'&gt;'}[m]));
+const hi=(text,term)=>{
+  if(!term) return esc(text);
+  const r=new RegExp('('+term.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','ig');
+  return esc(text).replace(r,'<mark>$1</mark>');
+};
+const score=(t,term)=> {
+  t=t.toLowerCase(); term=term.toLowerCase();
+  if(t.includes(term)) return 1;
+  // simple fuzzy: count sequential chars
+  let i=0,j=0; while(i<t.length&&j<term.length){ if(t[i++]==term[j]) j++; }
+  return j/Math.max(1,term.length)*0.7;
+};
+const render=(list,term)=>{
+  out.innerHTML=list.slice(0,30).map((h,i)=>`
+    <div class="hit" data-i="${i}" tabindex="0" style="${i==pos?'outline:2px solid #3a7;':''}">
+      <div class="path">${esc(h.path)}</div>
+      <div>${hi(h.title||h.path,term)}</div>
+    </div>`).join('') || '<p class="muted">No results.</p>';
+};
+async function load(){
+  try{
+    const res=await fetch('/_brain/search_index.json',{cache:'no-store'});
+    idx=await res.json(); // [{path,title,content}]
+  }catch(e){ out.innerHTML='<p class="muted">Index unavailable.</p>'; }
+}
+function search(term){
+  if(!term){ render([],term); return; }
+  const hits=idx.map(x=>({
+    ...x,
+    s: score((x.title||'')+' '+x.path+' '+(x.content||''), term)
+  })).filter(x=>x.s>0.25).sort((a,b)=>b.s-a.s);
+  pos=0; render(hits,term);
+}
+qEl.addEventListener('input',e=>{ last=e.target.value.trim(); search(last); });
+document.addEventListener('keydown',e=>{
+  const cards=[...out.querySelectorAll('.hit')];
+  if(!cards.length) return;
+  if(e.key==='ArrowDown'){ pos=Math.min(pos+1,cards.length-1); render(cards.map((c,i)=>idx[i]), last); search(last); }
+  if(e.key==='ArrowUp'){ pos=Math.max(pos-1,0); render(cards.map((c,i)=>idx[i]), last); search(last); }
+  if(e.key==='Enter'){ const p=cards[pos]?.querySelector('.path')?.textContent; if(p) location.href=p; }
+});
+load();
+</script>
