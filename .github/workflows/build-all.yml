@@ -67,7 +67,7 @@ jobs:
           git config user.email "build-all-bot@users.noreply.github.com"
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
 
-          git add AI_INDEX.md AI_QUICKLINKS.md AI_INDEX_CORE.md AI_INDEX_SYSTEMS.md AI_INDEX_LORE.md AI_INDEX_RND.md _redirects _headers **/index.html _brain/ *.json _brain/*.gz search.html || true
+          git add AI_INDEX.md AI_QUICKLINKS.md _redirects _headers **/index.html _brain/*.json _brain/*.gz search.html *_TIER_*_INDEX.md
           if [ -z "$(git status --porcelain)" ]; then
             echo "No changes to commit."
             exit 0
