@@ -6,11 +6,11 @@ on:
     paths:
       - "**/*.md"
       - "generate_quicklinks.py"
-      - ".github/workflows/build-quicklinks.yml"
       - "_redirects"
       - "QUICKLINK_PINS.txt"
+      - ".github/workflows/build-quicklinks.yml"
   schedule:
-    - cron: "33 7 * * *"
+    - cron: "33 7 * * *"   # daily 07:33 UTC (staggered)
   workflow_dispatch: {}
 
 permissions:
@@ -24,7 +24,7 @@ jobs:
   quicklinks:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo (full for git history)
+      - name: Checkout repo (full history)
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -32,7 +32,7 @@ jobs:
       - name: Python version
         run: python3 --version
 
-      - name: Generate quicklinks + redirects (with debug)
+      - name: Generate quicklinks + redirects
         env:
           QL_TOP_N: "8"
           QL_DAYS_WINDOW: "14"
@@ -45,14 +45,16 @@ jobs:
         shell: bash
         run: |
           set -e
-          git config user.name "ai-index-bot"
-          git config user.email "ai-index-bot@users.noreply.github.com"
-      
-          # Only consider AI_INDEX.md
-          CHANGED="$(git status --porcelain -- AI_INDEX.md || true)"
-          if [[ -n "$CHANGED" ]]; then
-            git add AI_INDEX.md
-            git commit -m "chore: auto-update AI_INDEX.md [skip ci]" || true
+          git config user.name "quicklinks-bot"
+          git config user.email "quicklinks-bot@users.noreply.github.com"
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+
+          # Only consider these files
+          CHANGED="$(git status --porcelain -- AI_INDEX.md AI_QUICKLINKS.md _redirects)"
+          if [ -n "$CHANGED" ]; then
+            git add AI_INDEX.md AI_QUICKLINKS.md _redirects
+            git commit -m "chore: auto-update quicklinks + redirects [skip ci]" || true
+            git pull --rebase origin "$BRANCH" || true
             git push origin "HEAD:${BRANCH}" --force
           else
             echo "No changes to commit."
