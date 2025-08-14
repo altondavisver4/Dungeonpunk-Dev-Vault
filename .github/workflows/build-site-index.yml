@@ -6,9 +6,10 @@ on:
     paths:
       - "**/*.md"
       - "generate_site_index.py"
-      - ".github/workflows/build-site-index.yml"
-      - "index.html"
   workflow_dispatch: {}
+  schedule:
+    - cron: "12 7 * * 1"   # Mondays 07:12 UTC
+
 
 permissions:
   contents: write
