@@ -23,7 +23,7 @@
       "01-–-Game-Bible",
       "Art-Bible"
     ],
-    "s": "(Placeholder – content coming soon)"
+    "s": "(Placeholder – content coming soon) (smoke test)"
   },
   {
     "id": "b090535ccfac:001",
@@ -387,7 +387,7 @@
     "t": "# Quicklinks",
     "p": "AI_INDEX.md",
     "g": [],
-    "s": "_Auto-generated on 2025-08-14 13:40:22 UTC_ > Links go to **raw** files when possible (best for AI), with a fallback GitHub view."
+    "s": "_Auto-generated on 2025-08-14 20:26:12 UTC_ > Links go to **raw** files when possible (best for AI), with a fallback GitHub view."
   },
   {
     "id": "439f4a44c75a:003",
@@ -675,6 +675,13 @@
     "p": "README_QUICKLINKS_AUTOMATION.md",
     "g": [],
     "s": "This pack auto-builds: - AI_QUICKLINKS.md (top active notes) - Injects a Quicklinks block at the top of AI_INDEX.md (between markers) - Updates Netlify `_redirects` (/quick, /core, /systems, /lore, /rd) 1) Unzip into the **root of your repo**. 2) Commit & push: git add generate_quicklinks.py .github/workflows/build-quicklinks.yml QUICKLINK_PINS.txt new_note.ps1 git commit -m \"add quicklinks automation\" git push Score = pins (10k) + hot frontmatter (500) + 2 * commits in last 14 days + recency bonus Recency bonus: <=1d +10, <=3d +6, <=7d +4, <=14d +2. - /quick → AI_QUICKLINKS.md - /core → top under \"01 – Game Bible/Core Vision\" - /systems → top under \"01 – Game Bible/Systems\" - /lore → top un…"
+  },
+  {
+    "id": "c8aeed9a4cbd:001",
+    "t": "# Super Index & Snapshots",
+    "p": "README_SUPER_INDEX.md",
+    "g": [],
+    "s": "This repo emits: - `/_brain/ai_super_index.json` — unified index with tier membership and link graph. - `/_brain/snapshots/` — rolling JSONL.GZ snapshots of raw markdown (`LATEST` points to current). Use `ai_super_index.json` for instant cross-tier navigation and related-note jumps. Use the snapshot when hosting is unavailable to recover raw content quickly."
   },
   {
     "id": "9baae657abad:001",

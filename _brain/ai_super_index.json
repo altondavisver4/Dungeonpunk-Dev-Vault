@@ -1,24 +1,13 @@
 {
-  "schema": "psiopera.ai_brain.v2",
-  "source_repo": "Dungeonpunk-Dev-Vault",
+  "schema": "psiopera.ai_super_index.v1",
   "generated_at": "2025-08-14T20:49:07Z",
-  "files_count": 54,
-  "attachments_count": 0,
-  "files": [
+  "files_count": 53,
+  "docs": [
     {
       "id": "8a4841cfafb2",
       "path": "0000-00-00_META_File-Naming-Rules_v1.md",
       "title": "Dungeonpunk Dev Vault – File Naming Rules",
-      "sha": "0caf22a6b965",
-      "front_matter": {},
-      "links": [
-        {
-          "kind": "wiki",
-          "page": "Related-Note",
-          "section": null,
-          "alias": null
-        }
-      ],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Dungeonpunk Dev Vault – File Naming Rules",
@@ -40,925 +29,575 @@
           "anchor": "## Rules",
           "content": "1. **One major idea per file** – Keep concepts self-contained for easier referencing.  \n2. **Start with a summary** – First 1–2 sentences explain the file's purpose.  \n3. **Cross-link related notes** – Use `See also: [[Related-Note]]` at the top or bottom.  \n4. **Date is the creation date** – Keep it fixed even after edits.  \n5. **Version increments on major changes** – Small edits don’t bump the version.  \n\n---\n\n**Purpose:**  \nThis document ensures consistent file naming for AI indexing, quick search, and easier cross-referencing during development."
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "0c61ea67fe7c",
       "path": "01 – Game Bible/2025-08-13_INDEX.md",
       "title": "Folder: 01 – Game Bible",
-      "sha": "696b065037de",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Folder: 01 – Game Bible",
           "content": "(Placeholder – content coming soon)"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "2d3f8d96e3c3",
       "path": "01 – Game Bible/Art Bible/2025-08-13_INDEX.md",
       "title": "Folder: 01 – Game Bible/Art Bible",
-      "sha": "0f9afdd64244",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Folder: 01 – Game Bible/Art Bible",
-          "content": "(Placeholder – content coming soon)\n(smoke test)"
+          "content": "(Placeholder – content coming soon)"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "b090535ccfac",
       "path": "01 – Game Bible/Assets (Final Approved)/2025-08-13_INDEX.md",
       "title": "Folder: 01 – Game Bible/Assets (Final Approved)",
-      "sha": "562299b4620f",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Folder: 01 – Game Bible/Assets (Final Approved)",
           "content": "(Placeholder – content coming soon)"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "33f490b32bc9",
       "path": "01 – Game Bible/Characters/2025-08-13_INDEX.md",
       "title": "Folder: 01 – Game Bible/Characters",
-      "sha": "c5f96bd7813a",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Folder: 01 – Game Bible/Characters",
           "content": "(Placeholder – content coming soon)"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "07c414547039",
       "path": "01 – Game Bible/Core Vision/01 - Game BibleCore Vision2025-08-14_CORE_Vision_Goals_v1.md",
       "title": "Core Vision – Goals (v1)",
-      "sha": "22f3a3aa03bb",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Core Vision – Goals (v1)",
           "content": "- Sword & sorcery heat: brutal, decadent, scarce mercy\n- Bard-only diegetic music system (music from bards in-world)\n- Harem-bond telepathy as social glue & combat spice"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "31b396c9213b",
       "path": "01 – Game Bible/Core Vision/2025-08-13_INDEX.md",
       "title": "Folder: 01 – Game Bible/Core Vision",
-      "sha": "9d55ba8f7445",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Folder: 01 – Game Bible/Core Vision",
           "content": "(Placeholder – content coming soon)"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "b79bcd21f0e2",
       "path": "01 – Game Bible/Core Vision/2025-08-14_CORE_Vision_Goals_v1.md",
       "title": "Core Vision Goals",
-      "sha": "a5884543169e",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Core Vision Goals",
           "content": "Seed content."
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "287d64feab9a",
       "path": "01 – Game Bible/Encounters/2025-08-13_INDEX.md",
       "title": "Folder: 01 – Game Bible/Encounters",
-      "sha": "498942e6db72",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Folder: 01 – Game Bible/Encounters",
           "content": "(Placeholder – content coming soon)"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "ad787ae8d051",
       "path": "01 – Game Bible/Roadmap/2025-08-13_INDEX.md",
       "title": "Folder: 01 – Game Bible/Roadmap",
-      "sha": "8fc97c212e00",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Folder: 01 – Game Bible/Roadmap",
           "content": "(Placeholder – content coming soon)"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "85fa661b6ab9",
       "path": "01 – Game Bible/Systems/2025-08-13_INDEX.md",
       "title": "Folder: 01 – Game Bible/Systems",
-      "sha": "66713dc7eccd",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Folder: 01 – Game Bible/Systems",
           "content": "(Placeholder – content coming soon)"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "e54d6e0a81f8",
       "path": "01 – Game Bible/Systems/2025-08-14_SYSTEM_Key-Systems_Overview_v1.md",
       "title": "Key Systems Overview",
-      "sha": "f62a7cd6476c",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Key Systems Overview",
           "content": "<!-- hot: true -->\nSeed content."
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "22449fa5eb9e",
       "path": "01 – Game Bible/World & Lore/2025-08-13_INDEX.md",
       "title": "Folder: 01 – Game Bible/World & Lore",
-      "sha": "d06793ec546e",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Folder: 01 – Game Bible/World & Lore",
           "content": "(Placeholder – content coming soon)"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "2bad8531231b",
       "path": "02 – R&D Lab/2025-08-13_INDEX.md",
       "title": "Folder: 02 – R&D Lab",
-      "sha": "524994661883",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Folder: 02 – R&D Lab",
           "content": "(Placeholder – content coming soon)"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "2f97e0d5adf1",
       "path": "02 – R&D Lab/Comparative Analysis/2025-08-13_INDEX.md",
       "title": "Folder: 02 – R&D Lab/Comparative Analysis",
-      "sha": "b001da482023",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Folder: 02 – R&D Lab/Comparative Analysis",
           "content": "(Placeholder – content coming soon)"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "79c7721f26c9",
       "path": "02 – R&D Lab/Daily Dumps/2025-08-13_INDEX.md",
       "title": "Folder: 02 – R&D Lab/Daily Dumps",
-      "sha": "34b79b7b77d8",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Folder: 02 – R&D Lab/Daily Dumps",
           "content": "(Placeholder – content coming soon)"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "905a0ab09d26",
       "path": "02 – R&D Lab/Discarded Gold/2025-08-13_INDEX.md",
       "title": "Folder: 02 – R&D Lab/Discarded Gold",
-      "sha": "9798cc0df050",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Folder: 02 – R&D Lab/Discarded Gold",
           "content": "(Placeholder – content coming soon)"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "1d05bbdf7e24",
       "path": "02 – R&D Lab/Mechanics Studies/2025-08-13_INDEX.md",
       "title": "Folder: 02 – R&D Lab/Mechanics Studies",
-      "sha": "38d2d3ed7bef",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Folder: 02 – R&D Lab/Mechanics Studies",
           "content": "(Placeholder – content coming soon)"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "09219d2cbb38",
       "path": "02 – R&D Lab/Theme & Setting Studies/2025-08-13_INDEX.md",
       "title": "Folder: 02 – R&D Lab/Theme & Setting Studies",
-      "sha": "fa1d1976841a",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Folder: 02 – R&D Lab/Theme & Setting Studies",
           "content": "(Placeholder – content coming soon)"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "e298be243e6c",
       "path": "02 – R&D Lab/Thought Experiments/2025-08-13_INDEX.md",
       "title": "Folder: 02 – R&D Lab/Thought Experiments",
-      "sha": "f250fc3c8a79",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Folder: 02 – R&D Lab/Thought Experiments",
           "content": "(Placeholder – content coming soon)"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "d537f1a84dd8",
       "path": "03 – Assets/2025-08-13_INDEX.md",
       "title": "Folder: 03 – Assets",
-      "sha": "aca31a507629",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Folder: 03 – Assets",
           "content": "(Placeholder – content coming soon)"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "f402f6c364b3",
       "path": "03 – Assets/AI Prompt Recipes/2025-08-13_INDEX.md",
       "title": "Folder: 03 – Assets/AI Prompt Recipes",
-      "sha": "e2901d60e73a",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Folder: 03 – Assets/AI Prompt Recipes",
           "content": "(Placeholder – content coming soon)"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "9c14d390f749",
       "path": "03 – Assets/Art – Concept/2025-08-13_INDEX.md",
       "title": "Folder: 03 – Assets/Art – Concept",
-      "sha": "e11844e291d0",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Folder: 03 – Assets/Art – Concept",
           "content": "(Placeholder – content coming soon)"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "111e2e210fc3",
       "path": "03 – Assets/Art – Production/2025-08-13_INDEX.md",
       "title": "Folder: 03 – Assets/Art – Production",
-      "sha": "b815d4f1871e",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Folder: 03 – Assets/Art – Production",
           "content": "(Placeholder – content coming soon)"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "4bacdf1f6784",
       "path": "03 – Assets/Art – UI & Icons/2025-08-13_INDEX.md",
       "title": "Folder: 03 – Assets/Art – UI & Icons",
-      "sha": "4f28321104b3",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Folder: 03 – Assets/Art – UI & Icons",
           "content": "(Placeholder – content coming soon)"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "734cdffd2d55",
       "path": "03 – Assets/Music & SFX – Drafts/2025-08-13_INDEX.md",
       "title": "Folder: 03 – Assets/Music & SFX – Drafts",
-      "sha": "311baa02e2e6",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Folder: 03 – Assets/Music & SFX – Drafts",
           "content": "(Placeholder – content coming soon)"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "3a624e71727c",
       "path": "03 – Assets/Music & SFX – Final/2025-08-13_INDEX.md",
       "title": "Folder: 03 – Assets/Music & SFX – Final",
-      "sha": "4229d680c8bd",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Folder: 03 – Assets/Music & SFX – Final",
           "content": "(Placeholder – content coming soon)"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "678105612afe",
       "path": "04 – Builds & Exports/2025-08-13_INDEX.md",
       "title": "Folder: 04 – Builds & Exports",
-      "sha": "26502314d3a1",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Folder: 04 – Builds & Exports",
           "content": "(Placeholder – content coming soon)"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "8edad44c391f",
       "path": "04 – Builds & Exports/Demo Scenes/2025-08-13_INDEX.md",
       "title": "Folder: 04 – Builds & Exports/Demo Scenes",
-      "sha": "3a96486249e1",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Folder: 04 – Builds & Exports/Demo Scenes",
           "content": "(Placeholder – content coming soon)"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "0d56990517ef",
       "path": "04 – Builds & Exports/Playtest Builds/2025-08-13_INDEX.md",
       "title": "Folder: 04 – Builds & Exports/Playtest Builds",
-      "sha": "5254dd3d43b1",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Folder: 04 – Builds & Exports/Playtest Builds",
           "content": "(Placeholder – content coming soon)"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "771f3fcff167",
       "path": "04 – Builds & Exports/Public Builds/2025-08-13_INDEX.md",
       "title": "Folder: 04 – Builds & Exports/Public Builds",
-      "sha": "4762cc02cc29",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Folder: 04 – Builds & Exports/Public Builds",
           "content": "(Placeholder – content coming soon)"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "e7e0aeb29f47",
       "path": "05 – References & Tools/2025-08-13_INDEX.md",
       "title": "Folder: 05 – References & Tools",
-      "sha": "52aa4620f30f",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Folder: 05 – References & Tools",
           "content": "(Placeholder – content coming soon)"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "f400a49385e5",
       "path": "05 – References & Tools/Reference Art/2025-08-13_INDEX.md",
       "title": "Folder: 05 – References & Tools/Reference Art",
-      "sha": "53887160a1eb",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Folder: 05 – References & Tools/Reference Art",
           "content": "(Placeholder – content coming soon)"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "33218ccb2379",
       "path": "05 – References & Tools/Rulebooks & PDFs/2025-08-13_INDEX.md",
       "title": "Folder: 05 – References & Tools/Rulebooks & PDFs",
-      "sha": "e7ab1529c97b",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Folder: 05 – References & Tools/Rulebooks & PDFs",
           "content": "(Placeholder – content coming soon)"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "5afa8d3d7e2c",
       "path": "05 – References & Tools/Scripts & Code Snippets/2025-08-13_INDEX.md",
       "title": "Folder: 05 – References & Tools/Scripts & Code Snippets",
-      "sha": "218506dbddc2",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Folder: 05 – References & Tools/Scripts & Code Snippets",
           "content": "(Placeholder – content coming soon)"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "b7e909738ba6",
       "path": "05 – References & Tools/Tool Guides/2025-08-13_INDEX.md",
       "title": "Folder: 05 – References & Tools/Tool Guides",
-      "sha": "b974fa6ae193",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Folder: 05 – References & Tools/Tool Guides",
           "content": "(Placeholder – content coming soon)"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "c7af9f0c0be4",
       "path": "05 – References & Tools/Tool Guides/2025-08-14_META_Glossary_v1.md",
       "title": "Glossary",
-      "sha": "8b9da8da004b",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Glossary",
           "content": "Seed content."
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "57882bf07480",
       "path": "2025-08-13_ROOT_INDEX.md",
       "title": "PsiOpera / Dungeonpunk — AI Brain Root Index",
-      "sha": "12e78ff40bed",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "PsiOpera / Dungeonpunk — AI Brain Root Index",
           "content": "- 01 – Game Bible/\n- 02 – R&D Lab/\n- 03 – Assets/\n- 04 – Builds & Exports/\n- 05 – References & Tools/"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "1fdc749db24a",
       "path": "2025-08-14_META_File-Naming-Rules_v1.md",
       "title": "File Naming Rules",
-      "sha": "2b154bc2b9e4",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "File Naming Rules",
           "content": "(put naming conventions here)"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "439f4a44c75a",
       "path": "AI_INDEX.md",
       "title": "# Quicklinks",
-      "sha": "695200ffab6c",
-      "front_matter": {},
-      "links": [
-        {
-          "kind": "md",
-          "text": "AI_INDEX.md",
-          "target": "/AI_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "Raw",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "AI_QUICKLINKS.md",
-          "target": "/AI_QUICKLINKS.md"
-        },
-        {
-          "kind": "md",
-          "text": "Raw",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_QUICKLINKS.md"
-        },
-        {
-          "kind": "md",
-          "text": "CHANGE_FEED.md",
-          "target": "/CHANGE_FEED.md"
-        },
-        {
-          "kind": "md",
-          "text": "Raw",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/CHANGE_FEED.md"
-        },
-        {
-          "kind": "md",
-          "text": "QUICKLINK_PINS.txt",
-          "target": "/QUICKLINK_PINS.txt"
-        },
-        {
-          "kind": "md",
-          "text": "Raw",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/QUICKLINK_PINS.txt"
-        },
-        {
-          "kind": "md",
-          "text": "README.md",
-          "target": "/README.md"
-        },
-        {
-          "kind": "md",
-          "text": "Raw",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README.md"
-        },
-        {
-          "kind": "md",
-          "text": "0000-00-00_META_File-Naming-Rules_v1.md",
-          "target": "/0000-00-00_META_File-Naming-Rules_v1.md"
-        },
-        {
-          "kind": "md",
-          "text": "Raw",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/0000-00-00_META_File-Naming-Rules_v1.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025-08-13_ROOT_INDEX.md",
-          "target": "/2025-08-13_ROOT_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "Raw",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/2025-08-13_ROOT_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025-08-14_META_File-Naming-Rules_v1.md",
-          "target": "/2025-08-14_META_File-Naming-Rules_v1.md"
-        },
-        {
-          "kind": "md",
-          "text": "Raw",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/2025-08-14_META_File-Naming-Rules_v1.md"
-        },
-        {
-          "kind": "md",
-          "text": "0000 00 00 META File Naming Rules v1",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/0000-00-00_META_File-Naming-Rules_v1.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025 08 13 ROOT INDEX",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/2025-08-13_ROOT_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025 08 14 META File Naming Rules v1",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/2025-08-14_META_File-Naming-Rules_v1.md"
-        },
-        {
-          "kind": "md",
-          "text": "AI INDEX",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "AI INDEX CORE",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_INDEX_CORE.md"
-        },
-        {
-          "kind": "md",
-          "text": "AI INDEX LORE",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_INDEX_LORE.md"
-        },
-        {
-          "kind": "md",
-          "text": "AI INDEX RND",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_INDEX_RND.md"
-        },
-        {
-          "kind": "md",
-          "text": "AI INDEX SYSTEMS",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_INDEX_SYSTEMS.md"
-        },
-        {
-          "kind": "md",
-          "text": "AI QUICKLINKS",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_QUICKLINKS.md"
-        },
-        {
-          "kind": "md",
-          "text": "CHANGE FEED",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/CHANGE_FEED.md"
-        },
-        {
-          "kind": "md",
-          "text": "QUICKLINK PINS",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/QUICKLINK_PINS.txt"
-        },
-        {
-          "kind": "md",
-          "text": "README",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README.md"
-        },
-        {
-          "kind": "md",
-          "text": "README AUTO INDEX",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README_AUTO_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "README AUTO NETLIFY INDEX",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README_AUTO_NETLIFY_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "README AUTOGENERATED PAGES SNIPPET",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README_AUTOGENERATED_PAGES_SNIPPET.md"
-        },
-        {
-          "kind": "md",
-          "text": "README QUICKLINKS AUTOMATION",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README_QUICKLINKS_AUTOMATION.md"
-        },
-        {
-          "kind": "md",
-          "text": "README SUPER INDEX",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README_SUPER_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "requirements",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/requirements.txt"
-        },
-        {
-          "kind": "md",
-          "text": "robots",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/robots.txt"
-        },
-        {
-          "kind": "md",
-          "text": "TAGS INDEX",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/TAGS_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025 08 13 INDEX",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/01%20%E2%80%93%20Game%20Bible/2025-08-13_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025 08 13 INDEX",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/01%20%E2%80%93%20Game%20Bible/Art%20Bible/2025-08-13_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025 08 13 INDEX",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/01%20%E2%80%93%20Game%20Bible/Assets%20%28Final%20Approved%29/2025-08-13_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025 08 13 INDEX",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/01%20%E2%80%93%20Game%20Bible/Characters/2025-08-13_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "01   Game BibleCore Vision2025 08 14 CORE Vision Goals v1",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/01%20%E2%80%93%20Game%20Bible/Core%20Vision/01%20-%20Game%20BibleCore%20Vision2025-08-14_CORE_Vision_Goals_v1.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025 08 13 INDEX",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/01%20%E2%80%93%20Game%20Bible/Core%20Vision/2025-08-13_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025 08 14 CORE Vision Goals v1",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/01%20%E2%80%93%20Game%20Bible/Core%20Vision/2025-08-14_CORE_Vision_Goals_v1.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025 08 13 INDEX",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/01%20%E2%80%93%20Game%20Bible/Encounters/2025-08-13_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025 08 13 INDEX",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/01%20%E2%80%93%20Game%20Bible/Roadmap/2025-08-13_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025 08 13 INDEX",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/01%20%E2%80%93%20Game%20Bible/Systems/2025-08-13_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025 08 14 SYSTEM Key Systems Overview v1",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/01%20%E2%80%93%20Game%20Bible/Systems/2025-08-14_SYSTEM_Key-Systems_Overview_v1.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025 08 13 INDEX",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/01%20%E2%80%93%20Game%20Bible/World%20%26%20Lore/2025-08-13_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025 08 13 INDEX",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/2025-08-13_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025 08 13 INDEX",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/Comparative%20Analysis/2025-08-13_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025 08 13 INDEX",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/Daily%20Dumps/2025-08-13_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025 08 13 INDEX",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/Discarded%20Gold/2025-08-13_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025 08 13 INDEX",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/Mechanics%20Studies/2025-08-13_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025 08 13 INDEX",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/Theme%20%26%20Setting%20Studies/2025-08-13_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025 08 13 INDEX",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/Thought%20Experiments/2025-08-13_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025 08 13 INDEX",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/03%20%E2%80%93%20Assets/2025-08-13_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025 08 13 INDEX",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/03%20%E2%80%93%20Assets/AI%20Prompt%20Recipes/2025-08-13_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025 08 13 INDEX",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/03%20%E2%80%93%20Assets/Art%20%E2%80%93%20Concept/2025-08-13_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025 08 13 INDEX",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/03%20%E2%80%93%20Assets/Art%20%E2%80%93%20Production/2025-08-13_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025 08 13 INDEX",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/03%20%E2%80%93%20Assets/Art%20%E2%80%93%20UI%20%26%20Icons/2025-08-13_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025 08 13 INDEX",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/03%20%E2%80%93%20Assets/Music%20%26%20SFX%20%E2%80%93%20Drafts/2025-08-13_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025 08 13 INDEX",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/03%20%E2%80%93%20Assets/Music%20%26%20SFX%20%E2%80%93%20Final/2025-08-13_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025 08 13 INDEX",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/04%20%E2%80%93%20Builds%20%26%20Exports/2025-08-13_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025 08 13 INDEX",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/04%20%E2%80%93%20Builds%20%26%20Exports/Demo%20Scenes/2025-08-13_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025 08 13 INDEX",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/04%20%E2%80%93%20Builds%20%26%20Exports/Playtest%20Builds/2025-08-13_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025 08 13 INDEX",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/04%20%E2%80%93%20Builds%20%26%20Exports/Public%20Builds/2025-08-13_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025 08 13 INDEX",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/05%20%E2%80%93%20References%20%26%20Tools/2025-08-13_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025 08 13 INDEX",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/05%20%E2%80%93%20References%20%26%20Tools/Reference%20Art/2025-08-13_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025 08 13 INDEX",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/05%20%E2%80%93%20References%20%26%20Tools/Rulebooks%20%26%20PDFs/2025-08-13_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025 08 13 INDEX",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/05%20%E2%80%93%20References%20%26%20Tools/Scripts%20%26%20Code%20Snippets/2025-08-13_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025 08 13 INDEX",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/05%20%E2%80%93%20References%20%26%20Tools/Tool%20Guides/2025-08-13_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025 08 14 META Glossary v1",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/05%20%E2%80%93%20References%20%26%20Tools/Tool%20Guides/2025-08-14_META_Glossary_v1.md"
-        },
-        {
-          "kind": "md",
-          "text": "tag",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/tags/tag.md"
-        }
-      ],
+      "tags": [],
       "blocks": [
+        {
+          "anchor": "# Quicklinks",
+          "content": ""
+        },
+        {
+          "anchor": "# Quicklinks",
+          "content": ""
+        },
+        {
+          "anchor": "# Quicklinks",
+          "content": ""
+        },
+        {
+          "anchor": "# Quicklinks",
+          "content": ""
+        },
         {
           "anchor": "# Quicklinks",
           "content": "<!-- QUICKLINKS:START -->\n- [AI_INDEX.md](/AI_INDEX.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_INDEX.md)\n- [AI_QUICKLINKS.md](/AI_QUICKLINKS.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_QUICKLINKS.md)\n- [CHANGE_FEED.md](/CHANGE_FEED.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/CHANGE_FEED.md)\n- [QUICKLINK_PINS.txt](/QUICKLINK_PINS.txt) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/QUICKLINK_PINS.txt)\n- [README.md](/README.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README.md)\n- [0000-00-00_META_File-Naming-Rules_v1.md](/0000-00-00_META_File-Naming-Rules_v1.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/0000-00-00_META_File-Naming-Rules_v1.md)\n- [2025-08-13_ROOT_INDEX.md](/2025-08-13_ROOT_INDEX.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/2025-08-13_ROOT_INDEX.md)\n- [2025-08-14_META_File-Naming-Rules_v1.md](/2025-08-14_META_File-Naming-Rules_v1.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/2025-08-14_META_File-Naming-Rules_v1.md)\n<!-- QUICKLINKS:END -->"
         },
         {
           "anchor": "AI Index",
-          "content": "_Auto-generated on 2025-08-14 20:26:12 UTC_\n\n> Links go to **raw** files when possible (best for AI), with a fallback GitHub view."
+          "content": "_Auto-generated on 2025-08-14 13:40:22 UTC_\n\n> Links go to **raw** files when possible (best for AI), with a fallback GitHub view."
         },
         {
           "anchor": "# .",
-          "content": "- [0000 00 00 META File Naming Rules v1](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/0000-00-00_META_File-Naming-Rules_v1.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/0000-00-00_META_File-Naming-Rules_v1.md\">(view on GitHub)</a></sup></sub>\n- [2025 08 13 ROOT INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/2025-08-13_ROOT_INDEX.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/2025-08-13_ROOT_INDEX.md\">(view on GitHub)</a></sup></sub>\n- [2025 08 14 META File Naming Rules v1](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/2025-08-14_META_File-Naming-Rules_v1.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/2025-08-14_META_File-Naming-Rules_v1.md\">(view on GitHub)</a></sup></sub>\n- [AI INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_INDEX.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI_INDEX.md\">(view on GitHub)</a></sup></sub>\n- [AI INDEX CORE](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_INDEX_CORE.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI_INDEX_CORE.md\">(view on GitHub)</a></sup></sub>\n- [AI INDEX LORE](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_INDEX_LORE.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI_INDEX_LORE.md\">(view on GitHub)</a></sup></sub>\n- [AI INDEX RND](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_INDEX_RND.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI_INDEX_RND.md\">(view on GitHub)</a></sup></sub>\n- [AI INDEX SYSTEMS](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_INDEX_SYSTEMS.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI_INDEX_SYSTEMS.md\">(view on GitHub)</a></sup></sub>\n- [AI QUICKLINKS](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_QUICKLINKS.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI_QUICKLINKS.md\">(view on GitHub)</a></sup></sub>\n- [CHANGE FEED](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/CHANGE_FEED.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/CHANGE_FEED.md\">(view on GitHub)</a></sup></sub>\n- [QUICKLINK PINS](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/QUICKLINK_PINS.txt)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/QUICKLINK_PINS.txt\">(view on GitHub)</a></sup></sub>\n- [README](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/README.md\">(view on GitHub)</a></sup></sub>\n- [README AUTO INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README_AUTO_INDEX.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/README_AUTO_INDEX.md\">(view on GitHub)</a></sup></sub>\n- [README AUTO NETLIFY INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README_AUTO_NETLIFY_INDEX.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/README_AUTO_NETLIFY_INDEX.md\">(view on GitHub)</a></sup></sub>\n- [README AUTOGENERATED PAGES SNIPPET](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README_AUTOGENERATED_PAGES_SNIPPET.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/README_AUTOGENERATED_PAGES_SNIPPET.md\">(view on GitHub)</a></sup></sub>\n- [README QUICKLINKS AUTOMATION](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README_QUICKLINKS_AUTOMATION.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/README_QUICKLINKS_AUTOMATION.md\">(view on GitHub)</a></sup></sub>\n- [README SUPER INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README_SUPER_INDEX.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/README_SUPER_INDEX.md\">(view on GitHub)</a></sup></sub>\n- [requirements](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/requirements.txt)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/requirements.txt\">(view on GitHub)</a></sup></sub>\n- [robots](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/robots.txt)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/robots.txt\">(view on GitHub)</a></sup></sub>\n- [TAGS INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/TAGS_INDEX.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/TAGS_INDEX.md\">(view on GitHub)</a></sup></sub>"
+          "content": "- [0000 00 00 META File Naming Rules v1](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/0000-00-00_META_File-Naming-Rules_v1.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/0000-00-00_META_File-Naming-Rules_v1.md\">(view on GitHub)</a></sup></sub>\n- [2025 08 13 ROOT INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/2025-08-13_ROOT_INDEX.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/2025-08-13_ROOT_INDEX.md\">(view on GitHub)</a></sup></sub>\n- [2025 08 14 META File Naming Rules v1](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/2025-08-14_META_File-Naming-Rules_v1.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/2025-08-14_META_File-Naming-Rules_v1.md\">(view on GitHub)</a></sup></sub>\n- [AI INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_INDEX.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI_INDEX.md\">(view on GitHub)</a></sup></sub>\n- [AI INDEX CORE](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_INDEX_CORE.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI_INDEX_CORE.md\">(view on GitHub)</a></sup></sub>\n- [AI INDEX LORE](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_INDEX_LORE.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI_INDEX_LORE.md\">(view on GitHub)</a></sup></sub>\n- [AI INDEX RND](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_INDEX_RND.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI_INDEX_RND.md\">(view on GitHub)</a></sup></sub>\n- [AI INDEX SYSTEMS](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_INDEX_SYSTEMS.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI_INDEX_SYSTEMS.md\">(view on GitHub)</a></sup></sub>\n- [AI QUICKLINKS](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_QUICKLINKS.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI_QUICKLINKS.md\">(view on GitHub)</a></sup></sub>\n- [CHANGE FEED](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/CHANGE_FEED.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/CHANGE_FEED.md\">(view on GitHub)</a></sup></sub>\n- [QUICKLINK PINS](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/QUICKLINK_PINS.txt)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/QUICKLINK_PINS.txt\">(view on GitHub)</a></sup></sub>\n- [README](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/README.md\">(view on GitHub)</a></sup></sub>\n- [README AUTO INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README_AUTO_INDEX.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/README_AUTO_INDEX.md\">(view on GitHub)</a></sup></sub>\n- [README AUTO NETLIFY INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README_AUTO_NETLIFY_INDEX.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/README_AUTO_NETLIFY_INDEX.md\">(view on GitHub)</a></sup></sub>\n- [README AUTOGENERATED PAGES SNIPPET](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README_AUTOGENERATED_PAGES_SNIPPET.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/README_AUTOGENERATED_PAGES_SNIPPET.md\">(view on GitHub)</a></sup></sub>\n- [README QUICKLINKS AUTOMATION](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README_QUICKLINKS_AUTOMATION.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/README_QUICKLINKS_AUTOMATION.md\">(view on GitHub)</a></sup></sub>\n- [robots.txt](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/robots.txt.txt)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/robots.txt.txt\">(view on GitHub)</a></sup></sub>\n- [TAGS INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/TAGS_INDEX.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/TAGS_INDEX.md\">(view on GitHub)</a></sup></sub>"
         },
         {
           "anchor": "# 01 – Game Bible",
@@ -984,235 +623,87 @@
           "anchor": "# tags",
           "content": "- [tag](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/tags/tag.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/tags/tag.md\">(view on GitHub)</a></sup></sub>"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "835adc466da5",
       "path": "AI_INDEX_CORE.md",
       "title": "Core Vision — Recent Notes",
-      "sha": "de3ec84c218c",
-      "front_matter": {},
-      "links": [
-        {
-          "kind": "md",
-          "text": "Core Vision Goals",
-          "target": "https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/01 – Game Bible/Core Vision/2025-08-14_CORE_Vision_Goals_v1.md"
-        },
-        {
-          "kind": "md",
-          "text": "Core Vision – Goals",
-          "target": "https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/01 – Game Bible/Core Vision/01 - Game BibleCore Vision2025-08-14_CORE_Vision_Goals_v1.md"
-        },
-        {
-          "kind": "md",
-          "text": "Folder: 01 – Game Bible/Core Vision",
-          "target": "https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/01 – Game Bible/Core Vision/2025-08-13_INDEX.md"
-        }
-      ],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Core Vision — Recent Notes",
           "content": "_Auto-generated • Updated 2025-08-14 12:56 UTC_\n\n- **2025-08-14** — [Core Vision Goals](https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/01 – Game Bible/Core Vision/2025-08-14_CORE_Vision_Goals_v1.md)\n- **2025-08-14** — [Core Vision – Goals](https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/01 – Game Bible/Core Vision/01 - Game BibleCore Vision2025-08-14_CORE_Vision_Goals_v1.md)\n- **2025-08-14** — [Folder: 01 – Game Bible/Core Vision](https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/01 – Game Bible/Core Vision/2025-08-13_INDEX.md)"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "44f48c9426b4",
       "path": "AI_INDEX_LORE.md",
       "title": "World & Lore — Recent Notes",
-      "sha": "6f4deb756c9b",
-      "front_matter": {},
-      "links": [
-        {
-          "kind": "md",
-          "text": "Folder: 01 – Game Bible/World & Lore",
-          "target": "https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/01 – Game Bible/World & Lore/2025-08-13_INDEX.md"
-        }
-      ],
+      "tags": [],
       "blocks": [
         {
           "anchor": "World & Lore — Recent Notes",
           "content": "_Auto-generated • Updated 2025-08-14 12:57 UTC_\n\n- **2025-08-14** — [Folder: 01 – Game Bible/World & Lore](https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/01 – Game Bible/World & Lore/2025-08-13_INDEX.md)"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "a17eb99e3f7e",
       "path": "AI_INDEX_RND.md",
       "title": "R&D Lab — Recent Notes",
-      "sha": "19eb153a7f58",
-      "front_matter": {},
-      "links": [
-        {
-          "kind": "md",
-          "text": "Folder: 02 – R&D Lab",
-          "target": "https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02 – R&D Lab/2025-08-13_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "Folder: 02 – R&D Lab/Thought Experiments",
-          "target": "https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02 – R&D Lab/Thought Experiments/2025-08-13_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "Folder: 02 – R&D Lab/Daily Dumps",
-          "target": "https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02 – R&D Lab/Daily Dumps/2025-08-13_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "Folder: 02 – R&D Lab/Mechanics Studies",
-          "target": "https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02 – R&D Lab/Mechanics Studies/2025-08-13_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "Folder: 02 – R&D Lab/Comparative Analysis",
-          "target": "https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02 – R&D Lab/Comparative Analysis/2025-08-13_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "Folder: 02 – R&D Lab/Discarded Gold",
-          "target": "https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02 – R&D Lab/Discarded Gold/2025-08-13_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "Folder: 02 – R&D Lab/Theme & Setting Studies",
-          "target": "https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02 – R&D Lab/Theme & Setting Studies/2025-08-13_INDEX.md"
-        }
-      ],
+      "tags": [],
       "blocks": [
         {
           "anchor": "R&D Lab — Recent Notes",
           "content": "_Auto-generated • Updated 2025-08-14 12:57 UTC_\n\n- **2025-08-14** — [Folder: 02 – R&D Lab](https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02 – R&D Lab/2025-08-13_INDEX.md)\n- **2025-08-14** — [Folder: 02 – R&D Lab/Thought Experiments](https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02 – R&D Lab/Thought Experiments/2025-08-13_INDEX.md)\n- **2025-08-14** — [Folder: 02 – R&D Lab/Daily Dumps](https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02 – R&D Lab/Daily Dumps/2025-08-13_INDEX.md)\n- **2025-08-14** — [Folder: 02 – R&D Lab/Mechanics Studies](https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02 – R&D Lab/Mechanics Studies/2025-08-13_INDEX.md)\n- **2025-08-14** — [Folder: 02 – R&D Lab/Comparative Analysis](https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02 – R&D Lab/Comparative Analysis/2025-08-13_INDEX.md)\n- **2025-08-14** — [Folder: 02 – R&D Lab/Discarded Gold](https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02 – R&D Lab/Discarded Gold/2025-08-13_INDEX.md)\n- **2025-08-14** — [Folder: 02 – R&D Lab/Theme & Setting Studies](https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02 – R&D Lab/Theme & Setting Studies/2025-08-13_INDEX.md)"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "5391cbc2045d",
       "path": "AI_INDEX_SYSTEMS.md",
       "title": "Systems — Recent Notes",
-      "sha": "fa0000c207a8",
-      "front_matter": {},
-      "links": [
-        {
-          "kind": "md",
-          "text": "Key Systems Overview",
-          "target": "https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/01 – Game Bible/Systems/2025-08-14_SYSTEM_Key-Systems_Overview_v1.md"
-        },
-        {
-          "kind": "md",
-          "text": "Folder: 01 – Game Bible/Systems",
-          "target": "https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/01 – Game Bible/Systems/2025-08-13_INDEX.md"
-        }
-      ],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Systems — Recent Notes",
           "content": "_Auto-generated • Updated 2025-08-14 12:56 UTC_\n\n- **2025-08-14** — [Key Systems Overview](https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/01 – Game Bible/Systems/2025-08-14_SYSTEM_Key-Systems_Overview_v1.md)\n- **2025-08-14** — [Folder: 01 – Game Bible/Systems](https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/01 – Game Bible/Systems/2025-08-13_INDEX.md)"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "493376de54c7",
       "path": "AI_QUICKLINKS.md",
       "title": "AI Quicklinks",
-      "sha": "17bba68a4584",
-      "front_matter": {},
-      "links": [
-        {
-          "kind": "md",
-          "text": "AI_INDEX.md",
-          "target": "/AI_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "Raw",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "AI_QUICKLINKS.md",
-          "target": "/AI_QUICKLINKS.md"
-        },
-        {
-          "kind": "md",
-          "text": "Raw",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_QUICKLINKS.md"
-        },
-        {
-          "kind": "md",
-          "text": "CHANGE_FEED.md",
-          "target": "/CHANGE_FEED.md"
-        },
-        {
-          "kind": "md",
-          "text": "Raw",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/CHANGE_FEED.md"
-        },
-        {
-          "kind": "md",
-          "text": "QUICKLINK_PINS.txt",
-          "target": "/QUICKLINK_PINS.txt"
-        },
-        {
-          "kind": "md",
-          "text": "Raw",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/QUICKLINK_PINS.txt"
-        },
-        {
-          "kind": "md",
-          "text": "README.md",
-          "target": "/README.md"
-        },
-        {
-          "kind": "md",
-          "text": "Raw",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README.md"
-        },
-        {
-          "kind": "md",
-          "text": "0000-00-00_META_File-Naming-Rules_v1.md",
-          "target": "/0000-00-00_META_File-Naming-Rules_v1.md"
-        },
-        {
-          "kind": "md",
-          "text": "Raw",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/0000-00-00_META_File-Naming-Rules_v1.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025-08-13_ROOT_INDEX.md",
-          "target": "/2025-08-13_ROOT_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "Raw",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/2025-08-13_ROOT_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "2025-08-14_META_File-Naming-Rules_v1.md",
-          "target": "/2025-08-14_META_File-Naming-Rules_v1.md"
-        },
-        {
-          "kind": "md",
-          "text": "Raw",
-          "target": "https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/2025-08-14_META_File-Naming-Rules_v1.md"
-        }
-      ],
+      "tags": [],
       "blocks": [
         {
           "anchor": "AI Quicklinks",
           "content": "_Auto-generated; top active notes._\n\n- [AI_INDEX.md](/AI_INDEX.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_INDEX.md)\n- [AI_QUICKLINKS.md](/AI_QUICKLINKS.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_QUICKLINKS.md)\n- [CHANGE_FEED.md](/CHANGE_FEED.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/CHANGE_FEED.md)\n- [QUICKLINK_PINS.txt](/QUICKLINK_PINS.txt) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/QUICKLINK_PINS.txt)\n- [README.md](/README.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README.md)\n- [0000-00-00_META_File-Naming-Rules_v1.md](/0000-00-00_META_File-Naming-Rules_v1.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/0000-00-00_META_File-Naming-Rules_v1.md)\n- [2025-08-13_ROOT_INDEX.md](/2025-08-13_ROOT_INDEX.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/2025-08-13_ROOT_INDEX.md)\n- [2025-08-14_META_File-Naming-Rules_v1.md](/2025-08-14_META_File-Naming-Rules_v1.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/2025-08-14_META_File-Naming-Rules_v1.md)"
         }
-      ]
+      ],
+      "neighbors": [
+        "README_AUTOGENERATED_PAGES_SNIPPET.md"
+      ],
+      "tiers": []
     },
     {
       "id": "2e9db42a6519",
       "path": "CHANGE_FEED.md",
       "title": "CHANGE FEED (last 14 days)",
-      "sha": "6099ca1578f8",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "CHANGE FEED (last 14 days)",
@@ -1782,94 +1273,45 @@
           "anchor": "# 03 - Assets/Art - Concept/2025-08-13_INDEX.md  _(last: 2025-08-13 22:17 UTC, 1 commits)_",
           "content": "- 2025-08-13 22:17 — `2287e7d` by altondavisver4: Initial commit"
         }
-      ]
+      ],
+      "neighbors": [
+        "README_AUTOGENERATED_PAGES_SNIPPET.md"
+      ],
+      "tiers": []
     },
     {
       "id": "8ec9a00bfd09",
       "path": "README.md",
       "title": "README",
-      "sha": "859c5ba801f5",
-      "front_matter": {},
-      "links": [
-        {
-          "kind": "md",
-          "text": "![Build All",
-          "target": "https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/actions/workflows/build-all.yml/badge.svg"
-        },
-        {
-          "kind": "md",
-          "text": "![AI Index",
-          "target": "https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/actions/workflows/build-ai-index.yml/badge.svg"
-        },
-        {
-          "kind": "md",
-          "text": "![Quicklinks",
-          "target": "https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/actions/workflows/build-quicklinks.yml/badge.svg"
-        },
-        {
-          "kind": "md",
-          "text": "![Site Index",
-          "target": "https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/actions/workflows/build-site-index.yml/badge.svg"
-        },
-        {
-          "kind": "md",
-          "text": "🏠 Site Home",
-          "target": "https://psiopera-octopus-ogre-4372.netlify.app/"
-        },
-        {
-          "kind": "md",
-          "text": "⚡ Quicklinks",
-          "target": "https://psiopera-octopus-ogre-4372.netlify.app/quicklinks.html"
-        },
-        {
-          "kind": "md",
-          "text": "📜 Core Vision",
-          "target": "https://psiopera-octopus-ogre-4372.netlify.app/Core%20Vision/"
-        },
-        {
-          "kind": "md",
-          "text": "🛠 Systems",
-          "target": "https://psiopera-octopus-ogre-4372.netlify.app/Systems/"
-        },
-        {
-          "kind": "md",
-          "text": "📚 Lore",
-          "target": "https://psiopera-octopus-ogre-4372.netlify.app/Lore/"
-        },
-        {
-          "kind": "md",
-          "text": "🔬 R&D",
-          "target": "https://psiopera-octopus-ogre-4372.netlify.app/R&D/"
-        }
-      ],
+      "tags": [],
       "blocks": [
         {
           "anchor": null,
           "content": "<!-- Workflow status badges -->\n[![Build All](https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/actions/workflows/build-all.yml/badge.svg)](https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/actions/workflows/build-all.yml)\n[![AI Index](https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/actions/workflows/build-ai-index.yml/badge.svg)](https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/actions/workflows/build-ai-index.yml)\n[![Quicklinks](https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/actions/workflows/build-quicklinks.yml/badge.svg)](https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/actions/workflows/build-quicklinks.yml)\n[![Site Index](https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/actions/workflows/build-site-index.yml/badge.svg)](https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/actions/workflows/build-site-index.yml)\n\n---\n\n**Quick Navigation:**  \n[🏠 Site Home](https://psiopera-octopus-ogre-4372.netlify.app/) •\n[⚡ Quicklinks](https://psiopera-octopus-ogre-4372.netlify.app/quicklinks.html) •\n[📜 Core Vision](https://psiopera-octopus-ogre-4372.netlify.app/Core%20Vision/) •\n[🛠 Systems](https://psiopera-octopus-ogre-4372.netlify.app/Systems/) •\n[📚 Lore](https://psiopera-octopus-ogre-4372.netlify.app/Lore/) •\n[🔬 R&D](https://psiopera-octopus-ogre-4372.netlify.app/R&D/)\n\n---"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "298d84852253",
       "path": "README_AUTO_INDEX.md",
       "title": "Auto AI Index Pack",
-      "sha": "ae1ff0498021",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Auto AI Index Pack",
           "content": "This pack adds:\n- `generate_ai_index.py` — scans the repo for `.md` / `.txt` files and writes `AI_INDEX.md` with raw links.\n- `.github/workflows/build-ai-index.yml` — GitHub Action that runs on every push to `main` and commits updates."
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "3b53d8606204",
       "path": "README_AUTO_NETLIFY_INDEX.md",
       "title": "Auto Netlify Index Pack",
-      "sha": "75e2e51af274",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Auto Netlify Index Pack",
@@ -1883,50 +1325,33 @@
           "anchor": "# Notes",
           "content": "- Ignores: `.git`, `.github`, `.obsidian`, etc.\n- Links `.md`, `.txt`, `.html`, and common assets."
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "8b0e592f3e17",
       "path": "README_AUTOGENERATED_PAGES_SNIPPET.md",
       "title": "# Auto-Generated Pages",
-      "sha": "91b07ba04d5b",
-      "front_matter": {},
-      "links": [
-        {
-          "kind": "md",
-          "text": "AI Quicklinks",
-          "target": "AI_QUICKLINKS.md"
-        },
-        {
-          "kind": "md",
-          "text": "Tags Index",
-          "target": "TAGS_INDEX.md"
-        },
-        {
-          "kind": "md",
-          "text": "Change Feed",
-          "target": "CHANGE_FEED.md"
-        },
-        {
-          "kind": "md",
-          "text": "Cache Snapshot",
-          "target": "cache.html"
-        }
-      ],
+      "tags": [],
       "blocks": [
         {
           "anchor": "# Auto-Generated Pages",
           "content": "- [AI Quicklinks](AI_QUICKLINKS.md) — top active notes (with Raw links)\n- [Tags Index](TAGS_INDEX.md) — browse by #tag (see /tags/)\n- [Change Feed](CHANGE_FEED.md) — commits in the last 14 days\n- [Cache Snapshot](cache.html) — inline content of top notes for fast reads"
         }
-      ]
+      ],
+      "neighbors": [
+        "AI_QUICKLINKS.md",
+        "CHANGE_FEED.md",
+        "TAGS_INDEX.md"
+      ],
+      "tiers": []
     },
     {
       "id": "2923ba2d8606",
       "path": "README_QUICKLINKS_AUTOMATION.md",
       "title": "Quicklinks Automation Pack",
-      "sha": "9990312ff91d",
-      "front_matter": {},
-      "links": [],
+      "tags": [],
       "blocks": [
         {
           "anchor": "Quicklinks Automation Pack",
@@ -1948,388 +1373,39 @@
           "anchor": "# Optional",
           "content": "- Add file paths to QUICKLINK_PINS.txt to force-pin.\n- Use `new_note.ps1` to create properly named notes quickly."
         }
-      ]
-    },
-    {
-      "id": "c8aeed9a4cbd",
-      "path": "README_SUPER_INDEX.md",
-      "title": "# Super Index & Snapshots",
-      "sha": "a333a3bf89f8",
-      "front_matter": {},
-      "links": [],
-      "blocks": [
-        {
-          "anchor": "# Super Index & Snapshots",
-          "content": "This repo emits:\n- `/_brain/ai_super_index.json` — unified index with tier membership and link graph.\n- `/_brain/snapshots/` — rolling JSONL.GZ snapshots of raw markdown (`LATEST` points to current).\n\nUse `ai_super_index.json` for instant cross-tier navigation and related-note jumps.\nUse the snapshot when hosting is unavailable to recover raw content quickly."
-        }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "9baae657abad",
       "path": "tags/tag.md",
       "title": "#tag",
-      "sha": "a9a6984fd6de",
-      "front_matter": {},
-      "links": [
-        {
-          "kind": "md",
-          "text": "README_AUTOGENERATED_PAGES_SNIPPET.md",
-          "target": "/README_AUTOGENERATED_PAGES_SNIPPET.md"
-        }
-      ],
+      "tags": [],
       "blocks": [
         {
           "anchor": "#tag",
           "content": "- [README_AUTOGENERATED_PAGES_SNIPPET.md](/README_AUTOGENERATED_PAGES_SNIPPET.md)"
         }
-      ]
+      ],
+      "neighbors": [],
+      "tiers": []
     },
     {
       "id": "b1e13b81e4ad",
       "path": "TAGS_INDEX.md",
       "title": "TAGS INDEX",
-      "sha": "5fbfea4195ef",
-      "front_matter": {},
-      "links": [
-        {
-          "kind": "md",
-          "text": "tag",
-          "target": "./tags/tag.md"
-        }
-      ],
+      "tags": [],
       "blocks": [
         {
           "anchor": "TAGS INDEX",
           "content": "- [tag](./tags/tag.md) (1)"
         }
-      ]
+      ],
+      "neighbors": [
+        "README_AUTOGENERATED_PAGES_SNIPPET.md"
+      ],
+      "tiers": []
     }
-  ],
-  "attachments": [],
-  "manifest": {
-    "2025-08-13_ROOT_INDEX.md": {
-      "type": "note",
-      "sha": "12e78ff40bed",
-      "size": 150,
-      "mtime": 1755204545
-    },
-    "AI_INDEX_CORE.md": {
-      "type": "note",
-      "sha": "de3ec84c218c",
-      "size": 617,
-      "mtime": 1755204545
-    },
-    "AI_INDEX.md": {
-      "type": "note",
-      "sha": "695200ffab6c",
-      "size": 20349,
-      "mtime": 1755204547
-    },
-    "AI_INDEX_SYSTEMS.md": {
-      "type": "note",
-      "sha": "fa0000c207a8",
-      "size": 417,
-      "mtime": 1755204545
-    },
-    "README.md": {
-      "type": "note",
-      "sha": "859c5ba801f5",
-      "size": 1342,
-      "mtime": 1755204545
-    },
-    "TAGS_INDEX.md": {
-      "type": "note",
-      "sha": "5fbfea4195ef",
-      "size": 41,
-      "mtime": 1755204545
-    },
-    "AI_INDEX_LORE.md": {
-      "type": "note",
-      "sha": "6f4deb756c9b",
-      "size": 254,
-      "mtime": 1755204545
-    },
-    "2025-08-14_META_File-Naming-Rules_v1.md": {
-      "type": "note",
-      "sha": "2b154bc2b9e4",
-      "size": 51,
-      "mtime": 1755204545
-    },
-    "0000-00-00_META_File-Naming-Rules_v1.md": {
-      "type": "note",
-      "sha": "0caf22a6b965",
-      "size": 1399,
-      "mtime": 1755204545
-    },
-    "README_SUPER_INDEX.md": {
-      "type": "note",
-      "sha": "a333a3bf89f8",
-      "size": 390,
-      "mtime": 1755204545
-    },
-    "AI_QUICKLINKS.md": {
-      "type": "note",
-      "sha": "17bba68a4584",
-      "size": 1316,
-      "mtime": 1755204545
-    },
-    "AI_INDEX_RND.md": {
-      "type": "note",
-      "sha": "19eb153a7f58",
-      "size": 1289,
-      "mtime": 1755204545
-    },
-    "CHANGE_FEED.md": {
-      "type": "note",
-      "sha": "6099ca1578f8",
-      "size": 44287,
-      "mtime": 1755204545
-    },
-    "README_AUTO_NETLIFY_INDEX.md": {
-      "type": "note",
-      "sha": "75e2e51af274",
-      "size": 554,
-      "mtime": 1755204545
-    },
-    "README_AUTO_INDEX.md": {
-      "type": "note",
-      "sha": "ae1ff0498021",
-      "size": 258,
-      "mtime": 1755204545
-    },
-    "README_AUTOGENERATED_PAGES_SNIPPET.md": {
-      "type": "note",
-      "sha": "91b07ba04d5b",
-      "size": 294,
-      "mtime": 1755204545
-    },
-    "README_QUICKLINKS_AUTOMATION.md": {
-      "type": "note",
-      "sha": "9990312ff91d",
-      "size": 1009,
-      "mtime": 1755204545
-    },
-    "05 – References & Tools/2025-08-13_INDEX.md": {
-      "type": "note",
-      "sha": "52aa4620f30f",
-      "size": 71,
-      "mtime": 1755204545
-    },
-    "05 – References & Tools/Rulebooks & PDFs/2025-08-13_INDEX.md": {
-      "type": "note",
-      "sha": "e7ab1529c97b",
-      "size": 88,
-      "mtime": 1755204545
-    },
-    "05 – References & Tools/Tool Guides/2025-08-13_INDEX.md": {
-      "type": "note",
-      "sha": "b974fa6ae193",
-      "size": 83,
-      "mtime": 1755204545
-    },
-    "05 – References & Tools/Tool Guides/2025-08-14_META_Glossary_v1.md": {
-      "type": "note",
-      "sha": "8b9da8da004b",
-      "size": 26,
-      "mtime": 1755204545
-    },
-    "05 – References & Tools/Scripts & Code Snippets/2025-08-13_INDEX.md": {
-      "type": "note",
-      "sha": "218506dbddc2",
-      "size": 95,
-      "mtime": 1755204545
-    },
-    "05 – References & Tools/Reference Art/2025-08-13_INDEX.md": {
-      "type": "note",
-      "sha": "53887160a1eb",
-      "size": 85,
-      "mtime": 1755204545
-    },
-    "03 – Assets/2025-08-13_INDEX.md": {
-      "type": "note",
-      "sha": "aca31a507629",
-      "size": 59,
-      "mtime": 1755204545
-    },
-    "03 – Assets/Art – UI & Icons/2025-08-13_INDEX.md": {
-      "type": "note",
-      "sha": "4f28321104b3",
-      "size": 76,
-      "mtime": 1755204545
-    },
-    "03 – Assets/AI Prompt Recipes/2025-08-13_INDEX.md": {
-      "type": "note",
-      "sha": "e2901d60e73a",
-      "size": 77,
-      "mtime": 1755204545
-    },
-    "03 – Assets/Art – Production/2025-08-13_INDEX.md": {
-      "type": "note",
-      "sha": "b815d4f1871e",
-      "size": 76,
-      "mtime": 1755204545
-    },
-    "03 – Assets/Art – Concept/2025-08-13_INDEX.md": {
-      "type": "note",
-      "sha": "e11844e291d0",
-      "size": 73,
-      "mtime": 1755204545
-    },
-    "03 – Assets/Music & SFX – Drafts/2025-08-13_INDEX.md": {
-      "type": "note",
-      "sha": "311baa02e2e6",
-      "size": 80,
-      "mtime": 1755204545
-    },
-    "03 – Assets/Music & SFX – Final/2025-08-13_INDEX.md": {
-      "type": "note",
-      "sha": "4229d680c8bd",
-      "size": 79,
-      "mtime": 1755204545
-    },
-    "04 – Builds & Exports/2025-08-13_INDEX.md": {
-      "type": "note",
-      "sha": "26502314d3a1",
-      "size": 69,
-      "mtime": 1755204545
-    },
-    "04 – Builds & Exports/Public Builds/2025-08-13_INDEX.md": {
-      "type": "note",
-      "sha": "4762cc02cc29",
-      "size": 83,
-      "mtime": 1755204545
-    },
-    "04 – Builds & Exports/Playtest Builds/2025-08-13_INDEX.md": {
-      "type": "note",
-      "sha": "5254dd3d43b1",
-      "size": 85,
-      "mtime": 1755204545
-    },
-    "04 – Builds & Exports/Demo Scenes/2025-08-13_INDEX.md": {
-      "type": "note",
-      "sha": "3a96486249e1",
-      "size": 81,
-      "mtime": 1755204545
-    },
-    "tags/tag.md": {
-      "type": "note",
-      "sha": "a9a6984fd6de",
-      "size": 90,
-      "mtime": 1755204545
-    },
-    "01 – Game Bible/2025-08-13_INDEX.md": {
-      "type": "note",
-      "sha": "696b065037de",
-      "size": 63,
-      "mtime": 1755204545
-    },
-    "01 – Game Bible/Encounters/2025-08-13_INDEX.md": {
-      "type": "note",
-      "sha": "498942e6db72",
-      "size": 74,
-      "mtime": 1755204545
-    },
-    "01 – Game Bible/World & Lore/2025-08-13_INDEX.md": {
-      "type": "note",
-      "sha": "d06793ec546e",
-      "size": 76,
-      "mtime": 1755204545
-    },
-    "01 – Game Bible/Systems/2025-08-13_INDEX.md": {
-      "type": "note",
-      "sha": "66713dc7eccd",
-      "size": 71,
-      "mtime": 1755204545
-    },
-    "01 – Game Bible/Systems/2025-08-14_SYSTEM_Key-Systems_Overview_v1.md": {
-      "type": "note",
-      "sha": "f62a7cd6476c",
-      "size": 57,
-      "mtime": 1755204545
-    },
-    "01 – Game Bible/Roadmap/2025-08-13_INDEX.md": {
-      "type": "note",
-      "sha": "8fc97c212e00",
-      "size": 71,
-      "mtime": 1755204545
-    },
-    "01 – Game Bible/Characters/2025-08-13_INDEX.md": {
-      "type": "note",
-      "sha": "c5f96bd7813a",
-      "size": 74,
-      "mtime": 1755204545
-    },
-    "01 – Game Bible/Art Bible/2025-08-13_INDEX.md": {
-      "type": "note",
-      "sha": "0f9afdd64244",
-      "size": 86,
-      "mtime": 1755204545
-    },
-    "01 – Game Bible/Assets (Final Approved)/2025-08-13_INDEX.md": {
-      "type": "note",
-      "sha": "562299b4620f",
-      "size": 87,
-      "mtime": 1755204545
-    },
-    "01 – Game Bible/Core Vision/2025-08-13_INDEX.md": {
-      "type": "note",
-      "sha": "9d55ba8f7445",
-      "size": 75,
-      "mtime": 1755204545
-    },
-    "01 – Game Bible/Core Vision/01 - Game BibleCore Vision2025-08-14_CORE_Vision_Goals_v1.md": {
-      "type": "note",
-      "sha": "22f3a3aa03bb",
-      "size": 197,
-      "mtime": 1755204545
-    },
-    "01 – Game Bible/Core Vision/2025-08-14_CORE_Vision_Goals_v1.md": {
-      "type": "note",
-      "sha": "a5884543169e",
-      "size": 35,
-      "mtime": 1755204545
-    },
-    "02 – R&D Lab/2025-08-13_INDEX.md": {
-      "type": "note",
-      "sha": "524994661883",
-      "size": 60,
-      "mtime": 1755204545
-    },
-    "02 – R&D Lab/Thought Experiments/2025-08-13_INDEX.md": {
-      "type": "note",
-      "sha": "f250fc3c8a79",
-      "size": 80,
-      "mtime": 1755204545
-    },
-    "02 – R&D Lab/Daily Dumps/2025-08-13_INDEX.md": {
-      "type": "note",
-      "sha": "34b79b7b77d8",
-      "size": 72,
-      "mtime": 1755204545
-    },
-    "02 – R&D Lab/Mechanics Studies/2025-08-13_INDEX.md": {
-      "type": "note",
-      "sha": "38d2d3ed7bef",
-      "size": 78,
-      "mtime": 1755204545
-    },
-    "02 – R&D Lab/Comparative Analysis/2025-08-13_INDEX.md": {
-      "type": "note",
-      "sha": "b001da482023",
-      "size": 81,
-      "mtime": 1755204545
-    },
-    "02 – R&D Lab/Discarded Gold/2025-08-13_INDEX.md": {
-      "type": "note",
-      "sha": "9798cc0df050",
-      "size": 75,
-      "mtime": 1755204545
-    },
-    "02 – R&D Lab/Theme & Setting Studies/2025-08-13_INDEX.md": {
-      "type": "note",
-      "sha": "fa1d1976841a",
-      "size": 84,
-      "mtime": 1755204545
-    }
-  }
+  ]
 }

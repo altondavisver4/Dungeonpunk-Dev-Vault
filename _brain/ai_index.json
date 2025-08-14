@@ -32,7 +32,7 @@
         "01-–-Game-Bible",
         "Art-Bible"
       ],
-      "summary": "(Placeholder – content coming soon)"
+      "summary": "(Placeholder – content coming soon) (smoke test)"
     },
     {
       "id": "b090535ccfac:001",
@@ -472,7 +472,7 @@
       "title": "# Quicklinks",
       "anchor": null,
       "tags": [],
-      "summary": "_Auto-generated on 2025-08-14 13:40:22 UTC_ > Links go to **raw** files when possible (best for AI), with a fallback GitHub view."
+      "summary": "_Auto-generated on 2025-08-14 20:26:12 UTC_ > Links go to **raw** files when possible (best for AI), with a fallback GitHub view."
     },
     {
       "id": "439f4a44c75a:003",
@@ -842,6 +842,15 @@
       "anchor": null,
       "tags": [],
       "summary": "This pack auto-builds: - AI_QUICKLINKS.md (top active notes) - Injects a Quicklinks block at the top of AI_INDEX.md (between markers) - Updates Netlify `_redirects` (/quick, /core, /systems, /lore, /rd) 1) Unzip into the **root of your repo**. 2) Commit & push: git add generate_quicklinks.py .github…"
+    },
+    {
+      "id": "c8aeed9a4cbd:001",
+      "file_id": "c8aeed9a4cbd",
+      "path": "README_SUPER_INDEX.md",
+      "title": "# Super Index & Snapshots",
+      "anchor": null,
+      "tags": [],
+      "summary": "This repo emits: - `/_brain/ai_super_index.json` — unified index with tier membership and link graph. - `/_brain/snapshots/` — rolling JSONL.GZ snapshots of raw markdown (`LATEST` points to current). Use `ai_super_index.json` for instant cross-tier navigation and related-note jumps. Use the snapshot…"
     },
     {
       "id": "9baae657abad:001",
