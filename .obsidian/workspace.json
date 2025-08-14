@@ -191,6 +191,9 @@
   },
   "active": "b2c367ad5a682473",
   "lastOpenFiles": [
+    "site.css",
+    "README_AUTO_NETLIFY_INDEX.md",
+    "generate_site_index.py",
     "0000-00-00_META_File-Naming-Rules_v1.md",
     "New Text Document.txt",
     "AI_INDEX.md",
@@ -213,7 +216,6 @@
     "05 – References & Tools/Scripts & Code Snippets/2025-08-13_INDEX.md",
     "05 – References & Tools/Rulebooks & PDFs/2025-08-13_INDEX.md",
     "05 – References & Tools/Reference Art/2025-08-13_INDEX.md",
-    "05 – References & Tools/Tool Guides",
     "05 – References & Tools/2025-08-13_INDEX.md",
     "03 – Assets/Music & SFX – Final/2025-08-13_INDEX.md",
     "03 – Assets/Art – UI & Icons/2025-08-13_INDEX.md",
@@ -224,8 +226,6 @@
     "03 – Assets/2025-08-13_INDEX.md",
     "02 – R&D Lab/Thought Experiments/2025-08-13_INDEX.md",
     "02 – R&D Lab/Theme & Setting Studies/2025-08-13_INDEX.md",
-    "02 – R&D Lab/Mechanics Studies/2025-08-13_INDEX.md",
-    "02 – R&D Lab/Daily Dumps/2025-08-13_INDEX.md",
-    "02 – R&D Lab/Discarded Gold/2025-08-13_INDEX.md"
+    "02 – R&D Lab/Mechanics Studies/2025-08-13_INDEX.md"
   ]
 }
