@@ -2,13 +2,19 @@ name: Build AI Index
 
 on:
   workflow_dispatch: {}
-  schedule:
-    - cron: "17 6 * * *"   # optional daily
+  push:
+    paths:
+      - "**/*.md"
+      - "generate_ai_index.py"
+      - ".github/workflows/build-ai-index.yml"
+
 permissions:
   contents: write
+
 concurrency:
   group: ai-index-main
   cancel-in-progress: false
+
 
 jobs:
   build-index:
