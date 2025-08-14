@@ -193,8 +193,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d860e1971df0b8ec",
+  "active": "b2c367ad5a682473",
   "lastOpenFiles": [
+    "_redirects",
+    "AI_QUICKLINKS.md",
     "01 - Game Bible/Art Bible/2025-08-13_INDEX.md",
     "README_QUICKLINKS_AUTOMATION.md",
     "QUICKLINK_PINS.txt",
@@ -228,8 +230,6 @@
     "03 – Assets/Art – Production/2025-08-13_INDEX.md",
     "03 – Assets/Art – Concept/2025-08-13_INDEX.md",
     "03 – Assets/AI Prompt Recipes/2025-08-13_INDEX.md",
-    "03 – Assets/2025-08-13_INDEX.md",
-    "02 – R&D Lab/Thought Experiments/2025-08-13_INDEX.md",
-    "02 – R&D Lab/Theme & Setting Studies/2025-08-13_INDEX.md"
+    "03 – Assets/2025-08-13_INDEX.md"
   ]
 }
