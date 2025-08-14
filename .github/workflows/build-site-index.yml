@@ -1,8 +1,13 @@
-name: Build Site Index (Netlify-friendly)
+name: Build Site Index (fast)
 
 on:
   push:
     branches: [ "main" ]
+    paths:
+      - "**/*.md"
+      - "generate_site_index.py"
+      - ".github/workflows/build-site-index.yml"
+      - "index.html"
   workflow_dispatch: {}
 
 permissions:
@@ -12,23 +17,20 @@ concurrency:
   group: site-index-main
   cancel-in-progress: false
 
-
 jobs:
   build-site-index:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
+      - name: Checkout repo (shallow ok)
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 1
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.x"
+      - name: Python version
+        run: python3 --version
 
       - name: Generate folder index HTMLs
-        run: python generate_site_index.py
+        run: python3 generate_site_index.py
 
       - name: Commit index files (if changed)
         env:
@@ -41,7 +43,6 @@ jobs:
 
           CHANGED="$(git status --porcelain || true)"
           if [ -n "$CHANGED" ]; then
-            # We only expect folder index.html updates, but add broadly for simplicity
             git add -A
             git commit -m "chore: auto-update folder indexes [skip ci]" || echo "Nothing to commit (race)."
             git pull --rebase origin "${BRANCH}" || true

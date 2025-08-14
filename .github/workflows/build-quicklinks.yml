@@ -1,8 +1,14 @@
-name: Build Quicklinks + Redirects (updated)
+name: Build Quicklinks + Redirects (fast)
 
 on:
   push:
     branches: [ "main" ]
+    paths:
+      - "**/*.md"
+      - "generate_quicklinks.py"
+      - ".github/workflows/build-quicklinks.yml"
+      - "_redirects"
+      - "QUICKLINK_PINS.txt"
   schedule:
     - cron: "33 7 * * *"
   workflow_dispatch: {}
@@ -14,27 +20,24 @@ concurrency:
   group: quicklinks-main
   cancel-in-progress: false
 
-
 jobs:
   quicklinks:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
+      - name: Checkout repo (full for git history)
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.x"
+      - name: Python version
+        run: python3 --version
 
       - name: Generate quicklinks + redirects (with debug)
         env:
           QL_TOP_N: "8"
           QL_DAYS_WINDOW: "14"
           QL_DEBUG: "1"
-        run: python generate_quicklinks.py
+        run: python3 generate_quicklinks.py
 
       - name: Commit changes (if any)
         env:
@@ -49,7 +52,6 @@ jobs:
           if [ -n "$CHANGED" ]; then
             git add AI_INDEX.md AI_QUICKLINKS.md _redirects || true
             git commit -m "chore: auto-update quicklinks + redirects [skip ci]" || echo "Nothing to commit (race)."
-            # pull remote updates to avoid non-fast-forward
             git pull --rebase origin "${BRANCH}" || true
             git push origin "HEAD:${BRANCH}"
           else
