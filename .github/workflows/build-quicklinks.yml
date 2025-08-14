@@ -49,7 +49,10 @@ jobs:
       # NEW: keep search.html timestamp fresh on normal edits
       - name: Touch search page timestamp (fast)
         run: python3 scripts/update_search_timestamp.py
-  
+
+      - name: Write health endpoints
+        run: python3 scripts/write_health.py
+
       - name: Commit changes (if any)
         env:
           BRANCH: ${{ github.ref_name }}
@@ -60,11 +63,11 @@ jobs:
           git config user.email "quicklinks-bot@users.noreply.github.com"
   
           # Check if any of these files changed
-          CHANGED="$(git status --porcelain -- AI_INDEX.md AI_QUICKLINKS.md _redirects **/index.html search.html || true)"
+          CHANGED="$(git status --porcelain -- AI_INDEX.md AI_QUICKLINKS.md _redirects **/index.html search.html health.html health.json || true)"
   
           if [[ -n "$CHANGED" ]]; then
-            git add AI_INDEX.md AI_QUICKLINKS.md _redirects **/index.html search.html || true
-            git commit -m "chore: auto-update quicklinks + site indexes + search timestamp [skip ci]" || true
+            git add AI_INDEX.md AI_QUICKLINKS.md _redirects **/index.html search.html health.html health.json || true
+            git commit -m "chore: auto-update quicklinks + site indexes + search timestamp + health [skip ci]" || true
             git push origin "HEAD:${BRANCH}" --force-with-lease || true
           else
             echo "No changes to commit."
