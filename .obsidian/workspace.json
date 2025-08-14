@@ -193,9 +193,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "106da0aec8fa7108",
+  "active": "b2c367ad5a682473",
   "lastOpenFiles": [
     "robots.txt.txt",
+    "robots.txt",
+    "index.html",
+    "_headers",
     "New Text Document.txt",
     "Welcome.md",
     "dungeonpunk-vault/README.md",
@@ -227,9 +230,6 @@
     "05 - References & Tools/Scripts & Code Snippets",
     "05 - References & Tools/Rulebooks & PDFs",
     "05 - References & Tools/Reference Art",
-    "04 - Builds & Exports/Demo Scenes",
-    "04 - Builds & Exports/Public Builds",
-    "04 - Builds & Exports/Playtest Builds",
-    "03 - Assets/AI Prompt Recipes"
+    "04 - Builds & Exports/Demo Scenes"
   ]
 }
