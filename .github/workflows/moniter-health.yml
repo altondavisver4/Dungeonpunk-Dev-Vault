@@ -1,0 +1,32 @@
+name: Monitor Health
+
+on:
+  schedule:
+    - cron: "*/10 * * * *" # every 10 minutes
+  workflow_dispatch: # allow manual run
+
+jobs:
+  check-health:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check health.json
+        run: |
+          echo "Checking health.json..."
+          STATUS=$(curl -s -o /tmp/health.json -w "%{http_code}" https://psiopera-octopus-ogre-4372.netlify.app/health.json)
+          
+          if [ "$STATUS" != "200" ]; then
+            echo "❌ Site returned status $STATUS"
+            exit 1
+          fi
+
+          # Check timestamp freshness
+          TIMESTAMP=$(jq -r '.timestamp' /tmp/health.json)
+          NOW=$(date +%s)
+          DIFF=$((NOW - TIMESTAMP))
+          
+          if [ "$DIFF" -gt 900 ]; then # 900 seconds = 15 min
+            echo "❌ Timestamp is too old: $DIFF seconds"
+            exit 1
+          fi
+          
+          echo "✅ Health OK — Timestamp is $DIFF seconds old"
