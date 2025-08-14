@@ -1,98 +1,128 @@
 #!/usr/bin/env python3
-import os, re, pathlib, sys
+# -*- coding: utf-8 -*-
+
+"""
+Generate four tiered index files (sorted by last git-modified time):
+  - AI_INDEX_CORE.md
+  - AI_INDEX_SYSTEMS.md
+  - AI_INDEX_LORE.md
+  - AI_INDEX_RND.md
+"""
+
+from __future__ import annotations
+import os
+import subprocess
+from pathlib import Path
 from datetime import datetime
+import re
+from typing import List, Dict, Tuple
 
-REPO = pathlib.Path(".").resolve()
+ROOT = Path(__file__).resolve().parents[1]  # repo root
+REPO_SLUG = os.environ.get("GITHUB_REPOSITORY", "altondavisver4/Dungeonpunk-Dev-Vault")
+GH_BLOB_BASE = f"https://github.com/{REPO_SLUG}/blob/main"
 
-# Folders we never scan
-SKIP_DIRS = {".git", ".github", "_brain", "node_modules", "scripts", ".obsidian", "tags", ".venv", "__pycache__"}
+# Category definitions: (friendly name, output filename, include folders)
+CATEGORIES: List[Tuple[str, str, List[str]]] = [
+    ("Core Vision", "AI_INDEX_CORE.md", ["01 – Game Bible/Core Vision"]),
+    ("Systems",     "AI_INDEX_SYSTEMS.md", ["01 – Game Bible/Systems"]),
+    ("World & Lore","AI_INDEX_LORE.md", ["01 – Game Bible/World & Lore"]),
+    ("R&D Lab",     "AI_INDEX_RND.md", ["02 – R&D Lab"]),
+]
 
-# Tiers -> accepted tag synonyms (lowercase)
-TIERS = {
-    "AI_INDEX_CORE.md":     {"core", "canonical", "pillar"},
-    "AI_INDEX_SYSTEMS.md":  {"systems", "mechanics", "rules"},
-    "AI_INDEX_LORE.md":     {"lore", "worldbuilding", "story"},
-    "AI_INDEX_RND.md":      {"rnd", "r&d", "research", "prototype", "experiment"},
+# Filters (filenames to skip anywhere)
+SKIP_BASENAMES = {
+    "README.md",
+    "AI_INDEX.md",
+    "AI_INDEX_CORE.md",
+    "AI_INDEX_SYSTEMS.md",
+    "AI_INDEX_LORE.md",
+    "AI_INDEX_RND.md",
+    "AI_QUICKLINKS.md",
+    "TAGS_INDEX.md",
+    "README_AUTO_INDEX.md",
+    "README_AUTO_NETLIFY_INDEX.md",
 }
+# Skip hidden / utility files
+def should_skip(p: Path) -> bool:
+    if p.name in SKIP_BASENAMES: return True
+    if p.name.startswith("_"): return True
+    # Only markdown notes
+    if p.suffix.lower() != ".md": return True
+    return False
 
-MD_LINK_BASE = ""  # use repo-relative links so they render in GitHub
+H1_RE = re.compile(r"^#\s+(.*)")
 
-TAG_RE_INLINE = re.compile(r"#([\w&-]+)")  # catches #core #r&d etc
-FM_START = re.compile(r"^---\s*$")
-FM_TAGS  = re.compile(r"^tags\s*:\s*\[(.*?)\]\s*$", re.IGNORECASE)
+def first_title_from_markdown(md: str) -> str | None:
+    for line in md.splitlines():
+        m = H1_RE.match(line.strip())
+        if m:
+            t = m.group(1).strip()
+            # strip trailing markdown link markers etc
+            t = re.sub(r"\s*\[*\]?\(.*\)\s*$", "", t).strip()
+            return t
+    return None
 
-def extract_tags(md_text: str):
-    tags = set()
-    lines = md_text.splitlines()
-    # 1) front-matter block (YAML-lite)
-    if lines and FM_START.match(lines[0]):
-        for i in range(1, min(len(lines), 50)):  # only scan a small header block
-            if FM_START.match(lines[i]): break
-            m = FM_TAGS.match(lines[i])
-            if m:
-                vals = [t.strip().strip(",").strip().strip("'\"") for t in m.group(1).split(",")]
-                tags.update(v.lower() for v in vals if v)
-    # 2) inline hashtags
-    for m in TAG_RE_INLINE.finditer(md_text):
-        tags.add(m.group(1).lower())
-    return tags
+def get_git_mtime(path: Path) -> int:
+    """Return unix timestamp of last commit touching this file (0 if unknown)."""
+    try:
+        out = subprocess.check_output(
+            ["git", "log", "-1", "--format=%ct", "--", str(path)],
+            cwd=ROOT,
+            stderr=subprocess.DEVNULL,
+            text=True,
+        ).strip()
+        return int(out) if out else 0
+    except Exception:
+        return 0
 
-def should_skip_dir(dirpath: pathlib.Path) -> bool:
-    parts = {p.name for p in dirpath.parts}
-    return any(part in SKIP_DIRS for part in parts)
+def rel_url(path: Path) -> str:
+    rel = path.relative_to(ROOT).as_posix()
+    return f"{GH_BLOB_BASE}/{rel}"
 
-def collect_tagged_files():
-    tagged = []  # (relpath, tags)
-    for root, dirs, files in os.walk(REPO):
-        root_p = pathlib.Path(root)
-        # prune directories in-place
-        dirs[:] = [d for d in dirs if d not in SKIP_DIRS]
-        if should_skip_dir(root_p):
+def collect_notes(includes: List[str]) -> List[Dict]:
+    results: List[Dict] = []
+    for inc in includes:
+        base = ROOT / inc
+        if not base.exists():
             continue
-        for f in files:
-            if not f.lower().endswith(".md"): 
+        for p in base.rglob("*.md"):
+            if should_skip(p):
                 continue
-            rel = (root_p / f).relative_to(REPO)
             try:
-                text = (root_p / f).read_text(encoding="utf-8", errors="ignore")
+                text = p.read_text(encoding="utf-8", errors="ignore")
             except Exception:
-                continue
-            tags = extract_tags(text)
-            if tags:
-                tagged.append((rel.as_posix(), tags))
-    return tagged
+                text = ""
+            title = first_title_from_markdown(text) or p.stem.replace("_", " ").strip()
+            ts = get_git_mtime(p)
+            results.append({
+                "path": p,
+                "title": title,
+                "ts": ts,
+                "url": rel_url(p),
+            })
+    # newest first
+    results.sort(key=lambda d: d["ts"], reverse=True)
+    return results
 
-def build_index(title, pairs):
+def write_index(out_name: str, label: str, items: List[Dict]) -> None:
+    out_path = ROOT / out_name
     now = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
-    out = [f"# {title}\n",
-           f"_Auto-generated from tags · Last updated: **{now}**_\n",
-           "\n---\n"]
-    # Group by top-level folder for neatness
-    by_folder = {}
-    for path, tags in sorted(pairs, key=lambda x: x[0].lower()):
-        top = path.split("/", 1)[0] if "/" in path else "."
-        by_folder.setdefault(top, []).append((path, tags))
-    for folder in sorted(by_folder):
-        out.append(f"\n## {folder}\n")
-        for path, tags in by_folder[folder]:
-            tag_str = ", ".join(sorted(tags))
-            # repo-relative link
-            out.append(f"- [{path}]({MD_LINK_BASE}{path})  \n  <sub>tags: {tag_str}</sub>")
-    out.append("\n")
-    return "\n".join(out)
+    lines = [
+        f"# {label} — Recent Notes",
+        "",
+        f"_Auto-generated • Updated {now}_",
+        "",
+    ]
+    for d in items:
+        date = datetime.utcfromtimestamp(d["ts"]).strftime("%Y-%m-%d") if d["ts"] else "—"
+        lines.append(f"- **{date}** — [{d['title']}]({d['url']})")
+    lines.append("")  # final newline
+    out_path.write_text("\n".join(lines), encoding="utf-8")
 
 def main():
-    tagged = collect_tagged_files()
-    if not tagged:
-        print("No tagged files found; generating empty tier indexes.")
-    # invert into buckets
-    for outfile, accepted in TIERS.items():
-        members = [(p, t & accepted) for (p, t) in tagged if (t & accepted)]
-        title = outfile.replace("_", " ").replace(".md", "")
-        content = build_index(title, members)
-        (REPO / outfile).write_text(content, encoding="utf-8")
-        print(f"Wrote {outfile} with {len(members)} entries.")
-    print("Done.")
+    for label, out_file, includes in CATEGORIES:
+        notes = collect_notes(includes)
+        write_index(out_file, label, notes)
 
 if __name__ == "__main__":
-    sys.exit(main())
+    main()
