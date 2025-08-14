@@ -1,10 +1,10 @@
-name: Build Quicklinks + Redirects
+name: Build Quicklinks + Redirects (updated)
 
 on:
   push:
     branches: [ "main" ]
   schedule:
-    - cron: "33 7 * * *"   # daily at 07:33 UTC
+    - cron: "33 7 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -24,7 +24,11 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Generate quicklinks + redirects
+      - name: Generate quicklinks + redirects (with debug)
+        env:
+          QL_TOP_N: "8"
+          QL_DAYS_WINDOW: "14"
+          QL_DEBUG: "1"
         run: python generate_quicklinks.py
 
       - name: Commit changes (if any)

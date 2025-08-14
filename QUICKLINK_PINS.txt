@@ -1,3 +1,1 @@
 # List paths (relative) to force-pin in quicklinks, one per line.
-# Example:
-# 01 – Game Bible/Core Vision/2025-08-14_CORE_Vision_Goals_v1.md

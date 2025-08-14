@@ -1,32 +1,22 @@
 #!/usr/bin/env python3
 """
-generate_quicklinks.py
-Auto-builds:
-- AI_QUICKLINKS.md (top N most "active/important" notes)
-- Injects a Quicklinks block into AI_INDEX.md (between markers)
-- Updates Netlify `_redirects` with short paths (/quick, /core, /systems, /lore, /rd)
-
-Scoring heuristic (privacy-friendly):
-- pin bonus: +10_000 if path listed in QUICKLINK_PINS.txt
-- hot frontmatter in YAML: +500
-- commits in last 14 days: +2 each
-- recency bonus for last commit:
-    <=1 day: +10
-    <=3 days: +6
-    <=7 days: +4
-    <=14 days: +2
-    else: +0
+generate_quicklinks.py (updated)
+- Stronger git scoring (robust --since handling)
+- Better last-commit timestamp handling
+- Optional DEBUG output of top-N scores to Action logs
+- Same outputs: AI_QUICKLINKS.md, AI_INDEX.md quicklinks block, _redirects
 """
 
-import os, re, subprocess, shlex, time, urllib.parse
-from datetime import datetime, timedelta
+import os, re, subprocess, shlex, time, urllib.parse, sys
+from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(os.getcwd())
 
-# configuration
-TOP_N = 8
-DAYS_WINDOW = 14
+# ====== CONFIG ======
+TOP_N = int(os.environ.get("QL_TOP_N", "8"))
+DAYS_WINDOW = int(os.environ.get("QL_DAYS_WINDOW", "14"))
+DEBUG = os.environ.get("QL_DEBUG", "1") == "1"  # set to "0" to silence debug
 MARKER_START = "<!-- QUICKLINKS:START -->"
 MARKER_END   = "<!-- QUICKLINKS:END -->"
 
@@ -37,7 +27,6 @@ PINS_FILE = ROOT / "QUICKLINK_PINS.txt"
 
 def list_files(root: Path):
     for dirpath, dirnames, filenames in os.walk(root):
-        # prune ignored dirs
         dirnames[:] = [d for d in dirnames if d not in IGNORE_DIRS]
         for name in filenames:
             if Path(name).suffix.lower() in EXTS:
@@ -52,37 +41,34 @@ def git(*args, check=True):
     return res.stdout
 
 def last_commit_ts(relpath: Path):
+    """UTC epoch seconds of the last commit touching this file; 0 if none."""
     try:
-        out = git("log", "-1", "--format=%ct", "--", str(relpath))
-        out = out.strip()
-        return int(out) if out else 0
-    except RuntimeError:
+        out = git("log", "-1", "--format=%ct", "--", str(relpath), check=False).strip()
+        return int(out) if out.isdigit() else 0
+    except Exception:
         return 0
 
-def commits_in_window(relpath: Path, days=14):
-    since = f"--since={days}.days"
+def commits_in_window(relpath: Path, days=DAYS_WINDOW):
+    """
+    Count commits touching this file in the last N days.
+    Use a portable --since format and count commit hashes.
+    """
     try:
-        out = git("log", since, "--name-only", "--pretty=", "--", str(relpath), check=False)
-        # Count appearances of exactly this relpath line
-        cnt = 0
-        for line in out.splitlines():
-            if line.strip() == str(relpath).replace("\\","/"):
-                cnt += 1
-        return cnt
-    except RuntimeError:
+        since_arg = f"--since={days} days ago"
+        out = git("log", since_arg, "--pretty=%H", "--", str(relpath), check=False)
+        return len([ln for ln in out.splitlines() if ln.strip()])
+    except Exception:
         return 0
 
 _fr_re = re.compile(r"^---\s*(.*?)\s*---", re.S)
 def has_hot_frontmatter(abspath: Path):
     try:
-        # Only read first ~8KB for speed
         with open(abspath, "r", encoding="utf-8", errors="ignore") as f:
-            head = f.read(8192)
+            head = f.read(8192)  # read small header chunk
         m = _fr_re.match(head)
         if not m:
             return False
         block = m.group(1)
-        # naive parse for "hot: true"
         for line in block.splitlines():
             if line.strip().lower().startswith("hot:"):
                 val = line.split(":",1)[1].strip().lower()
@@ -101,12 +87,11 @@ def load_pins():
             pins.add(line.replace("\\","/"))
     return pins
 
-def score_file(relpath: Path):
-    # Base on activity + recency + frontmatter + pins
+def score_file(relpath: Path, pins_cache):
     abspath = ROOT / relpath
     s = 0.0
-    # pins
-    if str(relpath).replace("\\","/") in load_pins():
+    # pin bonus
+    if str(relpath).replace("\\","/") in pins_cache:
         s += 10000
     # hot frontmatter
     if has_hot_frontmatter(abspath):
@@ -114,7 +99,7 @@ def score_file(relpath: Path):
     # commits in window
     c = commits_in_window(relpath, DAYS_WINDOW)
     s += c * 2
-    # recency bonus by age
+    # recency bonus
     ts = last_commit_ts(relpath)
     if ts:
         delta_days = (time.time() - ts) / 86400.0
@@ -122,7 +107,7 @@ def score_file(relpath: Path):
         elif delta_days <= 3: s += 6
         elif delta_days <= 7: s += 4
         elif delta_days <= 14: s += 2
-    return s
+    return s, c, ts
 
 def encode_url_path(relpath: Path):
     parts = str(relpath).replace("\\","/").split("/")
@@ -130,25 +115,28 @@ def encode_url_path(relpath: Path):
     return "/" + enc
 
 def build_quicklinks(files):
-    # Score & sort
+    pins_cache = load_pins()
     scored = []
     for rp in files:
         try:
-            s = score_file(rp)
-            scored.append((s, rp))
+            s, c, ts = score_file(rp, pins_cache)
+            scored.append((s, rp, c, ts))
         except Exception as e:
-            # ignore problematic files
+            if DEBUG:
+                print(f"[WARN] scoring failed for {rp}: {e}")
             continue
+    # Sort by score desc, then path
     scored.sort(key=lambda x: (-(x[0]), str(x[1]).lower()))
-    return [rp for _, rp in scored[:TOP_N]]
+    return scored
 
-def write_ai_quicklinks(paths):
+def write_ai_quicklinks(scored):
+    top = scored[:TOP_N]
     lines = []
     lines.append("# AI Quicklinks")
     lines.append("")
     lines.append("_Auto-generated; top active notes based on pins, hot frontmatter, recency, and recent edits._")
     lines.append("")
-    for rp in paths:
+    for s, rp, c, ts in top:
         url = encode_url_path(rp)
         title = rp.name
         lines.append(f"- [{title}]({url})")
@@ -156,58 +144,51 @@ def write_ai_quicklinks(paths):
     out = ROOT / "AI_QUICKLINKS.md"
     old = out.read_text(encoding="utf-8", errors="ignore") if out.exists() else ""
     new = "\n".join(lines)
-    if new.strip() != old.strip():
+    changed = new.strip() != old.strip()
+    if changed:
         out.write_text(new, encoding="utf-8")
-        return True
-    return False
+    return changed
 
-def update_ai_index_quicklinks(paths):
+def update_ai_index_quicklinks(scored):
     idx = ROOT / "AI_INDEX.md"
     if not idx.exists():
         return False
-    content = idx.read_text(encoding="utf-8", errors="ignore")
+    top = scored[:TOP_N]
     block_lines = ["## Quicklinks", "", MARKER_START]
-    for rp in paths:
+    for s, rp, c, ts in top:
         url = encode_url_path(rp)
         block_lines.append(f"- [{rp.name}]({url})")
     block_lines.append(MARKER_END)
     block_lines.append("")
     block = "\n".join(block_lines)
 
+    content = idx.read_text(encoding="utf-8", errors="ignore")
     if MARKER_START in content and MARKER_END in content:
-        # replace existing
         pre, rest = content.split(MARKER_START, 1)
         inside, post = rest.split(MARKER_END, 1)
         new_content = pre + block + post
     else:
-        # prepend at top
         new_content = block + "\n" + content
 
-    if new_content.strip() != content.strip():
+    changed = new_content.strip() != content.strip()
+    if changed:
         idx.write_text(new_content, encoding="utf-8")
-        return True
-    return False
+    return changed
 
-def pick_top_under(prefix):
-    # pick the highest-scored file under a path prefix
-    prefix = prefix.replace("\\","/")
-    candidates = [p for p in list_files(ROOT) if str(p).replace("\\","/").startswith(prefix)]
-    if not candidates:
-        return None
+def pick_top_under(prefix, scored):
+    pref = prefix.replace("\\","/")
     best = None
-    best_s = -1e9
-    for p in candidates:
-        s = score_file(p)
-        if s > best_s:
-            best_s, best = s, p
+    best_s = -1e18
+    for s, rp, c, ts in scored:
+        if str(rp).replace("\\","/").startswith(pref):
+            if s > best_s:
+                best_s, best = s, rp
     return best
 
-def update_redirects(quick_paths):
+def update_redirects(scored):
     mapping = {}
-    # Always map /quick to AI_QUICKLINKS.md
     if (ROOT/"AI_QUICKLINKS.md").exists():
         mapping["/quick"] = "/AI_QUICKLINKS.md"
-    # Core/Systems/Lore/R&D shortcuts
     m = {
         "/core":   "01 – Game Bible/Core Vision",
         "/systems":"01 – Game Bible/Systems",
@@ -215,32 +196,40 @@ def update_redirects(quick_paths):
         "/rd":     "02 – R&D Lab/Daily Dumps",
     }
     for short, pref in m.items():
-        top = pick_top_under(pref)
+        top = pick_top_under(pref, scored)
         if top:
             mapping[short] = encode_url_path(top)
 
-    # write _redirects
-    lines = []
-    for k, v in mapping.items():
-        lines.append(f"{k}    {v}")
+    lines = [f"{k}    {v}" for k, v in mapping.items()]
     out = ROOT / "_redirects"
     old = out.read_text(encoding="utf-8", errors="ignore") if out.exists() else ""
     new = "\n".join(lines) + ("\n" if lines else "")
-    if new.strip() != old.strip():
+    changed = new.strip() != old.strip()
+    if changed:
         out.write_text(new, encoding="utf-8")
-        return True
-    return False
+    return changed
+
+def debug_dump(scored):
+    if not DEBUG:
+        return
+    print("---- QUICKLINKS DEBUG (Top 12 by score) ----")
+    for i, (s, rp, c, ts) in enumerate(scored[:12], 1):
+        age = "n/a"
+        if ts:
+            age_days = (time.time() - ts)/86400.0
+            age = f"{age_days:.1f}d ago"
+        print(f"{i:2d}. score={s:.1f}  commits14d={c:2d}  last={age:>8}  {rp}")
 
 def main():
     files = list(list_files(ROOT))
     if not files:
         print("No markdown/text files found.")
         return 0
-    quick = build_quicklinks(files)
-    ch1 = write_ai_quicklinks(quick)
-    ch2 = update_ai_index_quicklinks(quick)
-    ch3 = update_redirects(quick)
-    changed = ch1 or ch2 or ch3
+    scored = build_quicklinks(files)
+    debug_dump(scored)
+    ch1 = write_ai_quicklinks(scored)
+    ch2 = update_ai_index_quicklinks(scored)
+    ch3 = update_redirects(scored)
     print(f"Updated: quicklinks={ch1}, index={ch2}, redirects={ch3}")
     return 0
 
