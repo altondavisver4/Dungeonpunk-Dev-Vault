@@ -4,6 +4,8 @@ on:
   push:
     branches: [ "main" ]
   workflow_dispatch: {}
+  schedule:
+    - cron: "23 6 * * *"   # every day at 06:23 UTC
 
 # <-- fix #1: allow the workflow to commit/push
 permissions:
