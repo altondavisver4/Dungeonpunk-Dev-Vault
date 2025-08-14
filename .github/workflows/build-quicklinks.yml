@@ -22,13 +22,21 @@ jobs:
       - name: Python version
         run: python3 --version
 
-      - name: Generate quicklinks + redirects
+      - name: Generate quicklinks + redirects (with debug)
         env:
           QL_TOP_N: "8"
           QL_DAYS_WINDOW: "14"
           QL_DEBUG: "1"
         run: python3 generate_quicklinks.py
-
+  
+      # NEW: keep folder index pages fresh on normal edits
+      - name: Generate folder indexes (fast)
+        run: python3 generate_site_index.py
+  
+      # NEW: keep search.html timestamp fresh on normal edits
+      - name: Touch search page timestamp (fast)
+        run: python3 scripts/update_search_timestamp.py
+  
       - name: Commit changes (if any)
         env:
           BRANCH: ${{ github.ref_name }}
@@ -37,16 +45,14 @@ jobs:
           set -e
           git config user.name "quicklinks-bot"
           git config user.email "quicklinks-bot@users.noreply.github.com"
-          git config --global --add safe.directory "$GITHUB_WORKSPACE"
-
-          # Only consider these files
-          CHANGED="$(git status --porcelain | grep -E 'AI_INDEX\.md|AI_QUICKLINKS\.md|_redirects' || true)"
-          if [ -n "$CHANGED" ]; then
-            git add AI_INDEX.md || true
-            git add AI_QUICKLINKS.md _redirects || true
-            git commit -m "chore: auto-update quicklinks + redirects [skip ci]" || true
-            git push origin "HEAD:${GITHUB_REF_NAME}" --force-with-lease || true
+  
+          # Check if any of these files changed
+          CHANGED="$(git status --porcelain -- AI_INDEX.md AI_QUICKLINKS.md _redirects **/index.html search.html || true)"
+  
+          if [[ -n "$CHANGED" ]]; then
+            git add AI_INDEX.md AI_QUICKLINKS.md _redirects **/index.html search.html || true
+            git commit -m "chore: auto-update quicklinks + site indexes + search timestamp [skip ci]" || true
+            git push origin "HEAD:${BRANCH}" --force-with-lease || true
           else
-            echo "Nothing to commit."
+            echo "No changes to commit."
           fi
-

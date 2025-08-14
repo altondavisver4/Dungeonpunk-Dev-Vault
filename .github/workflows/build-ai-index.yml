@@ -26,6 +26,13 @@ jobs:
 
       - name: Generate AI_INDEX.md
         run: python generate_ai_index.py
+      # NEW: keep folder index pages fresh on normal edits
+      - name: Generate folder indexes (fast)
+        run: python3 generate_site_index.py
+  
+      # NEW: keep search.html timestamp fresh on normal edits
+      - name: Touch search page timestamp (fast)
+        run: python3 scripts/update_search_timestamp.py
 
       - name: Commit changes (if any)
         env:
