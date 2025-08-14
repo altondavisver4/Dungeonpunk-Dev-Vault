@@ -195,6 +195,8 @@
   },
   "active": "b2c367ad5a682473",
   "lastOpenFiles": [
+    "02 – R&D Lab/!Staging - Review Before Import",
+    "02 – R&D Lab/New folder",
     "_brain/ai_super_index.json",
     "README_SUPER_INDEX.md",
     "scripts/write_content_snapshot.py",
@@ -205,8 +207,6 @@
     "requirements.txt",
     "netlify.toml",
     "netlify-build.sh",
-    "health.json",
-    "health.html",
     "AI_INDEX_SYSTEMS.md",
     "AI_INDEX_RND.md",
     "AI_INDEX_LORE.md",
