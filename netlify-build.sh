@@ -22,3 +22,5 @@ python3 scripts/write_health.py
 python3 scripts/update_search_timestamp.py || true
 
 echo "Build steps finished."
+
+python3 scripts/build_sitemap.py || true
