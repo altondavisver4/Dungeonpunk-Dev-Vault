@@ -1,11 +1,15 @@
 name: Build AI Index
 
 on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - "**/*.md"
+      - "generate_ai_index.py"
+      - ".github/workflows/build-ai-index.yml"
   workflow_dispatch: {}
-
 permissions:
   contents: write
-
 concurrency:
   group: ai-index-main
   cancel-in-progress: false
