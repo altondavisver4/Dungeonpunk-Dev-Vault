@@ -7,7 +7,8 @@ on:
 
 permissions:
   contents: write
-  concurrency:
+
+concurrency:
   group: site-index-main
   cancel-in-progress: false
 
