@@ -1,0 +1,84 @@
+name: Build All (AI Index + Quicklinks + Site Index)
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - "**/*.md"
+      - "generate_ai_index.py"
+      - "generate_quicklinks.py"
+      - "generate_site_index.py"
+      - ".github/workflows/build-all.yml"
+      - "QUICKLINK_PINS.txt"
+      - "_redirects"
+  schedule:
+    - cron: "27 6 * * *"   # daily 06:27 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-all-main
+  cancel-in-progress: false
+
+jobs:
+  build-all:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (full history for git status)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Python version
+        run: python3 --version
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      # ---------- Generate all artifacts ----------
+      - name: Generate AI_INDEX.md
+        run: python3 generate_ai_index.py
+
+      - name: Generate quicklinks + redirects
+        env:
+          QL_TOP_N: "8"
+          QL_DAYS_WINDOW: "14"
+          QL_DEBUG: "0"
+        run: python3 generate_quicklinks.py
+
+      - name: Generate folder index HTMLs
+        run: python3 generate_site_index.py
+
+      # ---------- Commit once, safely ----------
+      - name: Commit & Push if anything changed
+        env:
+          BRANCH: ${{ github.ref_name }}
+        shell: bash
+        run: |
+          set -e
+          git config user.name  "build-all-bot"
+          git config user.email "build-all-bot@users.noreply.github.com"
+
+          # Stage only known outputs; fall back to -A if needed
+          git add \
+            AI_INDEX.md \
+            AI_QUICKLINKS.md \
+            _redirects \
+            **/index.html \
+            || true
+
+          # If nothing staged, try broader detection (first run, new dirs, etc.)
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore: build all (AI index, quicklinks, site index) [skip ci]" || true
+
+          # Handle races with one fast-forward pull then push --force-with-lease
+          git pull --rebase origin "${BRANCH}" || true
+          git push origin "HEAD:${BRANCH}" --force-with-lease || git push origin "HEAD:${BRANCH}" --force
