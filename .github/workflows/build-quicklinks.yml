@@ -42,20 +42,18 @@ jobs:
       - name: Commit changes (if any)
         env:
           BRANCH: ${{ github.ref_name }}
+        shell: bash
         run: |
           set -e
           git config user.name "quicklinks-bot"
           git config user.email "quicklinks-bot@users.noreply.github.com"
-          git config --global --add safe.directory "$GITHUB_WORKSPACE"
-
-          CHANGED="$(git status --porcelain | grep -E 'AI_INDEX\.md|AI_QUICKLINKS\.md|_redirects' || true)"
-          if [ -n "$CHANGED" ]; then
+      
+          # Check if any of these files changed
+          CHANGED="$(git status --porcelain -- AI_INDEX.md AI_QUICKLINKS.md _redirects || true)"
+          if [[ -n "$CHANGED" ]]; then
             git add AI_INDEX.md AI_QUICKLINKS.md _redirects || true
-            git commit -m "chore: auto-update quicklinks + redirects [skip ci]" || echo "Nothing to commit (race)."
-            -  git pull --rebase origin "${BRANCH}" || true
-            -  git push origin "HEAD:${BRANCH}"
-            +  git push origin "HEAD:${BRANCH}" --force
-            git push origin "HEAD:${BRANCH}"
+            git commit -m "chore: auto-update quicklinks + redirects [skip ci]" || true
+            git push origin "HEAD:${BRANCH}" --force
           else
             echo "No changes to commit."
           fi
