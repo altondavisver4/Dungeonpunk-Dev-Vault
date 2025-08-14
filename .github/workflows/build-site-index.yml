@@ -2,13 +2,19 @@ name: Build Site Index (fast)
 
 on:
   workflow_dispatch: {}
-  schedule:
-    - cron: "12 7 * * 1"   # optional weekly
+  push:
+    paths:
+      - "**/*.md"
+      - "generate_site_index.py"
+      - ".github/workflows/build-site-index.yml"
+
 permissions:
   contents: write
+
 concurrency:
   group: site-index-main
   cancel-in-progress: false
+
 
 jobs:
   build-site-index:
