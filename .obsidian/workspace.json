@@ -195,6 +195,7 @@
   },
   "active": "b2c367ad5a682473",
   "lastOpenFiles": [
+    "scripts/update_search_timestamp.py",
     "AI_INDEX_SYSTEMS.md",
     "AI_INDEX_RND.md",
     "AI_INDEX_LORE.md",
@@ -229,7 +230,6 @@
     "04 – Builds & Exports/Demo Scenes/2025-08-13_INDEX.md",
     "04 – Builds & Exports/Public Builds/2025-08-13_INDEX.md",
     "04 – Builds & Exports/Playtest Builds/2025-08-13_INDEX.md",
-    "04 – Builds & Exports/2025-08-13_INDEX.md",
-    "2025-08-13_ROOT_INDEX.md"
+    "04 – Builds & Exports/2025-08-13_INDEX.md"
   ]
 }
