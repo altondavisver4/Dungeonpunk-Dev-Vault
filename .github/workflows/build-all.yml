@@ -1,24 +1,17 @@
-name: Build All (Index + Quicklinks + Site + Brain)
+name: Build All (Full Rebuild)
 
 on:
-  push:
-    branches: ["main"]
-    paths:
-      - "**/*.md"
-      - "scripts/**"
-      - "generate_quicklinks.py"
-      - "generate_site_index.py"
-      - "_headers"
-      - ".github/workflows/build-all.yml"
-  schedule:
-    - cron: "27 6 * * *"   # keep the daily if you want
   workflow_dispatch: {}
+  schedule:
+    - cron: "0 9 * * 0"  # weekly, Sundays 09:00 UTC
 
 permissions:
   contents: write
+
 concurrency:
   group: build-all-main
   cancel-in-progress: false
+
 
 jobs:
   build-all:
