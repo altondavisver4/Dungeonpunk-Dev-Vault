@@ -26,20 +26,20 @@ jobs:
       - name: Generate AI_INDEX.md
         run: python generate_ai_index.py
 
-- name: Commit changes (if any)
-  env:
-    BRANCH: ${{ github.ref_name }}
-  shell: bash
-  run: |
-    set -e
-    git config user.name "ai-index-bot"
-    git config user.email "ai-index-bot@users.noreply.github.com"
-
-    # Only consider AI_INDEX.md
-    if [[ -n "$(git status --porcelain -- AI_INDEX.md)" ]]; then
-      git add AI_INDEX.md
-      git commit -m "chore: auto-update AI_INDEX.md [skip ci]" || true
-      git push origin "HEAD:${BRANCH}" --force
-    else
-      echo "No changes to commit."
-    fi
+      - name: Commit changes (if any)
+        env:
+          BRANCH: ${{ github.ref_name }}
+        shell: bash
+        run: |
+          set -e
+          git config user.name "ai-index-bot"
+          git config user.email "ai-index-bot@users.noreply.github.com"
+      
+          # Only consider AI_INDEX.md
+          if [[ -n "$(git status --porcelain -- AI_INDEX.md)" ]]; then
+            git add AI_INDEX.md
+            git commit -m "chore: auto-update AI_INDEX.md [skip ci]" || true
+            git push origin "HEAD:${BRANCH}" --force
+          else
+            echo "No changes to commit."
+          fi
