@@ -1,6 +1,19 @@
 name: Build All (Index + Quicklinks + Site + Brain)
 
 on:
+  push:
+    branches: ["main"]
+    paths:
+      - "**/*.md"
+      - "scripts/**"
+      - "generate_quicklinks.py"
+      - "generate_site_index.py"
+      - "_headers"
+      - ".github/workflows/build-all.yml"
+  schedule:
+    - cron: "27 6 * * *"   # keep the daily if you want
+  workflow_dispatch: {}
+
   schedule:
     - cron: "27 6 * * *"
   workflow_dispatch: {}
