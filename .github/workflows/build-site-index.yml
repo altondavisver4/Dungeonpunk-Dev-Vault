@@ -1,11 +1,11 @@
 name: Build Site Index (fast)
 
 on:
+  schedule:
+    - cron: "12 7 * * 1"   # Mondays 07:12 UTC
   workflow_dispatch: {}
-
 permissions:
   contents: write
-
 concurrency:
   group: site-index-main
   cancel-in-progress: false
