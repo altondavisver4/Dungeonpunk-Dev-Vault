@@ -1,17 +1,13 @@
-name: Build All (AI Index + Quicklinks + Site Index + Tags + Change Feed + Cache)
+name: Build All (Index + Quicklinks + Site + Brain)
 
 on:
   push:
     branches: [ "main" ]
     paths:
       - "**/*.md"
-      - "generate_ai_index.py"
+      - "scripts/**"
       - "generate_quicklinks.py"
       - "generate_site_index.py"
-      - "generate_tags_index.py"
-      - "generate_change_feed.py"
-      - "generate_cache_snapshot.py"
-      - "QUICKLINK_PINS.txt"
       - "_headers"
       - ".github/workflows/build-all.yml"
   schedule:
@@ -34,17 +30,13 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Python 3
-        run: python3 --version
-
-      - name: Set up Python
+      - name: Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.x"
 
-      - name: Generate AI_INDEX.md (if present)
-        run: |
-          if [ -f generate_ai_index.py ]; then python3 generate_ai_index.py; else echo "no generate_ai_index.py"; fi
+      - name: Install deps
+        run: pip install pyyaml
 
       - name: Generate Quicklinks + Redirects
         env:
@@ -53,21 +45,14 @@ jobs:
           QL_DEBUG: "0"
         run: python3 generate_quicklinks.py
 
-      - name: Generate Site Index (folder index.html files)
+      - name: Generate Folder Indexes + Root
         run: python3 generate_site_index.py
 
-      - name: Generate TAGS index
-        run: python3 generate_tags_index.py
-
-      - name: Generate CHANGE FEED
-        env:
-          CHANGE_DAYS: "14"
-        run: python3 generate_change_feed.py
-
-      - name: Generate Cache Snapshot
-        env:
-          CACHE_TOP_N: "20"
-        run: python3 generate_cache_snapshot.py
+      - name: Build Brain (export + index + search)
+        run: |
+          python3 scripts/export_brain.py
+          python3 scripts/build_ai_index.py
+          python3 scripts/build_search_page.py
 
       - name: Commit & Push (single commit)
         env:
@@ -79,14 +64,11 @@ jobs:
           git config user.email "build-all-bot@users.noreply.github.com"
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
 
-          # Stage known outputs first
-          git add             AI_INDEX.md             AI_QUICKLINKS.md             CHANGE_FEED.md             TAGS_INDEX.md             tags/*.md             cache.html             _headers             _redirects             **/index.html 2>/dev/null || true
-
+          git add AI_INDEX.md AI_QUICKLINKS.md _redirects _headers **/index.html _brain/*.json _brain/*.gz search.html || true
           if [ -z "$(git status --porcelain)" ]; then
             echo "No changes to commit."
             exit 0
           fi
-
-          git commit -m "chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci]" || true
-          git pull --rebase origin "${BRANCH}" || true
-          git push origin "HEAD:${BRANCH}" --force-with-lease || git push origin "HEAD:${BRANCH}" --force
+          git commit -m "chore: build all (site, quicklinks, brain export/index/search) [skip ci]" || true
+          git pull --rebase origin "$BRANCH" || true
+          git push origin "HEAD:$BRANCH" --force-with-lease || git push origin "HEAD:$BRANCH" --force

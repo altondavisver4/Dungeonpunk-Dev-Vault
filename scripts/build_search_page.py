@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+from pathlib import Path
+ROOT = Path(__file__).resolve().parents[1]
+PAGE = ROOT / "search.html"
+HTML = """<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Vault Search</title>
+<style>:root{--bg:#0b0c0f;--fg:#e9eef5;--muted:#9aa6b2;--card:#141821}body{background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;margin:0}main{max-width:900px;margin:40px auto;padding:0 20px 80px}h1{margin:.2rem 0 .6rem}.card{background:var(--card);border-radius:16px;padding:22px}input{width:100%;padding:12px;border-radius:12px;border:1px solid #2a3240;background:#0f1115;color:#e9eef5}small{color:var(--muted)}a{color:#8ad;text-decoration:none}a:hover{text-decoration:underline}.result{margin:12px 0;padding:12px;border-radius:12px;background:#10141b}.k{font-size:13px;color:#cbd5e1}</style>
+<body><main><h1>Vault Search</h1><p class="k">Client-side search on the exported index.</p><div class="card"><input id="q" placeholder="type to search… (title, path, tags, summary)"><div id="out"></div></div><p><small>Index loads from <code>/_brain/search_index.json</code>.</small></p></main>
+<script>
+async function loadIndex(){ const r=await fetch('/_brain/search_index.json',{cache:'no-store'}); return await r.json();}
+function esc(s){return (s||'').replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
+function h(str,q){if(!q) return esc(str); const re=new RegExp('('+q.replace(/[.*+?^${}()|[\\]\\\\]/g,'\\\\$&')+')','ig'); return esc(str).replace(re,'<mark>$1</mark>');}
+(async function(){ const data=await loadIndex(); const out=document.getElementById('out'); const q=document.getElementById('q'); function render(list,needle){ out.innerHTML=list.slice(0,80).map(d=>{ const url='/' + encodeURI(d.p).replace(/%5C/g, '/'); const tags=(d.g||[]).map(x=>'<code>#'+esc(x)+'</code>').join(' '); return `<div class="result"><div><a href="${url}">${h(d.t,needle)}</a> — <small>${h(d.p,needle)}</small></div><div class="k">${tags}</div><div>${h(d.s,needle)}</div></div>`; }).join(''); } q.addEventListener('input',()=>{ const needle=q.value.trim(); if(!needle){ out.innerHTML=''; return;} const n=needle.toLowerCase(); const hits=data.filter(d=> (d.t||'').toLowerCase().includes(n)||(d.p||'').toLowerCase().includes(n)||(d.s||'').toLowerCase().includes(n)||(d.g||[]).join(' ').toLowerCase().includes(n)); render(hits,needle); }); })();</script></body>
+"""
+if __name__=="__main__":
+    PAGE.write_text(HTML, encoding="utf-8"); print("Wrote search.html")
