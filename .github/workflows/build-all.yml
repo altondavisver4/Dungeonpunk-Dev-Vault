@@ -40,11 +40,23 @@ jobs:
       - name: Generate Folder Indexes + Root
         run: python3 generate_site_index.py
 
+      - name: Build Super Index (unified + link graph)
+        run: python3 scripts/build_super_index.py
+
       - name: Build Brain (export + index + search)
         run: |
           python3 scripts/export_brain.py
           python3 scripts/build_ai_index.py
           python3 scripts/build_search_page.py
+
+      - name: Write content snapshot (jsonl.gz)
+        run: python3 scripts/write_content_snapshot.py
+
+      - name: Update search page timestamp (fast)
+        run: python3 scripts/update_search_timestamp.py
+      
+      - name: Write health endpoints
+        run: python3 scripts/write_health.py
 
       - name: Generate tiered indexes (core/systems/lore/rnd)
         run: python3 scripts/generate_tiered_indexes.py
@@ -60,7 +72,7 @@ jobs:
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
 
           # Always add the “known” files
-          git add AI_INDEX.md AI_QUICKLINKS.md _redirects _headers **/index.html _brain/*.json _brain/*.gz search.html
+          git add AI_INDEX.md AI_QUICKLINKS.md _redirects _headers **/index.html _brain/*.json _brain/*.gz search.html health.html health.json
           
           # Add the tiered index files only if any exist (prevents pathspec errors)
           TIER_FILES=$(ls *_TIER_*_INDEX.md 2>/dev/null || true)
