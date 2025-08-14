@@ -1,0 +1,8 @@
+[build]
+  command = "bash netlify-build.sh"
+  publish = "."
+
+# Optional: faster rebuilds by skipping if only non-site files changed.
+# Comment out if you prefer every push to deploy.
+# [build.ignore]
+#   command = "git diff --quiet HEAD^ HEAD -- ."
