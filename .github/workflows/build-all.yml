@@ -54,6 +54,9 @@ jobs:
           python3 scripts/build_ai_index.py
           python3 scripts/build_search_page.py
 
+      - name: Generate tiered indexes (core/systems/lore/rnd)
+        run: python3 scripts/generate_tiered_indexes.py
+
       - name: Commit & Push (single commit)
         env:
           BRANCH: ${{ github.ref_name }}
