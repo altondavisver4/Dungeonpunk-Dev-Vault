@@ -195,6 +195,10 @@
   },
   "active": "b2c367ad5a682473",
   "lastOpenFiles": [
+    "AI_INDEX_SYSTEMS.md",
+    "AI_INDEX_RND.md",
+    "AI_INDEX_LORE.md",
+    "AI_INDEX_CORE.md",
     "scripts/generate_tiered_indexes.py",
     "search.html",
     "_brain/search_index.json.gz",
@@ -205,7 +209,6 @@
     "_brain/ai_brain.json",
     "_brain",
     "scripts/build_search_page.py",
-    "scripts/build_ai_index.py",
     "tags/tag.md",
     "TAGS_INDEX.md",
     "CHANGE_FEED.md",
@@ -227,9 +230,6 @@
     "04 – Builds & Exports/Public Builds/2025-08-13_INDEX.md",
     "04 – Builds & Exports/Playtest Builds/2025-08-13_INDEX.md",
     "04 – Builds & Exports/2025-08-13_INDEX.md",
-    "2025-08-13_ROOT_INDEX.md",
-    "05 – References & Tools/Tool Guides/2025-08-13_INDEX.md",
-    "05 – References & Tools/Scripts & Code Snippets/2025-08-13_INDEX.md",
-    "05 – References & Tools/Rulebooks & PDFs/2025-08-13_INDEX.md"
+    "2025-08-13_ROOT_INDEX.md"
   ]
 }
