@@ -44,12 +44,13 @@ jobs:
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
 
           # Only consider these files
-          CHANGED="$(git status --porcelain -- AI_INDEX.md AI_QUICKLINKS.md _redirects)"
+          CHANGED="$(git status --porcelain | grep -E 'AI_INDEX\.md|AI_QUICKLINKS\.md|_redirects' || true)"
           if [ -n "$CHANGED" ]; then
-            git add AI_INDEX.md AI_QUICKLINKS.md _redirects
+            git add AI_INDEX.md || true
+            git add AI_QUICKLINKS.md _redirects || true
             git commit -m "chore: auto-update quicklinks + redirects [skip ci]" || true
-            git pull --rebase origin "$BRANCH" || true
-            git push origin "HEAD:${BRANCH}" --force
+            git push origin "HEAD:${GITHUB_REF_NAME}" --force-with-lease || true
           else
-            echo "No changes to commit."
+            echo "Nothing to commit."
           fi
+
