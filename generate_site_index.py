@@ -4,7 +4,7 @@ from pathlib import Path
 
 ROOT = Path(os.getcwd())
 IGNORE = {'.git', '.github', '.obsidian', '__pycache__', 'node_modules', 'dist', 'build'}
-TEXT_EXTS = {'.md', '.markdown', '.txt'}
+TEXT_EXTS = {'.md', '.markdown', '.txt', '.html'}
 
 def list_dirs_with_text(root: Path):
     keep = set()

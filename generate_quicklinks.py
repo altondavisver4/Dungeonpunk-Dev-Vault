@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import os, re, subprocess, shlex, time, urllib.parse, sys
+import os, re, subprocess, shlex, time, urllib.parse
 from pathlib import Path
 
 ROOT = Path(os.getcwd())
@@ -12,7 +12,10 @@ MARKER_END   = "<!-- QUICKLINKS:END -->"
 
 PINS_FILE = ROOT / "QUICKLINK_PINS.txt"
 EXTS = (".md", ".markdown", ".txt")
-IGNORE = {".git", ".github", ".obsidian", "node_modules", "dist", "build", "__pycache__"}
+IGNORE = {".git", ".github", ".obsidian", "node_modules", "dist", "build", "__pycache__", "tags"}
+
+OWNER_REPO = os.environ.get("GITHUB_REPOSITORY", "")  # e.g. "altondavisver4/Dungeonpunk-Dev-Vault"
+DEFAULT_BRANCH = os.environ.get("GITHUB_REF_NAME", "main") or "main"
 
 def git(*args, check=True):
     cmd = "git " + " ".join(shlex.quote(a) for a in args)
@@ -25,9 +28,10 @@ def tracked_text_files():
     out = git("ls-files", check=True)
     files = []
     for line in out.splitlines():
-        if not line: continue
         lp = line.strip()
-        if any(part in IGNORE for part in Path(lp).parts):
+        if not lp: continue
+        parts = Path(lp).parts
+        if any(part in IGNORE for part in parts):
             continue
         if Path(lp).suffix.lower() in EXTS:
             files.append(Path(lp))
@@ -86,11 +90,24 @@ def enc(rel: Path):
     parts = str(rel).replace("\\","/").split("/")
     return "/" + "/".join(urllib.parse.quote(p, safe="()&-._~ ").replace(" ", "%20") for p in parts)
 
+def raw(rel: Path):
+    # https://raw.githubusercontent.com/<owner>/<repo>/<branch>/<path>
+    if not OWNER_REPO:
+        return None
+    return "https://raw.githubusercontent.com/{}/{}/{}".format(
+        OWNER_REPO, DEFAULT_BRANCH, urllib.parse.quote(str(rel).replace("\\","/"))
+    )
+
 def write_quicklinks(scored):
     top = scored[:TOP_N]
     lines = ["# AI Quicklinks", "", "_Auto-generated; top active notes._", ""]
     for s, rp, c, ts in top:
-        lines.append(f"- [{rp.name}]({enc(rp)})")
+        read_url = enc(rp)
+        raw_url = raw(rp)
+        if raw_url:
+            lines.append(f"- [{rp.name}]({read_url}) · [Raw]({raw_url})")
+        else:
+            lines.append(f"- [{rp.name}]({read_url})")
     body = "\n".join(lines) + "\n"
     out = ROOT / "AI_QUICKLINKS.md"
     old = out.read_text("utf-8") if out.exists() else ""
@@ -105,7 +122,12 @@ def update_index_block(scored):
     top = scored[:TOP_N]
     block = ["## Quicklinks", "", MARKER_START]
     for s, rp, c, ts in top:
-        block.append(f"- [{rp.name}]({enc(rp)})")
+        read_url = enc(rp)
+        raw_url = raw(rp)
+        if raw_url:
+            block.append(f"- [{rp.name}]({read_url}) · [Raw]({raw_url})")
+        else:
+            block.append(f"- [{rp.name}]({read_url})")
     block.append(MARKER_END)
     block.append("")
     block_text = "\n".join(block)

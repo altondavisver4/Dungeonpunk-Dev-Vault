@@ -1,2 +1,3 @@
 /*
+  Cache-Control: public, max-age=600
   X-Robots-Tag: noindex, nofollow

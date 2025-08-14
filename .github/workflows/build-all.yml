@@ -1,4 +1,4 @@
-name: Build All (AI Index + Quicklinks + Site Index)
+name: Build All (AI Index + Quicklinks + Site Index + Tags + Change Feed + Cache)
 
 on:
   push:
@@ -8,11 +8,14 @@ on:
       - "generate_ai_index.py"
       - "generate_quicklinks.py"
       - "generate_site_index.py"
-      - ".github/workflows/build-all.yml"
+      - "generate_tags_index.py"
+      - "generate_change_feed.py"
+      - "generate_cache_snapshot.py"
       - "QUICKLINK_PINS.txt"
-      - "_redirects"
+      - "_headers"
+      - ".github/workflows/build-all.yml"
   schedule:
-    - cron: "27 6 * * *"   # daily 06:27 UTC
+    - cron: "27 6 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -26,12 +29,12 @@ jobs:
   build-all:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout (full history for git status)
+      - name: Checkout (full history)
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Python version
+      - name: Python 3
         run: python3 --version
 
       - name: Set up Python
@@ -39,22 +42,34 @@ jobs:
         with:
           python-version: "3.x"
 
-      # ---------- Generate all artifacts ----------
-      - name: Generate AI_INDEX.md
-        run: python3 generate_ai_index.py
+      - name: Generate AI_INDEX.md (if present)
+        run: |
+          if [ -f generate_ai_index.py ]; then python3 generate_ai_index.py; else echo "no generate_ai_index.py"; fi
 
-      - name: Generate quicklinks + redirects
+      - name: Generate Quicklinks + Redirects
         env:
           QL_TOP_N: "8"
           QL_DAYS_WINDOW: "14"
           QL_DEBUG: "0"
         run: python3 generate_quicklinks.py
 
-      - name: Generate folder index HTMLs
+      - name: Generate Site Index (folder index.html files)
         run: python3 generate_site_index.py
 
-      # ---------- Commit once, safely ----------
-      - name: Commit & Push if anything changed
+      - name: Generate TAGS index
+        run: python3 generate_tags_index.py
+
+      - name: Generate CHANGE FEED
+        env:
+          CHANGE_DAYS: "14"
+        run: python3 generate_change_feed.py
+
+      - name: Generate Cache Snapshot
+        env:
+          CACHE_TOP_N: "20"
+        run: python3 generate_cache_snapshot.py
+
+      - name: Commit & Push (single commit)
         env:
           BRANCH: ${{ github.ref_name }}
         shell: bash
@@ -62,23 +77,16 @@ jobs:
           set -e
           git config user.name  "build-all-bot"
           git config user.email "build-all-bot@users.noreply.github.com"
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
 
-          # Stage only known outputs; fall back to -A if needed
-          git add \
-            AI_INDEX.md \
-            AI_QUICKLINKS.md \
-            _redirects \
-            **/index.html \
-            || true
+          # Stage known outputs first
+          git add             AI_INDEX.md             AI_QUICKLINKS.md             CHANGE_FEED.md             TAGS_INDEX.md             tags/*.md             cache.html             _headers             _redirects             **/index.html 2>/dev/null || true
 
-          # If nothing staged, try broader detection (first run, new dirs, etc.)
           if [ -z "$(git status --porcelain)" ]; then
             echo "No changes to commit."
             exit 0
           fi
 
-          git commit -m "chore: build all (AI index, quicklinks, site index) [skip ci]" || true
-
-          # Handle races with one fast-forward pull then push --force-with-lease
+          git commit -m "chore: build all (index, quicklinks, tags, change feed, cache, site index) [skip ci]" || true
           git pull --rebase origin "${BRANCH}" || true
           git push origin "HEAD:${BRANCH}" --force-with-lease || git push origin "HEAD:${BRANCH}" --force
