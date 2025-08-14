@@ -195,6 +195,7 @@
   },
   "active": "b2c367ad5a682473",
   "lastOpenFiles": [
+    "scripts/build_sitemap.py",
     "404.html",
     "requirements.txt",
     "netlify.toml",
@@ -209,7 +210,6 @@
     "AI_INDEX_CORE.md",
     "scripts/generate_tiered_indexes.py",
     "search.html",
-    "_brain/search_index.json.gz",
     "tags/tag.md",
     "TAGS_INDEX.md",
     "CHANGE_FEED.md",
