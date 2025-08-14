@@ -1,22 +1,11 @@
 name: Build All (Index + Quicklinks + Site + Brain)
 
 on:
-  push:
-    branches: [ "main" ]
-    paths:
-      - "**/*.md"
-      - "scripts/**"
-      - "generate_quicklinks.py"
-      - "generate_site_index.py"
-      - "_headers"
-      - ".github/workflows/build-all.yml"
   schedule:
     - cron: "27 6 * * *"
   workflow_dispatch: {}
-
 permissions:
   contents: write
-
 concurrency:
   group: build-all-main
   cancel-in-progress: false
