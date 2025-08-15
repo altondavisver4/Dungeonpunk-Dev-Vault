@@ -2,19 +2,25 @@
 title: Mechanics – “Everything is a Monster” OSR Philosophy
 type: mechanic
 status: locked
-tags: [mechanic, locked, osr, unification]
-aliases: [Everything Is A Monster]
+tags: [mechanic, osr, philosophy]
+created: 2025-08-15
+updated: 2025-08-15
 ---
 
 # Mechanics – “Everything is a Monster” OSR Philosophy
 
-**Premise**  
-Treat all entities—people, places, factions, ideas—as mechanically addressable "monsters" with stress tracks and aspects.
+**Purpose**  
+Unify all game entities (monsters, NPCs, items, concepts) under a single mechanical framework. Every "thing" in the game is a "monster" with attributes, stress tracks, and behavior cards.
 
-**Benefits**
-- Unified interaction model → fewer bespoke subsystems.
-- Enables the [[Procedural – Codex as Quest Generator (concept)]] approach.
-- Harmonizes with FATE-PF2E hybrid and OSR sensibilities.
+**Summary**  
+This approach ensures absolute systemic consistency — combat rules, progress clocks, and interactions apply equally to a political faction, a locked door, or a goblin.  
+It simplifies AI-driven narrative generation and allows procedural tools to resolve any conflict or encounter in the same way.
 
-**Interfaces**
-- Cross-support with [[Mechanics – FATE–PF2E Hybrid Framework (draft)]].
+**Core Principles**  
+- Every entity has hit points/stress equivalent.  
+- Every entity can be targeted by the four FATE actions (Overcome, Create Advantage, Attack, Defend).  
+- Every entity has aspects and behaviors.  
+- All systems, from dialogue to siege warfare, are driven by this universal logic.
+
+**Cross-links**  
+- [[Procedural – Unified Action Loop (draft)]]  
