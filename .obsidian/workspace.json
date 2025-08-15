@@ -195,6 +195,11 @@
   },
   "active": "b2c367ad5a682473",
   "lastOpenFiles": [
+    "AI Brain Admin/Playbooks/00 – Retrieval Playbook (v1.0).md",
+    "AI Brain Admin/Queries/Dataview – Status & Type dashboards.md",
+    "AI Brain Admin/Queries/Search Macros – Fast Retrieval.md",
+    "AI Brain Admin/Playbooks",
+    "AI Brain Admin/Queries",
     "01 – Game Bible/World & Lore/Lore – Fighter Class Interpretation (locked).md",
     "AI Brain Admin/AI Brain – Memory OS Protocol (v1.0).md",
     "02 – R&D Lab/!Staging - Review Before Import/AI Brain – Memory OS Protocol (skeleton).md",
@@ -221,15 +226,10 @@
     "02 – R&D Lab/!Staging - Review Before Import/Mechanics/Mechanics – Behavior Card System (draft).md",
     "02 – R&D Lab/!Staging - Review Before Import/Presentation/Presentation – First-Person Grid-Based Movement (locked).md",
     "02 – R&D Lab/!Staging - Review Before Import/Systems/Systems – Monster-Actor Knowledge Management Sketch (draft).md",
-    "02 – R&D Lab/!Staging - Review Before Import/Presentation/Presentation – Live2D Paper Doll Characters (locked).md",
-    "02 – R&D Lab/!Staging - Review Before Import/Systems/Systems – OSR Engagement Checks (locked).md",
-    "02 – R&D Lab/!Staging - Review Before Import/Presentation/Presentation – Limited On-Screen Character Count (locked).md",
     "02 – R&D Lab/!Staging - Review Before Import/Presentation",
     "02 – R&D Lab/!Staging - Review Before Import/Procedural",
     "02 – R&D Lab/!Staging - Review Before Import/Mechanics",
     "02 – R&D Lab/!Staging - Review Before Import/Systems",
-    "AI Brain Admin",
-    "02 – R&D Lab/!Staging - Review Before Import",
-    "02 – R&D Lab/New folder"
+    "AI Brain Admin"
   ]
 }
