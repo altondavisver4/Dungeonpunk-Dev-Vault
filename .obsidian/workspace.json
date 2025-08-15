@@ -69,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "everything is a",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,8 +90,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -196,8 +195,9 @@
   },
   "active": "d860e1971df0b8ec",
   "lastOpenFiles": [
-    "AI_INDEX.md",
+    "02 – R&D Lab/!Staging - Review Before Import/Mechanics/Mechanics – “Everything is a Monster” OSR Philosophy (locked).md",
     "AI Brain Admin/Playbooks/00 – Retrieval Playbook (v1.0).md",
+    "AI_INDEX.md",
     "01 – Game Bible/World & Lore/Lore – Fighter Class Interpretation (locked).md",
     "AI Brain Admin/Queries/Dataview – Status & Type dashboards.md",
     "AI Brain Admin/Queries/Search Macros – Fast Retrieval.md",
@@ -226,7 +226,6 @@
     "02 – R&D Lab/!Staging - Review Before Import/Mechanics/Mechanics – Universal Narrative RNG Doctrine + Roll Interpreter Module (locked).md",
     "02 – R&D Lab/!Staging - Review Before Import/Procedural/Procedural – One Machine Storyteller Engine (draft).md",
     "02 – R&D Lab/!Staging - Review Before Import/Mechanics/Mechanics – Behavior Card System (draft).md",
-    "02 – R&D Lab/!Staging - Review Before Import/Presentation/Presentation – First-Person Grid-Based Movement (locked).md",
     "02 – R&D Lab/!Staging - Review Before Import/Presentation",
     "02 – R&D Lab/!Staging - Review Before Import/Procedural",
     "02 – R&D Lab/!Staging - Review Before Import/Mechanics",
