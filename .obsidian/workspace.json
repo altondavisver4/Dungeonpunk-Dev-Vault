@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI_INDEX.md",
+                "file": "AI Brain Admin/Playbooks/00 – Retrieval Playbook (v1.0).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI_INDEX"
+              "title": "00 – Retrieval Playbook (v1.0)"
             }
           }
         ]
@@ -69,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "everything is a",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -193,14 +194,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b2c367ad5a682473",
+  "active": "d860e1971df0b8ec",
   "lastOpenFiles": [
+    "AI_INDEX.md",
     "AI Brain Admin/Playbooks/00 – Retrieval Playbook (v1.0).md",
+    "01 – Game Bible/World & Lore/Lore – Fighter Class Interpretation (locked).md",
     "AI Brain Admin/Queries/Dataview – Status & Type dashboards.md",
     "AI Brain Admin/Queries/Search Macros – Fast Retrieval.md",
     "AI Brain Admin/Playbooks",
     "AI Brain Admin/Queries",
-    "01 – Game Bible/World & Lore/Lore – Fighter Class Interpretation (locked).md",
     "AI Brain Admin/AI Brain – Memory OS Protocol (v1.0).md",
     "02 – R&D Lab/!Staging - Review Before Import/AI Brain – Memory OS Protocol (skeleton).md",
     "AI Brain Admin/Memory OS – Lint Checklist.md",
@@ -225,7 +227,6 @@
     "02 – R&D Lab/!Staging - Review Before Import/Procedural/Procedural – One Machine Storyteller Engine (draft).md",
     "02 – R&D Lab/!Staging - Review Before Import/Mechanics/Mechanics – Behavior Card System (draft).md",
     "02 – R&D Lab/!Staging - Review Before Import/Presentation/Presentation – First-Person Grid-Based Movement (locked).md",
-    "02 – R&D Lab/!Staging - Review Before Import/Systems/Systems – Monster-Actor Knowledge Management Sketch (draft).md",
     "02 – R&D Lab/!Staging - Review Before Import/Presentation",
     "02 – R&D Lab/!Staging - Review Before Import/Procedural",
     "02 – R&D Lab/!Staging - Review Before Import/Mechanics",
