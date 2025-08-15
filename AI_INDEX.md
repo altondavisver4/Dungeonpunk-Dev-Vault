@@ -1,6 +1,6 @@
 # AI Index
 
-_Auto-generated on 2025-08-15 05:38:34 UTC_
+_Auto-generated on 2025-08-15 07:19:16 UTC_
 
 > Links go to **raw** files when possible (best for AI), with a fallback GitHub view.
 
@@ -126,10 +126,18 @@ _Auto-generated on 2025-08-15 05:38:34 UTC_
   <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/2025-08-13_INDEX.md">(view on GitHub)</a></sup></sub>
 - [2025 08 13 INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/Comparative%20Analysis/2025-08-13_INDEX.md)  
   <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/Comparative%20Analysis/2025-08-13_INDEX.md">(view on GitHub)</a></sup></sub>
+- [R&D – Theme Compile – Canon Only Tone Pass](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/Compiles/R%26D%20%E2%80%93%20Theme%20Compile%20%E2%80%93%20Canon-Only%20Tone%20Pass.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/Compiles/R%26D%20%E2%80%93%20Theme%20Compile%20%E2%80%93%20Canon-Only%20Tone%20Pass.md">(view on GitHub)</a></sup></sub>
+- [R&D – Theme Compile – Mixed Source (annotated)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/Compiles/R%26D%20%E2%80%93%20Theme%20Compile%20%E2%80%93%20Mixed%20Source%20%28annotated%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/Compiles/R%26D%20%E2%80%93%20Theme%20Compile%20%E2%80%93%20Mixed%20Source%20%28annotated%29.md">(view on GitHub)</a></sup></sub>
 - [2025 08 13 INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/Daily%20Dumps/2025-08-13_INDEX.md)  
   <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/Daily%20Dumps/2025-08-13_INDEX.md">(view on GitHub)</a></sup></sub>
 - [2025 08 13 INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/Discarded%20Gold/2025-08-13_INDEX.md)  
   <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/Discarded%20Gold/2025-08-13_INDEX.md">(view on GitHub)</a></sup></sub>
+- [Gangs – Ethnic Pulpy Archetypes (draft)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/Factions%20%26%20Cultures/Gangs%20%E2%80%93%20Ethnic%20Pulpy%20Archetypes%20%28draft%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/Factions%20%26%20Cultures/Gangs%20%E2%80%93%20Ethnic%20Pulpy%20Archetypes%20%28draft%29.md">(view on GitHub)</a></sup></sub>
+- [R&D – Cyberpunk Theme Imports (for stress test)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/Imports/R%26D%20%E2%80%93%20Cyberpunk%20Theme%20Imports%20%28for%20stress%20test%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/Imports/R%26D%20%E2%80%93%20Cyberpunk%20Theme%20Imports%20%28for%20stress%20test%29.md">(view on GitHub)</a></sup></sub>
 - [2025 08 13 INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/Mechanics%20Studies/2025-08-13_INDEX.md)  
   <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/Mechanics%20Studies/2025-08-13_INDEX.md">(view on GitHub)</a></sup></sub>
 - [2025 08 13 INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/Theme%20%26%20Setting%20Studies/2025-08-13_INDEX.md)  
