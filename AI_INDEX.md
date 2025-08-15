@@ -1,6 +1,6 @@
 # AI Index
 
-_Auto-generated on 2025-08-15 03:51:35 UTC_
+_Auto-generated on 2025-08-15 03:56:58 UTC_
 
 > Links go to **raw** files when possible (best for AI), with a fallback GitHub view.
 
@@ -188,6 +188,12 @@ _Auto-generated on 2025-08-15 03:51:35 UTC_
   <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI%20Brain%20Admin/AI%20Brain%20%E2%80%93%20Memory%20OS%20Protocol%20%28v1.0%29.md">(view on GitHub)</a></sup></sub>
 - [Memory OS – Lint Checklist](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI%20Brain%20Admin/Memory%20OS%20%E2%80%93%20Lint%20Checklist.md)  
   <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI%20Brain%20Admin/Memory%20OS%20%E2%80%93%20Lint%20Checklist.md">(view on GitHub)</a></sup></sub>
+- [00 – Retrieval Playbook (v1.0)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI%20Brain%20Admin/Playbooks/00%20%E2%80%93%20Retrieval%20Playbook%20%28v1.0%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI%20Brain%20Admin/Playbooks/00%20%E2%80%93%20Retrieval%20Playbook%20%28v1.0%29.md">(view on GitHub)</a></sup></sub>
+- [Dataview – Status & Type dashboards](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI%20Brain%20Admin/Queries/Dataview%20%E2%80%93%20Status%20%26%20Type%20dashboards.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI%20Brain%20Admin/Queries/Dataview%20%E2%80%93%20Status%20%26%20Type%20dashboards.md">(view on GitHub)</a></sup></sub>
+- [Search Macros – Fast Retrieval](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI%20Brain%20Admin/Queries/Search%20Macros%20%E2%80%93%20Fast%20Retrieval.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI%20Brain%20Admin/Queries/Search%20Macros%20%E2%80%93%20Fast%20Retrieval.md">(view on GitHub)</a></sup></sub>
 - [README – Memory OS](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI%20Brain%20Admin/README%20%E2%80%93%20Memory%20OS.md)  
   <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI%20Brain%20Admin/README%20%E2%80%93%20Memory%20OS.md">(view on GitHub)</a></sup></sub>
 - [Template – AI Process (sketch)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI%20Brain%20Admin/Templates/Template%20%E2%80%93%20AI%20Process%20%28sketch%29.md)  
