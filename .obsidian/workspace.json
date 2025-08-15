@@ -195,6 +195,11 @@
   },
   "active": "b2c367ad5a682473",
   "lastOpenFiles": [
+    "02 – R&D Lab/!Staging - Review Before Import/Special/Special – Group Entities with Morale-Based Disbanding (draft).md",
+    "02 – R&D Lab/!Staging - Review Before Import/Special/Special – “Everything is Attackable” Quest Philosophy (draft).md",
+    "02 – R&D Lab/!Staging - Review Before Import/Special/Special – Layered 2D Assets for First-Person Depth (draft).md",
+    "02 – R&D Lab/!Staging - Review Before Import/Systems/Systems – Zone-Route Terminology Separation (locked).md",
+    "02 – R&D Lab/!Staging - Review Before Import/Special",
     "AI Brain Admin/index.html",
     "AI Brain Admin/AI Brain – Memory OS Protocol (skeleton).md",
     "02 – R&D Lab/!Staging - Review Before Import/Mechanics/Mechanics – Universal Narrative RNG Doctrine + Roll Interpreter Module (locked).md",
@@ -223,13 +228,8 @@
     "02 – R&D Lab/New folder",
     "_brain/ai_super_index.json",
     "README_SUPER_INDEX.md",
-    "scripts/write_content_snapshot.py",
-    "scripts/build_super_index.py",
     "AI_INDEX_SYSTEMS.md",
     "AI_INDEX_RND.md",
-    "AI_INDEX_LORE.md",
-    "AI_INDEX_CORE.md",
-    "tags/tag.md",
-    "TAGS_INDEX.md"
+    "AI_INDEX_LORE.md"
   ]
 }
