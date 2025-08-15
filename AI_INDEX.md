@@ -1,6 +1,6 @@
 # AI Index
 
-_Auto-generated on 2025-08-15 00:41:53 UTC_
+_Auto-generated on 2025-08-15 03:33:53 UTC_
 
 > Links go to **raw** files when possible (best for AI), with a fallback GitHub view.
 
@@ -76,6 +76,8 @@ _Auto-generated on 2025-08-15 00:41:53 UTC_
 
 ## 02 – R&D Lab
 
+- [AI Brain – Memory OS Protocol (skeleton)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/AI%20Brain%20%E2%80%93%20Memory%20OS%20Protocol%20%28skeleton%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/AI%20Brain%20%E2%80%93%20Memory%20OS%20Protocol%20%28skeleton%29.md">(view on GitHub)</a></sup></sub>
 - [Mechanics – Behavior Card System (draft)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Mechanics/Mechanics%20%E2%80%93%20Behavior%20Card%20System%20%28draft%29.md)  
   <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Mechanics/Mechanics%20%E2%80%93%20Behavior%20Card%20System%20%28draft%29.md">(view on GitHub)</a></sup></sub>
 - [Mechanics – Encounter Definition – Desire vs. Obstacle (locked)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Mechanics/Mechanics%20%E2%80%93%20Encounter%20Definition%20%E2%80%93%20Desire%20vs.%20Obstacle%20%28locked%29.md)  
@@ -178,8 +180,28 @@ _Auto-generated on 2025-08-15 00:41:53 UTC_
 
 ## AI Brain Admin
 
-- [AI Brain – Memory OS Protocol (skeleton)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI%20Brain%20Admin/AI%20Brain%20%E2%80%93%20Memory%20OS%20Protocol%20%28skeleton%29.md)  
-  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI%20Brain%20Admin/AI%20Brain%20%E2%80%93%20Memory%20OS%20Protocol%20%28skeleton%29.md">(view on GitHub)</a></sup></sub>
+- [00 – Index (Memory OS)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI%20Brain%20Admin/00%20%E2%80%93%20Index%20%28Memory%20OS%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI%20Brain%20Admin/00%20%E2%80%93%20Index%20%28Memory%20OS%29.md">(view on GitHub)</a></sup></sub>
+- [AI Brain – Memory OS Protocol (v1.0)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI%20Brain%20Admin/AI%20Brain%20%E2%80%93%20Memory%20OS%20Protocol%20%28v1.0%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI%20Brain%20Admin/AI%20Brain%20%E2%80%93%20Memory%20OS%20Protocol%20%28v1.0%29.md">(view on GitHub)</a></sup></sub>
+- [Memory OS – Lint Checklist](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI%20Brain%20Admin/Memory%20OS%20%E2%80%93%20Lint%20Checklist.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI%20Brain%20Admin/Memory%20OS%20%E2%80%93%20Lint%20Checklist.md">(view on GitHub)</a></sup></sub>
+- [README – Memory OS](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI%20Brain%20Admin/README%20%E2%80%93%20Memory%20OS.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI%20Brain%20Admin/README%20%E2%80%93%20Memory%20OS.md">(view on GitHub)</a></sup></sub>
+- [Template – AI Process (sketch)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI%20Brain%20Admin/Templates/Template%20%E2%80%93%20AI%20Process%20%28sketch%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI%20Brain%20Admin/Templates/Template%20%E2%80%93%20AI%20Process%20%28sketch%29.md">(view on GitHub)</a></sup></sub>
+- [Template – Dev (sketch)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI%20Brain%20Admin/Templates/Template%20%E2%80%93%20Dev%20%28sketch%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI%20Brain%20Admin/Templates/Template%20%E2%80%93%20Dev%20%28sketch%29.md">(view on GitHub)</a></sup></sub>
+- [Template – Lore (sketch)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI%20Brain%20Admin/Templates/Template%20%E2%80%93%20Lore%20%28sketch%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI%20Brain%20Admin/Templates/Template%20%E2%80%93%20Lore%20%28sketch%29.md">(view on GitHub)</a></sup></sub>
+- [Template – Mechanics (sketch)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI%20Brain%20Admin/Templates/Template%20%E2%80%93%20Mechanics%20%28sketch%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI%20Brain%20Admin/Templates/Template%20%E2%80%93%20Mechanics%20%28sketch%29.md">(view on GitHub)</a></sup></sub>
+- [Template – Presentation (sketch)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI%20Brain%20Admin/Templates/Template%20%E2%80%93%20Presentation%20%28sketch%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI%20Brain%20Admin/Templates/Template%20%E2%80%93%20Presentation%20%28sketch%29.md">(view on GitHub)</a></sup></sub>
+- [Template – Procedural (sketch)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI%20Brain%20Admin/Templates/Template%20%E2%80%93%20Procedural%20%28sketch%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI%20Brain%20Admin/Templates/Template%20%E2%80%93%20Procedural%20%28sketch%29.md">(view on GitHub)</a></sup></sub>
+- [Template – System Integration (sketch)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI%20Brain%20Admin/Templates/Template%20%E2%80%93%20System%20Integration%20%28sketch%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI%20Brain%20Admin/Templates/Template%20%E2%80%93%20System%20Integration%20%28sketch%29.md">(view on GitHub)</a></sup></sub>
 
 ## tags
 
