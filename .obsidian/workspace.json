@@ -33,12 +33,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 – Game Bible/World & Lore/Lore – Fighter Class Interpretation (locked).md",
+                "file": "AI Brain Admin/Playbooks/00 – Retrieval Playbook (v1.0).md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Lore – Fighter Class Interpretation (locked)"
+              "title": "00 – Retrieval Playbook (v1.0)"
             }
           }
         ]
@@ -73,7 +74,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "fighter",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,8 +95,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -200,11 +200,15 @@
   },
   "active": "dfe35c712a722c37",
   "lastOpenFiles": [
+    "AI Brain Admin/Memory_OS_Protocol_v1.1.md",
+    "AI_Brain_Admin/Memory_OS_Protocol_v1.1.md",
+    "AI_Brain_Admin",
+    "01 – Game Bible/World & Lore/Lore – Fighter Class Interpretation (locked).md",
+    "03 – Assets/2025-08-13_INDEX.md",
+    "02 – R&D Lab/!Staging - Review Before Import/Mechanics/Mechanics – “Everything is a Monster” OSR Philosophy (locked).md",
+    "02 – R&D Lab/!Staging - Review Before Import/Procedural/Procedural – Unified Action Loop (draft).md",
     "AI Brain Admin/Playbooks/00 – Retrieval Playbook (v1.0).md",
     "02 – R&D Lab/!Staging - Review Before Import/Mechanics/Mechanics – Universal Narrative RNG Doctrine + Roll Interpreter Module (locked).md",
-    "02 – R&D Lab/!Staging - Review Before Import/Procedural/Procedural – Unified Action Loop (draft).md",
-    "02 – R&D Lab/!Staging - Review Before Import/Mechanics/Mechanics – “Everything is a Monster” OSR Philosophy (locked).md",
-    "01 – Game Bible/World & Lore/Lore – Fighter Class Interpretation (locked).md",
     "AI_INDEX.md",
     "AI Brain Admin/Queries/Dataview – Status & Type dashboards.md",
     "AI Brain Admin/Queries/Search Macros – Fast Retrieval.md",
@@ -226,15 +230,11 @@
     "02 – R&D Lab/!Staging - Review Before Import/Special/Special – Group Entities with Morale-Based Disbanding (draft).md",
     "02 – R&D Lab/!Staging - Review Before Import/Special/Special – “Everything is Attackable” Quest Philosophy (draft).md",
     "02 – R&D Lab/!Staging - Review Before Import/Special/Special – Layered 2D Assets for First-Person Depth (draft).md",
-    "02 – R&D Lab/!Staging - Review Before Import/Systems/Systems – Zone-Route Terminology Separation (locked).md",
     "02 – R&D Lab/!Staging - Review Before Import/Special",
     "AI Brain Admin/index.html",
-    "AI Brain Admin/AI Brain – Memory OS Protocol (skeleton).md",
-    "02 – R&D Lab/!Staging - Review Before Import/Procedural/Procedural – One Machine Storyteller Engine (draft).md",
     "02 – R&D Lab/!Staging - Review Before Import/Presentation",
     "02 – R&D Lab/!Staging - Review Before Import/Procedural",
     "02 – R&D Lab/!Staging - Review Before Import/Mechanics",
-    "02 – R&D Lab/!Staging - Review Before Import/Systems",
-    "AI Brain Admin"
+    "02 – R&D Lab/!Staging - Review Before Import/Systems"
   ]
 }
