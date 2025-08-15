@@ -1,6 +1,6 @@
 # AI Index
 
-_Auto-generated on 2025-08-15 05:22:13 UTC_
+_Auto-generated on 2025-08-15 05:38:34 UTC_
 
 > Links go to **raw** files when possible (best for AI), with a fallback GitHub view.
 
@@ -138,6 +138,8 @@ _Auto-generated on 2025-08-15 05:22:13 UTC_
   <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/Theme%20%26%20Setting%20Studies/Lore/Lore%20%E2%80%93%20Ten%20Foundational%20Themes.md">(view on GitHub)</a></sup></sub>
 - [2025 08 13 INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/Thought%20Experiments/2025-08-13_INDEX.md)  
   <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/Thought%20Experiments/2025-08-13_INDEX.md">(view on GitHub)</a></sup></sub>
+- [R&D – Iteration Workflow Commands (v1.0)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/Workflow%20Protocols/R%26D%20%E2%80%93%20Iteration%20Workflow%20Commands%20%28v1.0%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/Workflow%20Protocols/R%26D%20%E2%80%93%20Iteration%20Workflow%20Commands%20%28v1.0%29.md">(view on GitHub)</a></sup></sub>
 
 ## 03 – Assets
 
