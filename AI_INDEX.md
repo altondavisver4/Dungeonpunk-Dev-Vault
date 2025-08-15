@@ -1,6 +1,6 @@
 # AI Index
 
-_Auto-generated on 2025-08-15 03:33:53 UTC_
+_Auto-generated on 2025-08-15 03:51:35 UTC_
 
 > Links go to **raw** files when possible (best for AI), with a fallback GitHub view.
 
@@ -73,6 +73,8 @@ _Auto-generated on 2025-08-15 03:33:53 UTC_
   <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/01%20%E2%80%93%20Game%20Bible/Systems/2025-08-14_SYSTEM_Key-Systems_Overview_v1.md">(view on GitHub)</a></sup></sub>
 - [2025 08 13 INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/01%20%E2%80%93%20Game%20Bible/World%20%26%20Lore/2025-08-13_INDEX.md)  
   <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/01%20%E2%80%93%20Game%20Bible/World%20%26%20Lore/2025-08-13_INDEX.md">(view on GitHub)</a></sup></sub>
+- [Lore – Fighter Class Interpretation (locked)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/01%20%E2%80%93%20Game%20Bible/World%20%26%20Lore/Lore%20%E2%80%93%20Fighter%20Class%20Interpretation%20%28locked%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/01%20%E2%80%93%20Game%20Bible/World%20%26%20Lore/Lore%20%E2%80%93%20Fighter%20Class%20Interpretation%20%28locked%29.md">(view on GitHub)</a></sup></sub>
 
 ## 02 – R&D Lab
 
