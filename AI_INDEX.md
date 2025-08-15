@@ -1,19 +1,6 @@
-## Quicklinks
-
-<!-- QUICKLINKS:START -->
-- [AI_INDEX.md](/AI_INDEX.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_INDEX.md)
-- [AI_QUICKLINKS.md](/AI_QUICKLINKS.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_QUICKLINKS.md)
-- [CHANGE_FEED.md](/CHANGE_FEED.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/CHANGE_FEED.md)
-- [QUICKLINK_PINS.txt](/QUICKLINK_PINS.txt) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/QUICKLINK_PINS.txt)
-- [README.md](/README.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README.md)
-- [0000-00-00_META_File-Naming-Rules_v1.md](/0000-00-00_META_File-Naming-Rules_v1.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/0000-00-00_META_File-Naming-Rules_v1.md)
-- [2025-08-13_ROOT_INDEX.md](/2025-08-13_ROOT_INDEX.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/2025-08-13_ROOT_INDEX.md)
-- [2025-08-14_META_File-Naming-Rules_v1.md](/2025-08-14_META_File-Naming-Rules_v1.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/2025-08-14_META_File-Naming-Rules_v1.md)
-<!-- QUICKLINKS:END -->
-
 # AI Index
 
-_Auto-generated on 2025-08-14 20:26:12 UTC_
+_Auto-generated on 2025-08-15 00:41:53 UTC_
 
 > Links go to **raw** files when possible (best for AI), with a fallback GitHub view.
 
@@ -89,6 +76,48 @@ _Auto-generated on 2025-08-14 20:26:12 UTC_
 
 ## 02 – R&D Lab
 
+- [Mechanics – Behavior Card System (draft)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Mechanics/Mechanics%20%E2%80%93%20Behavior%20Card%20System%20%28draft%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Mechanics/Mechanics%20%E2%80%93%20Behavior%20Card%20System%20%28draft%29.md">(view on GitHub)</a></sup></sub>
+- [Mechanics – Encounter Definition – Desire vs. Obstacle (locked)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Mechanics/Mechanics%20%E2%80%93%20Encounter%20Definition%20%E2%80%93%20Desire%20vs.%20Obstacle%20%28locked%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Mechanics/Mechanics%20%E2%80%93%20Encounter%20Definition%20%E2%80%93%20Desire%20vs.%20Obstacle%20%28locked%29.md">(view on GitHub)</a></sup></sub>
+- [Mechanics – FATE–PF2E Hybrid Framework (draft)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Mechanics/Mechanics%20%E2%80%93%20FATE%E2%80%93PF2E%20Hybrid%20Framework%20%28draft%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Mechanics/Mechanics%20%E2%80%93%20FATE%E2%80%93PF2E%20Hybrid%20Framework%20%28draft%29.md">(view on GitHub)</a></sup></sub>
+- [Mechanics – Progress Clocks for All Obstacles (draft)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Mechanics/Mechanics%20%E2%80%93%20Progress%20Clocks%20for%20All%20Obstacles%20%28draft%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Mechanics/Mechanics%20%E2%80%93%20Progress%20Clocks%20for%20All%20Obstacles%20%28draft%29.md">(view on GitHub)</a></sup></sub>
+- [Mechanics – Universal Narrative RNG Doctrine + Roll Interpreter Module (locked)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Mechanics/Mechanics%20%E2%80%93%20Universal%20Narrative%20RNG%20Doctrine%20%2B%20Roll%20Interpreter%20Module%20%28locked%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Mechanics/Mechanics%20%E2%80%93%20Universal%20Narrative%20RNG%20Doctrine%20%2B%20Roll%20Interpreter%20Module%20%28locked%29.md">(view on GitHub)</a></sup></sub>
+- [Mechanics – “Everything is a Monster” OSR Philosophy (locked)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Mechanics/Mechanics%20%E2%80%93%20%E2%80%9CEverything%20is%20a%20Monster%E2%80%9D%20OSR%20Philosophy%20%28locked%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Mechanics/Mechanics%20%E2%80%93%20%E2%80%9CEverything%20is%20a%20Monster%E2%80%9D%20OSR%20Philosophy%20%28locked%29.md">(view on GitHub)</a></sup></sub>
+- [Presentation – Dynamic Text Narration Layer (locked)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Presentation/Presentation%20%E2%80%93%20Dynamic%20Text%20Narration%20Layer%20%28locked%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Presentation/Presentation%20%E2%80%93%20Dynamic%20Text%20Narration%20Layer%20%28locked%29.md">(view on GitHub)</a></sup></sub>
+- [Presentation – First Person Grid Based Movement (locked)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Presentation/Presentation%20%E2%80%93%20First-Person%20Grid-Based%20Movement%20%28locked%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Presentation/Presentation%20%E2%80%93%20First-Person%20Grid-Based%20Movement%20%28locked%29.md">(view on GitHub)</a></sup></sub>
+- [Presentation – Limited On Screen Character Count (locked)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Presentation/Presentation%20%E2%80%93%20Limited%20On-Screen%20Character%20Count%20%28locked%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Presentation/Presentation%20%E2%80%93%20Limited%20On-Screen%20Character%20Count%20%28locked%29.md">(view on GitHub)</a></sup></sub>
+- [Presentation – Live2D Paper Doll Characters (locked)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Presentation/Presentation%20%E2%80%93%20Live2D%20Paper%20Doll%20Characters%20%28locked%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Presentation/Presentation%20%E2%80%93%20Live2D%20Paper%20Doll%20Characters%20%28locked%29.md">(view on GitHub)</a></sup></sub>
+- [Procedural – Codex as Quest Generator (concept)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Procedural/Procedural%20%E2%80%93%20Codex%20as%20Quest%20Generator%20%28concept%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Procedural/Procedural%20%E2%80%93%20Codex%20as%20Quest%20Generator%20%28concept%29.md">(view on GitHub)</a></sup></sub>
+- [Procedural – One Machine Storyteller Engine (draft)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Procedural/Procedural%20%E2%80%93%20One%20Machine%20Storyteller%20Engine%20%28draft%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Procedural/Procedural%20%E2%80%93%20One%20Machine%20Storyteller%20Engine%20%28draft%29.md">(view on GitHub)</a></sup></sub>
+- [Procedural – Target Number Narration Across All Rolls (locked)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Procedural/Procedural%20%E2%80%93%20Target-Number%20Narration%20Across%20All%20Rolls%20%28locked%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Procedural/Procedural%20%E2%80%93%20Target-Number%20Narration%20Across%20All%20Rolls%20%28locked%29.md">(view on GitHub)</a></sup></sub>
+- [Procedural – Unified Action Loop (draft)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Procedural/Procedural%20%E2%80%93%20Unified%20Action%20Loop%20%28draft%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Procedural/Procedural%20%E2%80%93%20Unified%20Action%20Loop%20%28draft%29.md">(view on GitHub)</a></sup></sub>
+- [Special – Group Entities with Morale Based Disbanding (draft)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Special/Special%20%E2%80%93%20Group%20Entities%20with%20Morale-Based%20Disbanding%20%28draft%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Special/Special%20%E2%80%93%20Group%20Entities%20with%20Morale-Based%20Disbanding%20%28draft%29.md">(view on GitHub)</a></sup></sub>
+- [Special – Layered 2D Assets for First Person Depth (draft)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Special/Special%20%E2%80%93%20Layered%202D%20Assets%20for%20First-Person%20Depth%20%28draft%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Special/Special%20%E2%80%93%20Layered%202D%20Assets%20for%20First-Person%20Depth%20%28draft%29.md">(view on GitHub)</a></sup></sub>
+- [Special – “Everything is Attackable” Quest Philosophy (draft)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Special/Special%20%E2%80%93%20%E2%80%9CEverything%20is%20Attackable%E2%80%9D%20Quest%20Philosophy%20%28draft%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Special/Special%20%E2%80%93%20%E2%80%9CEverything%20is%20Attackable%E2%80%9D%20Quest%20Philosophy%20%28draft%29.md">(view on GitHub)</a></sup></sub>
+- [Systems – Monster Actor Knowledge Management Sketch (draft)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Systems/Systems%20%E2%80%93%20Monster-Actor%20Knowledge%20Management%20Sketch%20%28draft%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Systems/Systems%20%E2%80%93%20Monster-Actor%20Knowledge%20Management%20Sketch%20%28draft%29.md">(view on GitHub)</a></sup></sub>
+- [Systems – OSR Domain Play Hooks (draft)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Systems/Systems%20%E2%80%93%20OSR%20Domain%20Play%20Hooks%20%28draft%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Systems/Systems%20%E2%80%93%20OSR%20Domain%20Play%20Hooks%20%28draft%29.md">(view on GitHub)</a></sup></sub>
+- [Systems – OSR Engagement Checks (locked)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Systems/Systems%20%E2%80%93%20OSR%20Engagement%20Checks%20%28locked%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Systems/Systems%20%E2%80%93%20OSR%20Engagement%20Checks%20%28locked%29.md">(view on GitHub)</a></sup></sub>
+- [Systems – Zone Route Terminology Separation (locked)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Systems/Systems%20%E2%80%93%20Zone-Route%20Terminology%20Separation%20%28locked%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/Systems/Systems%20%E2%80%93%20Zone-Route%20Terminology%20Separation%20%28locked%29.md">(view on GitHub)</a></sup></sub>
 - [2025 08 13 INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/2025-08-13_INDEX.md)  
   <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/2025-08-13_INDEX.md">(view on GitHub)</a></sup></sub>
 - [2025 08 13 INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/Comparative%20Analysis/2025-08-13_INDEX.md)  
@@ -146,6 +175,11 @@ _Auto-generated on 2025-08-14 20:26:12 UTC_
   <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/05%20%E2%80%93%20References%20%26%20Tools/Tool%20Guides/2025-08-13_INDEX.md">(view on GitHub)</a></sup></sub>
 - [2025 08 14 META Glossary v1](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/05%20%E2%80%93%20References%20%26%20Tools/Tool%20Guides/2025-08-14_META_Glossary_v1.md)  
   <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/05%20%E2%80%93%20References%20%26%20Tools/Tool%20Guides/2025-08-14_META_Glossary_v1.md">(view on GitHub)</a></sup></sub>
+
+## AI Brain Admin
+
+- [AI Brain – Memory OS Protocol (skeleton)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI%20Brain%20Admin/AI%20Brain%20%E2%80%93%20Memory%20OS%20Protocol%20%28skeleton%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI%20Brain%20Admin/AI%20Brain%20%E2%80%93%20Memory%20OS%20Protocol%20%28skeleton%29.md">(view on GitHub)</a></sup></sub>
 
 ## tags
 
