@@ -1,6 +1,6 @@
 # AI Index
 
-_Auto-generated on 2025-08-15 04:21:42 UTC_
+_Auto-generated on 2025-08-15 05:22:13 UTC_
 
 > Links go to **raw** files when possible (best for AI), with a fallback GitHub view.
 
@@ -134,6 +134,8 @@ _Auto-generated on 2025-08-15 04:21:42 UTC_
   <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/Mechanics%20Studies/2025-08-13_INDEX.md">(view on GitHub)</a></sup></sub>
 - [2025 08 13 INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/Theme%20%26%20Setting%20Studies/2025-08-13_INDEX.md)  
   <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/Theme%20%26%20Setting%20Studies/2025-08-13_INDEX.md">(view on GitHub)</a></sup></sub>
+- [Lore – Ten Foundational Themes](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/Theme%20%26%20Setting%20Studies/Lore/Lore%20%E2%80%93%20Ten%20Foundational%20Themes.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/Theme%20%26%20Setting%20Studies/Lore/Lore%20%E2%80%93%20Ten%20Foundational%20Themes.md">(view on GitHub)</a></sup></sub>
 - [2025 08 13 INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/Thought%20Experiments/2025-08-13_INDEX.md)  
   <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/Thought%20Experiments/2025-08-13_INDEX.md">(view on GitHub)</a></sup></sub>
 
@@ -188,6 +190,8 @@ _Auto-generated on 2025-08-15 04:21:42 UTC_
   <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI%20Brain%20Admin/AI%20Brain%20%E2%80%93%20Memory%20OS%20Protocol%20%28v1.0%29.md">(view on GitHub)</a></sup></sub>
 - [Memory OS – Lint Checklist](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI%20Brain%20Admin/Memory%20OS%20%E2%80%93%20Lint%20Checklist.md)  
   <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI%20Brain%20Admin/Memory%20OS%20%E2%80%93%20Lint%20Checklist.md">(view on GitHub)</a></sup></sub>
+- [Memory OS Protocol v1.1](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI%20Brain%20Admin/Memory_OS_Protocol_v1.1.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI%20Brain%20Admin/Memory_OS_Protocol_v1.1.md">(view on GitHub)</a></sup></sub>
 - [00 – Retrieval Playbook (v1.0)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI%20Brain%20Admin/Playbooks/00%20%E2%80%93%20Retrieval%20Playbook%20%28v1.0%29.md)  
   <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI%20Brain%20Admin/Playbooks/00%20%E2%80%93%20Retrieval%20Playbook%20%28v1.0%29.md">(view on GitHub)</a></sup></sub>
 - [Dataview – Status & Type dashboards](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI%20Brain%20Admin/Queries/Dataview%20%E2%80%93%20Status%20%26%20Type%20dashboards.md)  
