@@ -3,9 +3,11 @@ import subprocess, time
 from pathlib import Path
 from datetime import datetime, timezone
 import json
+import time
 
 ROOT = Path(__file__).resolve().parents[1]
 stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S %Z")
+ts = int(time.time())
 try:
     sha = subprocess.check_output(["git","rev-parse","--short","HEAD"], cwd=ROOT, text=True).strip()
 except Exception:
@@ -16,6 +18,7 @@ payload = {
     "generated_at_utc": stamp,
     "commit": sha,
     "repo": ROOT.name,
+    "timestamp": ts,
 }
 
 # health.json
