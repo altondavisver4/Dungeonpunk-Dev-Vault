@@ -200,6 +200,7 @@
   },
   "active": "b2c367ad5a682473",
   "lastOpenFiles": [
+    "AI Brain/Raw Exports/AI_Brain_All_Conversations_With_ToC.md",
     "AI Brain/Raw Exports/AI_Brain_All_Conversations.md",
     "build_brain_index.py",
     "AI Brain/Raw Exports/chat.html",
@@ -234,7 +235,6 @@
     "AI Brain Admin/AI Brain – Memory OS Protocol (v1.0).md",
     "02 – R&D Lab/!Staging - Review Before Import/AI Brain – Memory OS Protocol (skeleton).md",
     "AI Brain Admin/Memory OS – Lint Checklist.md",
-    "AI Brain Admin/README – Memory OS.md",
-    "AI Brain Admin/Templates/Template – System Integration (sketch).md"
+    "AI Brain Admin/README – Memory OS.md"
   ]
 }
