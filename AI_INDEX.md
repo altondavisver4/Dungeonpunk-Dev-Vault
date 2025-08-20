@@ -1,6 +1,6 @@
 # AI Index
 
-_Auto-generated on 2025-08-20 23:21:29 UTC_
+_Auto-generated on 2025-08-20 23:27:47 UTC_
 
 > Links go to **raw** files when possible (best for AI), with a fallback GitHub view.
 
@@ -198,6 +198,8 @@ _Auto-generated on 2025-08-20 23:21:29 UTC_
 
 - [AI Brain All Conversations](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI%20Brain/Raw%20Exports/AI_Brain_All_Conversations.md)  
   <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI%20Brain/Raw%20Exports/AI_Brain_All_Conversations.md">(view on GitHub)</a></sup></sub>
+- [AI Brain All Conversations With ToC](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI%20Brain/Raw%20Exports/AI_Brain_All_Conversations_With_ToC.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI%20Brain/Raw%20Exports/AI_Brain_All_Conversations_With_ToC.md">(view on GitHub)</a></sup></sub>
 
 ## AI Brain Admin
 
