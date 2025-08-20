@@ -1,6 +1,6 @@
 # AI Index
 
-_Auto-generated on 2025-08-15 07:19:16 UTC_
+_Auto-generated on 2025-08-20 21:31:25 UTC_
 
 > Links go to **raw** files when possible (best for AI), with a fallback GitHub view.
 
@@ -30,6 +30,8 @@ _Auto-generated on 2025-08-15 07:19:16 UTC_
   <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/QUICKLINK_PINS.txt">(view on GitHub)</a></sup></sub>
 - [README](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README.md)  
   <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/README.md">(view on GitHub)</a></sup></sub>
+- [readme](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/readme.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/readme.md">(view on GitHub)</a></sup></sub>
 - [README AUTO INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README_AUTO_INDEX.md)  
   <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/README_AUTO_INDEX.md">(view on GitHub)</a></sup></sub>
 - [README AUTO NETLIFY INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README_AUTO_NETLIFY_INDEX.md)  
