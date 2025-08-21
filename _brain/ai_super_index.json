@@ -1,7 +1,7 @@
 {
   "schema": "psiopera.ai_super_index.v1",
-  "generated_at": "2025-08-14T20:49:07Z",
-  "files_count": 53,
+  "generated_at": "2025-08-21T02:56:49Z",
+  "files_count": 54,
   "docs": [
     {
       "id": "8a4841cfafb2",
@@ -55,7 +55,7 @@
       "blocks": [
         {
           "anchor": "Folder: 01 – Game Bible/Art Bible",
-          "content": "(Placeholder – content coming soon)"
+          "content": "(Placeholder – content coming soon)\n(smoke test)"
         }
       ],
       "neighbors": [],
@@ -573,31 +573,15 @@
       "blocks": [
         {
           "anchor": "# Quicklinks",
-          "content": ""
-        },
-        {
-          "anchor": "# Quicklinks",
-          "content": ""
-        },
-        {
-          "anchor": "# Quicklinks",
-          "content": ""
-        },
-        {
-          "anchor": "# Quicklinks",
-          "content": ""
-        },
-        {
-          "anchor": "# Quicklinks",
           "content": "<!-- QUICKLINKS:START -->\n- [AI_INDEX.md](/AI_INDEX.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_INDEX.md)\n- [AI_QUICKLINKS.md](/AI_QUICKLINKS.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_QUICKLINKS.md)\n- [CHANGE_FEED.md](/CHANGE_FEED.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/CHANGE_FEED.md)\n- [QUICKLINK_PINS.txt](/QUICKLINK_PINS.txt) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/QUICKLINK_PINS.txt)\n- [README.md](/README.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README.md)\n- [0000-00-00_META_File-Naming-Rules_v1.md](/0000-00-00_META_File-Naming-Rules_v1.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/0000-00-00_META_File-Naming-Rules_v1.md)\n- [2025-08-13_ROOT_INDEX.md](/2025-08-13_ROOT_INDEX.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/2025-08-13_ROOT_INDEX.md)\n- [2025-08-14_META_File-Naming-Rules_v1.md](/2025-08-14_META_File-Naming-Rules_v1.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/2025-08-14_META_File-Naming-Rules_v1.md)\n<!-- QUICKLINKS:END -->"
         },
         {
           "anchor": "AI Index",
-          "content": "_Auto-generated on 2025-08-14 13:40:22 UTC_\n\n> Links go to **raw** files when possible (best for AI), with a fallback GitHub view."
+          "content": "_Auto-generated on 2025-08-14 20:26:12 UTC_\n\n> Links go to **raw** files when possible (best for AI), with a fallback GitHub view."
         },
         {
           "anchor": "# .",
-          "content": "- [0000 00 00 META File Naming Rules v1](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/0000-00-00_META_File-Naming-Rules_v1.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/0000-00-00_META_File-Naming-Rules_v1.md\">(view on GitHub)</a></sup></sub>\n- [2025 08 13 ROOT INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/2025-08-13_ROOT_INDEX.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/2025-08-13_ROOT_INDEX.md\">(view on GitHub)</a></sup></sub>\n- [2025 08 14 META File Naming Rules v1](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/2025-08-14_META_File-Naming-Rules_v1.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/2025-08-14_META_File-Naming-Rules_v1.md\">(view on GitHub)</a></sup></sub>\n- [AI INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_INDEX.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI_INDEX.md\">(view on GitHub)</a></sup></sub>\n- [AI INDEX CORE](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_INDEX_CORE.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI_INDEX_CORE.md\">(view on GitHub)</a></sup></sub>\n- [AI INDEX LORE](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_INDEX_LORE.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI_INDEX_LORE.md\">(view on GitHub)</a></sup></sub>\n- [AI INDEX RND](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_INDEX_RND.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI_INDEX_RND.md\">(view on GitHub)</a></sup></sub>\n- [AI INDEX SYSTEMS](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_INDEX_SYSTEMS.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI_INDEX_SYSTEMS.md\">(view on GitHub)</a></sup></sub>\n- [AI QUICKLINKS](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_QUICKLINKS.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI_QUICKLINKS.md\">(view on GitHub)</a></sup></sub>\n- [CHANGE FEED](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/CHANGE_FEED.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/CHANGE_FEED.md\">(view on GitHub)</a></sup></sub>\n- [QUICKLINK PINS](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/QUICKLINK_PINS.txt)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/QUICKLINK_PINS.txt\">(view on GitHub)</a></sup></sub>\n- [README](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/README.md\">(view on GitHub)</a></sup></sub>\n- [README AUTO INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README_AUTO_INDEX.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/README_AUTO_INDEX.md\">(view on GitHub)</a></sup></sub>\n- [README AUTO NETLIFY INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README_AUTO_NETLIFY_INDEX.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/README_AUTO_NETLIFY_INDEX.md\">(view on GitHub)</a></sup></sub>\n- [README AUTOGENERATED PAGES SNIPPET](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README_AUTOGENERATED_PAGES_SNIPPET.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/README_AUTOGENERATED_PAGES_SNIPPET.md\">(view on GitHub)</a></sup></sub>\n- [README QUICKLINKS AUTOMATION](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README_QUICKLINKS_AUTOMATION.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/README_QUICKLINKS_AUTOMATION.md\">(view on GitHub)</a></sup></sub>\n- [robots.txt](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/robots.txt.txt)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/robots.txt.txt\">(view on GitHub)</a></sup></sub>\n- [TAGS INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/TAGS_INDEX.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/TAGS_INDEX.md\">(view on GitHub)</a></sup></sub>"
+          "content": "- [0000 00 00 META File Naming Rules v1](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/0000-00-00_META_File-Naming-Rules_v1.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/0000-00-00_META_File-Naming-Rules_v1.md\">(view on GitHub)</a></sup></sub>\n- [2025 08 13 ROOT INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/2025-08-13_ROOT_INDEX.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/2025-08-13_ROOT_INDEX.md\">(view on GitHub)</a></sup></sub>\n- [2025 08 14 META File Naming Rules v1](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/2025-08-14_META_File-Naming-Rules_v1.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/2025-08-14_META_File-Naming-Rules_v1.md\">(view on GitHub)</a></sup></sub>\n- [AI INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_INDEX.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI_INDEX.md\">(view on GitHub)</a></sup></sub>\n- [AI INDEX CORE](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_INDEX_CORE.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI_INDEX_CORE.md\">(view on GitHub)</a></sup></sub>\n- [AI INDEX LORE](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_INDEX_LORE.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI_INDEX_LORE.md\">(view on GitHub)</a></sup></sub>\n- [AI INDEX RND](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_INDEX_RND.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI_INDEX_RND.md\">(view on GitHub)</a></sup></sub>\n- [AI INDEX SYSTEMS](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_INDEX_SYSTEMS.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI_INDEX_SYSTEMS.md\">(view on GitHub)</a></sup></sub>\n- [AI QUICKLINKS](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_QUICKLINKS.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI_QUICKLINKS.md\">(view on GitHub)</a></sup></sub>\n- [CHANGE FEED](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/CHANGE_FEED.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/CHANGE_FEED.md\">(view on GitHub)</a></sup></sub>\n- [QUICKLINK PINS](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/QUICKLINK_PINS.txt)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/QUICKLINK_PINS.txt\">(view on GitHub)</a></sup></sub>\n- [README](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/README.md\">(view on GitHub)</a></sup></sub>\n- [README AUTO INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README_AUTO_INDEX.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/README_AUTO_INDEX.md\">(view on GitHub)</a></sup></sub>\n- [README AUTO NETLIFY INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README_AUTO_NETLIFY_INDEX.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/README_AUTO_NETLIFY_INDEX.md\">(view on GitHub)</a></sup></sub>\n- [README AUTOGENERATED PAGES SNIPPET](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README_AUTOGENERATED_PAGES_SNIPPET.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/README_AUTOGENERATED_PAGES_SNIPPET.md\">(view on GitHub)</a></sup></sub>\n- [README QUICKLINKS AUTOMATION](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README_QUICKLINKS_AUTOMATION.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/README_QUICKLINKS_AUTOMATION.md\">(view on GitHub)</a></sup></sub>\n- [README SUPER INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README_SUPER_INDEX.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/README_SUPER_INDEX.md\">(view on GitHub)</a></sup></sub>\n- [requirements](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/requirements.txt)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/requirements.txt\">(view on GitHub)</a></sup></sub>\n- [robots](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/robots.txt)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/robots.txt\">(view on GitHub)</a></sup></sub>\n- [TAGS INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/TAGS_INDEX.md)  \n  <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/TAGS_INDEX.md\">(view on GitHub)</a></sup></sub>"
         },
         {
           "anchor": "# 01 – Game Bible",
@@ -1372,6 +1356,20 @@
         {
           "anchor": "# Optional",
           "content": "- Add file paths to QUICKLINK_PINS.txt to force-pin.\n- Use `new_note.ps1` to create properly named notes quickly."
+        }
+      ],
+      "neighbors": [],
+      "tiers": []
+    },
+    {
+      "id": "c8aeed9a4cbd",
+      "path": "README_SUPER_INDEX.md",
+      "title": "# Super Index & Snapshots",
+      "tags": [],
+      "blocks": [
+        {
+          "anchor": "# Super Index & Snapshots",
+          "content": "This repo emits:\n- `/_brain/ai_super_index.json` — unified index with tier membership and link graph.\n- `/_brain/snapshots/` — rolling JSONL.GZ snapshots of raw markdown (`LATEST` points to current).\n\nUse `ai_super_index.json` for instant cross-tier navigation and related-note jumps.\nUse the snapshot when hosting is unavailable to recover raw content quickly."
         }
       ],
       "neighbors": [],

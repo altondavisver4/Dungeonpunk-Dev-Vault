@@ -46,16 +46,6 @@
     "s": "(Placeholder – content coming soon)"
   },
   {
-    "id": "07c414547039:001",
-    "t": "Core Vision – Goals (v1)",
-    "p": "01 – Game Bible/Core Vision/01 - Game BibleCore Vision2025-08-14_CORE_Vision_Goals_v1.md",
-    "g": [
-      "01-–-Game-Bible",
-      "Core-Vision"
-    ],
-    "s": "- Sword & sorcery heat: brutal, decadent, scarce mercy - Bard-only diegetic music system (music from bards in-world) - Harem-bond telepathy as social glue & combat spice"
-  },
-  {
     "id": "31b396c9213b:001",
     "t": "Folder: 01 – Game Bible/Core Vision",
     "p": "01 – Game Bible/Core Vision/2025-08-13_INDEX.md",
@@ -126,6 +116,145 @@
     "s": "(Placeholder – content coming soon)"
   },
   {
+    "id": "c25558d32c33:001",
+    "t": "AI Brain – Memory OS Protocol (skeleton)",
+    "p": "02 – R&D Lab/!Staging - Review Before Import/AI Brain – Memory OS Protocol (skeleton).md",
+    "g": [
+      "02-–-R&D-Lab",
+      "ai-process",
+      "automation",
+      "protocol",
+      "taxonomy"
+    ],
+    "s": "> Goal: Make every design artifact retrievable, legible, and linkable by both human and AI—without ceremony or guesswork. **Pattern:** `Category – Title (status).md` - **Category:** `Mechanics`, `Procedural`, `Presentation`, `Systems`, `Special`, `Lore`, `Dev` - **Title:** Short, unique, descriptive. No version numbers in name. - **Status (one):** `sketch`, `draft`, `locked`, `concept`, `deprecated` **Examples** - `Mechanics – Behavior Card System (draft).md` - `Procedural – Unified Action Loop (draft).md` ```yaml title: <Category – Title> type: <mechanic|procedural|presentation|narrative|system-integration|ai-process|lore|dev> status: <sketch|draft|locked|concept|deprecated> tags: [<functio…"
+  },
+  {
+    "id": "c25558d32c33:002",
+    "t": "AI Brain – Memory OS Protocol (skeleton)",
+    "p": "02 – R&D Lab/!Staging - Review Before Import/AI Brain – Memory OS Protocol (skeleton).md",
+    "g": [
+      "02-–-R&D-Lab",
+      "ai-process",
+      "automation",
+      "protocol",
+      "taxonomy"
+    ],
+    "s": "*Add sparingly; prefer reusing existing tags.* - Link the **first mention** of any other note like `[[Mechanics – Progress Clocks for All Obstacles (draft)]]`. - If a note doesn’t exist yet, still link it—future files will light up those “stubs”. - Avoid bare URLs inside content; keep external sources in a `References` section if needed. - **sketch → draft → locked** - **concept**: high-level pitch not yet integrated. - **deprecated**: kept for history; add a header banner and link to the replacement. **Change control** - When status changes, update `(status)` in filename and the `status` field in YAML. - Add a one-line **Changelog** at the bottom. - `/Mechanics`, `/Procedural`, `/Presentati…"
+  },
+  {
+    "id": "c25558d32c33:003",
+    "t": "AI Brain – Memory OS Protocol (skeleton)",
+    "p": "02 – R&D Lab/!Staging - Review Before Import/AI Brain – Memory OS Protocol (skeleton).md",
+    "g": [
+      "02-–-R&D-Lab",
+      "ai-process",
+      "automation",
+      "protocol",
+      "taxonomy"
+    ],
+    "s": "- Prefer notes with `status: locked` for authoritative answers. - If multiple notes match, choose the one with the most inbound links. - If no locked note exists, prefer `draft` with latest changelog entry. --- *This is the skeleton. We’ll harden it after Waves 3–4 by adding allowed tag lists and the exact automation triggers you want.*"
+  },
+  {
+    "id": "88cd49484bc0:001",
+    "t": "Presentation – Dynamic Text Narration Layer",
+    "p": "02 – R&D Lab/!Staging - Review Before Import/Presentation/Presentation – Dynamic Text Narration Layer (locked).md",
+    "g": [
+      "02-–-R&D-Lab",
+      "Presentation",
+      "locked",
+      "narration",
+      "presentation",
+      "text"
+    ],
+    "s": "**Premise** Text describes anything not explicitly rendered: environment states, off-screen actions, micro-combat beats, tone cues. **Narrative Packets** - Consumes roll packets from [[Mechanics – Universal Narrative RNG Doctrine + Roll Interpreter Module (locked)]]. - Inlines competence/tone/DC labeling for on-the-fly prose. **UI Considerations** - Non-blocking overlay with history and filters (combat log vs. world log). - Clickable tokens to open related Codex or entity sheets."
+  },
+  {
+    "id": "7b9c38630dae:001",
+    "t": "Presentation – First-Person Grid-Based Movement",
+    "p": "02 – R&D Lab/!Staging - Review Before Import/Presentation/Presentation – First-Person Grid-Based Movement (locked).md",
+    "g": [
+      "02-–-R&D-Lab",
+      "90deg",
+      "Presentation",
+      "first-person",
+      "grid",
+      "locked",
+      "presentation"
+    ],
+    "s": "**Premise** Player moves in discrete tiles with 90° rotations. Tile width ≈ screen width to keep the \"you are here\" feeling with visible hands/weapons. **Implications** - Reliable Live2D billboard angles (no odd oblique views). - Camera snap reduces motion sickness and animation burden. - Encounter density assumptions: monsters-per-tile constraints tie into encounter math. **Interfaces** - Coordinates with [[Presentation – Live2D Paper Doll Characters (locked)]] for billboard expectations. - Feeds encounter math used by [[Procedural – Unified Action Loop (draft)]]."
+  },
+  {
+    "id": "0ac6149c3f51:001",
+    "t": "Presentation – Limited On-Screen Character Count",
+    "p": "02 – R&D Lab/!Staging - Review Before Import/Presentation/Presentation – Limited On-Screen Character Count (locked).md",
+    "g": [
+      "02-–-R&D-Lab",
+      "Presentation",
+      "clarity",
+      "locked",
+      "performance",
+      "presentation"
+    ],
+    "s": "**Premise** Cap the number of simultaneous on-screen actors for performance and readable combat/scene staging. **Design Notes** - Emphasize off-screen narration for supporting action. - Prefer waves/phases over massive crowd scenes. - Coordinate with tile visibility rules and LOS. **Interfaces** - Works with [[Presentation – Dynamic Text Narration Layer (locked)]] to cover off-screen events. - Impacts group/morale behaviors in [[Special – Group Entities with Morale-Based Disbanding (draft)]] (Wave 4)."
+  },
+  {
+    "id": "1a272ac702dd:001",
+    "t": "Presentation – Live2D Paper Doll Characters",
+    "p": "02 – R&D Lab/!Staging - Review Before Import/Presentation/Presentation – Live2D Paper Doll Characters (locked).md",
+    "g": [
+      "02-–-R&D-Lab",
+      "Presentation",
+      "characters",
+      "live2d",
+      "locked",
+      "presentation"
+    ],
+    "s": "**Premise** All NPCs are 2D paper dolls (shared base shapes per gender), animated via Live2D. Complex or off-screen action is described by text narration. **Guidelines** - Shared rigs → consistent production pipeline. - Expression/emote library supports narration tone bands. - Limit on simultaneous on-screen characters for clarity/performance. **Interfaces** - Partners with [[Presentation – Dynamic Text Narration Layer (locked)]]. - Constrains monster sprite counts referenced by [[Mechanics – Encounter Definition – Desire vs. Obstacle (locked)]]."
+  },
+  {
+    "id": "3f08d2bd6eec:001",
+    "t": "Procedural – Target-Number Narration Across All Rolls",
+    "p": "02 – R&D Lab/!Staging - Review Before Import/Procedural/Procedural – Target-Number Narration Across All Rolls (locked).md",
+    "g": [
+      "02-–-R&D-Lab",
+      "Procedural",
+      "d20",
+      "locked",
+      "narration",
+      "procedural"
+    ],
+    "s": "**Premise** Every roll emits a standardized narration packet combining: outcome, competence tone, origin point, tone band, and DC label from [[Mechanics – Universal Narrative RNG Doctrine + Roll Interpreter Module (locked)]]. **Usage** - Works for skill checks, attacks, saves, opposed tests. - Feeds [[Presentation – Dynamic Text Narration Layer (locked)]] for consistent prose."
+  },
+  {
+    "id": "b133c826083a:001",
+    "t": "Special – Layered 2D Assets for First-Person Depth",
+    "p": "02 – R&D Lab/!Staging - Review Before Import/Special/Special – Layered 2D Assets for First-Person Depth (draft).md",
+    "g": [
+      "02-–-R&D-Lab",
+      "2d-layers",
+      "Special",
+      "draft",
+      "first-person",
+      "parallax",
+      "presentation"
+    ],
+    "s": "**Premise** Simulate depth in a 3D first-person view using multiple parallax layers of 2D assets. **Guidelines** - Foreground/midground/background atlases; constrain camera to 90° rotations for billboard fidelity. - Depth cues: scale, blur falloff (optional), speed differential on movement. - Tile-aware placement: each grid step shifts layers predictably to avoid jitter. **Interfaces** - Works with [[Presentation – First-Person Grid-Based Movement (locked)]]. - Complements [[Presentation – Live2D Paper Doll Characters (locked)]]."
+  },
+  {
+    "id": "a731bc84d825:001",
+    "t": "Systems – Monster/Actor Knowledge Management Sketch",
+    "p": "02 – R&D Lab/!Staging - Review Before Import/Systems/Systems – Monster-Actor Knowledge Management Sketch (draft).md",
+    "g": [
+      "02-–-R&D-Lab",
+      "Systems",
+      "ai",
+      "draft",
+      "memory",
+      "system-integration"
+    ],
+    "s": "**Goal** Sustainably remember entities without blowing up memory or compute. **Ideas** - **Encounter biasing:** recently-seen actors get temporarily down-weighted. - **Tiered memory:** short-term (encounter), mid-term (session), long-term (faction-level). - **Abstract faction memory:** roll-up stats for large groups. - **Memory anchors:** special NPCs keep durable records to support ongoing plots. - **Soft recycling:** actors retire from tables after arcs conclude. **Interfaces** - Consulted by [[Procedural – One Machine Storyteller Engine (draft)]] during selection."
+  },
+  {
     "id": "2bad8531231b:001",
     "t": "Folder: 02 – R&D Lab",
     "p": "02 – R&D Lab/2025-08-13_INDEX.md",
@@ -143,6 +272,90 @@
       "Comparative-Analysis"
     ],
     "s": "(Placeholder – content coming soon)"
+  },
+  {
+    "id": "7c3142d0fc17:001",
+    "t": "Theme Compile – Canon-Only Tone Pass",
+    "p": "02 – R&D Lab/Compiles/R&D – Theme Compile – Canon-Only Tone Pass.md",
+    "g": [
+      "02-–-R&D-Lab",
+      "Compiles",
+      "Theme",
+      "canon-only",
+      "compile",
+      "tone-pass"
+    ],
+    "s": "This is a **clean canon-only list** of the Ten Foundational Themes and merged/locked derivatives. All Cyberpunk-origin imports and R&D branches have been removed. --- **Summary:** The world is broken; survival is harsh; ruins are infrastructure. **Summary:** Life is violent; power is enforced through fear and force; mercy is rare. **Summary:** Relics are rare and mythic; tech is treated like sacred magic; understanding is scarce. **Summary:** Magic is feared—unpredictable, corrupting, and costly; proximity is dangerous. **Summary:** Enclaves rot from within; opulence over rot; politics and vice as survival games. *(merged from “Xenophobia is widespread” + “Fractured Tribal Might”)* **Summary…"
+  },
+  {
+    "id": "7c3142d0fc17:002",
+    "t": "Theme Compile – Canon-Only Tone Pass",
+    "p": "02 – R&D Lab/Compiles/R&D – Theme Compile – Canon-Only Tone Pass.md",
+    "g": [
+      "02-–-R&D-Lab",
+      "Compiles",
+      "Theme",
+      "canon-only",
+      "compile",
+      "tone-pass"
+    ],
+    "s": "**Summary:** Fractured thinking engines trapped in relics; ancient knowledge with warped agendas; oracles, prizes, and hazards. *(merged corporate set + savage cultures as their peoples)* **Summary:** Ancient rulers whose power flows through guild fronts and mercenary companies; each King’s culture is army, priesthood, and family in one. --- - All entries are canon as of v1.1 merges. - Cross-links to related notes (ganged archetypes, lore studies) remain in their individual files for context during retrieval. - This list can be used directly for **tone passes**, **theme checks**, and **setting pitch materials** without noise from R&D or external imports. - 2025-08-15: Generated canon-only to…"
+  },
+  {
+    "id": "d96403f6539b:001",
+    "t": "Theme Compile – Mixed Source (annotated)",
+    "p": "02 – R&D Lab/Compiles/R&D – Theme Compile – Mixed Source (annotated).md",
+    "g": [
+      "02-–-R&D-Lab",
+      "Compiles",
+      "Theme",
+      "annotated",
+      "compile",
+      "mixed-source"
+    ],
+    "s": "This document compiles **canon Sword & Sorcery themes**, **merged/overrides**, and **Cyberpunk-origin test themes** into one annotated reference for a tone pass. Canon entries appear first. R&D branches are listed at the end for awareness but are **not** part of canon. --- **Status:** Canon (locked) **Summary:** The world is broken; survival is harsh; ruins are infrastructure. **Cross-links:** [[Lore – Ten Foundational Themes]] **Status:** Canon (locked) **Summary:** Life is violent; power is enforced through fear and force; mercy is rare. **Cross-links:** [[Lore – Ten Foundational Themes]] **Status:** Canon (locked) **Summary:** Relics are rare and mythic; tech is treated like sacred magic;…"
+  },
+  {
+    "id": "d96403f6539b:002",
+    "t": "Theme Compile – Mixed Source (annotated)",
+    "p": "02 – R&D Lab/Compiles/R&D – Theme Compile – Mixed Source (annotated).md",
+    "g": [
+      "02-–-R&D-Lab",
+      "Compiles",
+      "Theme",
+      "annotated",
+      "compile",
+      "mixed-source"
+    ],
+    "s": "**Status:** Canon (locked) **Summary:** True know‑how is scarce; myths and lies fill the gaps; those who hold knowledge hold power. **Cross-links:** [[Lore – Ten Foundational Themes]] **Status:** Canon (locked) **Summary:** The world beyond known borders is unmapped and unstable; expeditions vanish; maps are rumors. **Cross-links:** [[Lore – Ten Foundational Themes]] **Status:** Canon (locked) **Summary:** Altruism is anomaly; legends are born from single acts; saviors are targeted early. **Cross-links:** [[Lore – Ten Foundational Themes]] **Status:** Canon (hard‑locked, v1.1) **Summary:** A living tide from the Outer Dark presses against failing wards; denial and profiteering mask an inevit…"
+  },
+  {
+    "id": "d96403f6539b:003",
+    "t": "Theme Compile – Mixed Source (annotated)",
+    "p": "02 – R&D Lab/Compiles/R&D – Theme Compile – Mixed Source (annotated).md",
+    "g": [
+      "02-–-R&D-Lab",
+      "Compiles",
+      "Theme",
+      "annotated",
+      "compile",
+      "mixed-source"
+    ],
+    "s": "--- > These are tagged `#CyberpunkOrigin` in their source bundle and retained to test cross‑source retrieval. Where a theme is fully merged into canon, the canon entry above supersedes it. **Source:** Cyberpunk theme (kept) **Status:** Candidate (approved, not yet canon) **Summary:** Syndicates/war‑clans as parallel power; smuggling, ritualized warfare, artifact trafficking; strong visual identities. **Cross-links:** [[Gangs – Ethnic Pulpy Archetypes (draft)]] · [[R&D – Cyberpunk Theme Imports (for stress test)]] **Source:** Cyberpunk theme (kept, reframed) **Status:** Canon (see Canon #11) **Note:** Canon supersedes the import; retained here only for provenance. **Cross-links:** [[R&D – Cyb…"
+  },
+  {
+    "id": "d96403f6539b:004",
+    "t": "Theme Compile – Mixed Source (annotated)",
+    "p": "02 – R&D Lab/Compiles/R&D – Theme Compile – Mixed Source (annotated).md",
+    "g": [
+      "02-–-R&D-Lab",
+      "Compiles",
+      "Theme",
+      "annotated",
+      "compile",
+      "mixed-source"
+    ],
+    "s": "--- **Status:** R&D branch **Note:** Kept for possible merge to enrich tone/gameplay hooks around day‑to‑day survival. **Cross-links:** [[R&D – Cyberpunk Theme Imports (for stress test)]] **Status:** R&D branch **Note:** Mobile trade warbands controlling survival via goods flow; potential economy/faction glue. **Cross-links:** [[R&D – Cyberpunk Theme Imports (for stress test)]] **Status:** R&D protected draft **Note:** Visual/role archetypes for culturally distinct war peoples; to be integrated with Sorcerer Kings where appropriate. **Cross-links:** [[The Sorcerer Kings]] · [[Lore – Ten Foundational Themes]] --- - Canon reflects **v1.1** merges: *Cultural Warbands & Walled Loyalties* and *Bl…"
   },
   {
     "id": "79c7721f26c9:001",
@@ -165,6 +378,82 @@
     "s": "(Placeholder – content coming soon)"
   },
   {
+    "id": "58464f5bb194:001",
+    "t": "Gangs – Ethnic Pulpy Archetypes",
+    "p": "02 – R&D Lab/Factions & Cultures/Gangs – Ethnic Pulpy Archetypes (draft).md",
+    "g": [
+      "02-–-R&D-Lab",
+      "Factions-&-Cultures",
+      "R&D",
+      "ethnic",
+      "factions",
+      "gangs",
+      "incomplete",
+      "pulp"
+    ],
+    "s": "> **Soft Lock:** This is a protected draft. Do not modify outside of an explicit *Checkpoint* or *Branch* action. These factions are **pulpy, larger-than-life ethnic archetypes** designed for a sword-and-sorcery wasteland. They aim for *cool savage energy* (poster/tattoo vibes) suitable for a male-leaning audience while avoiding derogatory framing. --- - **Visuals:** Gold/obsidian war masks, feathered headdresses, jaguar pelts. - **Culture:** Warrior-priests; public sacrifice of enemies to win divine favor. - **Savage Cool:** Portable altars used mid-battle. - **Gameplay Hook:** Blood rites grant group-wide buffs; ferocious melee. - **Visuals:** Bear/wolf pelts, runic tattoos shimmering with…"
+  },
+  {
+    "id": "58464f5bb194:002",
+    "t": "Gangs – Ethnic Pulpy Archetypes",
+    "p": "02 – R&D Lab/Factions & Cultures/Gangs – Ethnic Pulpy Archetypes (draft).md",
+    "g": [
+      "02-–-R&D-Lab",
+      "Factions-&-Cultures",
+      "R&D",
+      "ethnic",
+      "factions",
+      "gangs",
+      "incomplete",
+      "pulp"
+    ],
+    "s": "- **Visuals:** Woad paint, plaid cloaks, war horns. - **Culture:** Highland raiders; independence above all. - **Savage Cool:** Heads on spears; thunderous charges. - **Gameplay Hook:** Devastating charges; post-kill morale surges. - **Visuals:** Sharkskin cloaks, bone charms, salt-crusted mail. - **Culture:** Sea-raiders; shipwrecks as divine tithe. - **Savage Cool:** Grapples and nets; drowning executions. - **Gameplay Hook:** Naval mastery; storm/coast bonuses. - **Visuals:** Dragon masks, lacquered armor, scarlet sashes. - **Culture:** Dynasty-descended; ritual duels with heavy curved blades. - **Savage Cool:** Choreographed polearm forms. - **Gameplay Hook:** Formation bonuses; polearm …"
+  },
+  {
+    "id": "58464f5bb194:003",
+    "t": "Gangs – Ethnic Pulpy Archetypes",
+    "p": "02 – R&D Lab/Factions & Cultures/Gangs – Ethnic Pulpy Archetypes (draft).md",
+    "g": [
+      "02-–-R&D-Lab",
+      "Factions-&-Cultures",
+      "R&D",
+      "ethnic",
+      "factions",
+      "gangs",
+      "incomplete",
+      "pulp"
+    ],
+    "s": "- **Visuals:** Painted bone armor, feather standards, flint-tipped weapons. - **Culture:** Apex hunters; follow the herds. - **Savage Cool:** Grassland ambushes; animal-mimic signals. - **Gameplay Hook:** Stealth in natural terrain; tracking and ranged prowess. --- - Map **player race compatibility** (which are selectable vs. NPC-only). - Define **signature encounters** per faction (1 travel, 1 negotiation, 1 battle). - Add **rivalries & alliances** matrix. - Assign **visual palettes** (silhouette, color, material) for UI and sprite rules. - Decide **home biomes** and **territory pressures** vs. the Unknown/Dark. - [[Lore – Ten Foundational Themes]] - 2025-08-15: Initial protected draft save…"
+  },
+  {
+    "id": "bf3a12e0f290:001",
+    "t": "R&D – Cyberpunk Theme Imports (for stress test)",
+    "p": "02 – R&D Lab/Imports/R&D – Cyberpunk Theme Imports (for stress test).md",
+    "g": [
+      "02-–-R&D-Lab",
+      "CyberpunkOrigin",
+      "Imports",
+      "R&D",
+      "Theme",
+      "import"
+    ],
+    "s": "> Purpose: Temporary bundle of the Cyberpunk-derived themes you approved so we can run a mixed-source retrieval compile. Delete after test if desired. **Origin:** Merged from Corporate Dominance / Corporate Guild-Fronts / Corporate Mercenaries **Status:** Canon (merged) **Summary:** Ancient, cunning rulers who command cities, guild networks, and mercenary companies; rule sealed in blood and gold. Their people are distinct savage cultures — family, army, and priesthood in one. **Cross-links:** [[Lore – Ten Foundational Themes]] (entry: *The Sorcerer Kings*) --- **Origin:** Cyberpunk “Organized Crime” → kept **Status:** Candidate (approved) **Summary:** Syndicates and war-clans act as alternat…"
+  },
+  {
+    "id": "bf3a12e0f290:002",
+    "t": "R&D – Cyberpunk Theme Imports (for stress test)",
+    "p": "02 – R&D Lab/Imports/R&D – Cyberpunk Theme Imports (for stress test).md",
+    "g": [
+      "02-–-R&D-Lab",
+      "CyberpunkOrigin",
+      "Imports",
+      "R&D",
+      "Theme",
+      "import"
+    ],
+    "s": "--- **Origin:** Cyberpunk “Ancient AI / Blackwall” dread → fused with setting’s apocalyptic Dark **Status:** Canon (locked, merged) **Summary:** A living tide from the Outer Dark held back by failing wards and ruins; everyone profits from denial while the inevitable doom approaches. **Cross-links:** [[Lore – Ten Foundational Themes]] (entry: *The Dark is Calling — Black Chitin Beyond*) --- - Excluded: *Street-Level Survival* and *Nomad Barter-Lords* (both retained as R&D branches for future merges). - This bundle exists only to stress-test cross-source retrieval; remove or archive after the compile. - 2025-08-15: Created from approved/merged Cyberpunk themes for retrieval test."
+  },
+  {
     "id": "1d05bbdf7e24:001",
     "t": "Folder: 02 – R&D Lab/Mechanics Studies",
     "p": "02 – R&D Lab/Mechanics Studies/2025-08-13_INDEX.md",
@@ -185,6 +474,54 @@
     "s": "(Placeholder – content coming soon)"
   },
   {
+    "id": "7baac44d1b2f:001",
+    "t": "Lore – Ten Foundational Themes",
+    "p": "02 – R&D Lab/Theme & Setting Studies/Lore/Lore – Ten Foundational Themes.md",
+    "g": [
+      "02-–-R&D-Lab",
+      "Lore",
+      "Theme-&-Setting-Studies",
+      "foundational",
+      "setting",
+      "themes"
+    ],
+    "s": "These ten themes define the core tone, structure, and narrative weight of the setting. They are meant to inform all future lore, mechanics, and procedural design choices. The world is broken. Survival is difficult, and ruins are more common than functioning infrastructure. Factions and individuals alike scrape by in a world far from its former glory. Life is violent and short. Power is taken, not given, and mercy is often punished. Every interaction carries risk, and weakness invites predation. The relics of the old world are rare and revered. Even a functioning tool can shift the balance of power. Machines are treated with awe, and those who can repair them are valued as high priests. Magic…"
+  },
+  {
+    "id": "7baac44d1b2f:002",
+    "t": "Lore – Ten Foundational Themes",
+    "p": "02 – R&D Lab/Theme & Setting Studies/Lore/Lore – Ten Foundational Themes.md",
+    "g": [
+      "02-–-R&D-Lab",
+      "Lore",
+      "Theme-&-Setting-Studies",
+      "foundational",
+      "setting",
+      "themes"
+    ],
+    "s": "True understanding is as rare as clean water. Most skills are forgotten, and even common crafts may be mysteries. Those who guard knowledge hold power beyond weapons. The world beyond known borders is unmapped and dangerous. Myths and superstition fill the gaps where facts are absent, and the wilderness itself feels alive with threat. True champions are anomalies. Acts of selflessness are met with suspicion, and those who rise above the norm are targeted before they can change much. A vast, unseen force — whether magical, cosmic, or psychological — draws the world toward ruin. Some resist, others embrace, but none can fully ignore its pull. Source: Generated collaboratively in live chat as p…"
+  },
+  {
+    "id": "004579d335db:001",
+    "t": "Narrative Doctrine: Political Powder Keg Adventures (Conan d20 2E)",
+    "p": "02 – R&D Lab/Theme & Setting Studies/Narrative_Doctrine_Political_Powder_Keg.md",
+    "g": [
+      "02-–-R&D-Lab",
+      "Theme-&-Setting-Studies"
+    ],
+    "s": "Adventures take place in regions already primed for conflict. The player is not the origin of tension but the catalyst: their arrival destabilizes an existing powder keg. --- - Regions are defined by **factions in active or imminent conflict**. - The player’s intervention acts as a disruptive element — not a savior, not a conqueror by default. - Each faction has **goals, grievances, and fault lines** waiting to rupture. - Resolution isn’t about peace, but about **shifting the balance** in ways that create both opportunity and consequence for the player. --- - Companions are **characters first, mechanics second**. - They hold opinions on political factions and player decisions, sometimes argu…"
+  },
+  {
+    "id": "004579d335db:002",
+    "t": "Narrative Doctrine: Political Powder Keg Adventures (Conan d20 2E)",
+    "p": "02 – R&D Lab/Theme & Setting Studies/Narrative_Doctrine_Political_Powder_Keg.md",
+    "g": [
+      "02-–-R&D-Lab",
+      "Theme-&-Setting-Studies"
+    ],
+    "s": "--- - **Conquest → Indulgence → Consequence** - Victory leads to indulgence (luxury, pride, overconfidence). - Indulgence breeds weakness or vulnerability. - Consequences strike back: betrayal, enemy resurgence, natural disaster, or internal decay. - The cycle provides **escalation without requiring “save the world” arcs**. --- - Companions may **split off during adventures** to pursue parallel objectives. - Player must decide: - Allow the companion to pursue their goal (which may alter faction dynamics, loot, or outcomes). - Keep them close for security but sacrifice opportunities. - Outcomes affect both **narrative loyalty** and **faction relations**, not just tactical resources. --- - **S…"
+  },
+  {
     "id": "e298be243e6c:001",
     "t": "Folder: 02 – R&D Lab/Thought Experiments",
     "p": "02 – R&D Lab/Thought Experiments/2025-08-13_INDEX.md",
@@ -193,6 +530,32 @@
       "Thought-Experiments"
     ],
     "s": "(Placeholder – content coming soon)"
+  },
+  {
+    "id": "906b752a76b8:001",
+    "t": "R&D – Iteration Workflow Commands",
+    "p": "02 – R&D Lab/Workflow Protocols/R&D – Iteration Workflow Commands (v1.0).md",
+    "g": [
+      "02-–-R&D-Lab",
+      "Workflow-Protocols",
+      "iteration",
+      "protocol",
+      "workflow"
+    ],
+    "s": "A structured workflow designed to prevent process drift and preserve idea integrity during back-and-forth creative sessions. **Checkpoint: <name>** Freeze current working state into a structured `.md` file with full metadata, links, and version number. _Example:_ `Checkpoint: Theme Study – Sanctuaries` → creates `R&D – Theme Study – Sanctuaries (v0.1, draft).md` **Branch: <name>** Fork the current idea into a separate file. Both parent and child get cross-links. _Example:_ `Branch: Sanctuaries – Dark Variant` **Merge: <A> + <B> into <name>** Consolidate two or more branches into a new note. Marks old files as deprecated with link to the new merged version. _Example:_ `Merge: Sanctuaries + Ou…"
+  },
+  {
+    "id": "906b752a76b8:002",
+    "t": "R&D – Iteration Workflow Commands",
+    "p": "02 – R&D Lab/Workflow Protocols/R&D – Iteration Workflow Commands (v1.0).md",
+    "g": [
+      "02-–-R&D-Lab",
+      "Workflow-Protocols",
+      "iteration",
+      "protocol",
+      "workflow"
+    ],
+    "s": "--- - **Draft in R&D:** `R&D – <Category> – <Topic> (vX.Y, draft).md` - **Locked to canon:** `Lore – <Topic> (locked).md` (moved out of R&D) - **Deprecated branches:** Keep links to successors and a banner warning. --- Source: Generated in live chat during setup of AI Brain iteration workflow guardrails. Purpose: Provide persistent command reference to maintain consistency in creative development."
   },
   {
     "id": "d537f1a84dd8:001",
@@ -376,18 +739,454 @@
     "s": "(put naming conventions here)"
   },
   {
+    "id": "e775afe5e5e7:001",
+    "t": "00 – Index (Memory OS)",
+    "p": "AI Brain Admin/00 – Index (Memory OS).md",
+    "g": [
+      "AI-Brain-Admin",
+      "ai-process",
+      "index"
+    ],
+    "s": "- [[/Mechanics]] - [[/Procedural]] - [[/Presentation]] - [[/Systems]] - [[/Special]] - [[/Lore]] - [[/Dev]] - [[/!Staging]] - [[/AI Brain Admin]] ```dataview TABLE status, type, file.mtime as Updated FROM \"\" WHERE status = \"locked\" SORT file.mtime desc ``` ```dataview TABLE type, status, file.mtime as Updated FROM \"\" WHERE status != \"locked\" SORT file.mtime desc ```"
+  },
+  {
+    "id": "deed18d80d96:001",
+    "t": "AI Brain – Memory OS Protocol (v1.0)",
+    "p": "AI Brain Admin/AI Brain – Memory OS Protocol (v1.0).md",
+    "g": [
+      "AI-Brain-Admin",
+      "ai-process",
+      "automation",
+      "protocol",
+      "taxonomy"
+    ],
+    "s": "**Goal:** Make every design artifact retrievable, legible, and linkable for both human and AI—without ceremony. **Pattern:** `Category – Title (status).md` - **Category (one of):** Mechanics, Procedural, Presentation, Systems, Special, Lore, Dev - **Title:** Short, unique, descriptive. Avoid version numbers in the filename. - **Status (one):** sketch, draft, locked, concept, deprecated **Examples** - `Mechanics – Behavior Card System (draft).md` - `Procedural – Unified Action Loop (draft).md` Top-level: ``` /Mechanics /Procedural /Presentation /Systems /Special /Lore /Dev /!Staging /AI Brain Admin # Protocols, checklists, indexes, scripts ``` - Staging is for **M** (hold) items, weekly revie…"
+  },
+  {
+    "id": "deed18d80d96:002",
+    "t": "AI Brain – Memory OS Protocol (v1.0)",
+    "p": "AI Brain Admin/AI Brain – Memory OS Protocol (v1.0).md",
+    "g": [
+      "AI-Brain-Admin",
+      "ai-process",
+      "automation",
+      "protocol",
+      "taxonomy"
+    ],
+    "s": "**Function (pick 1–2):** mechanic, procedural, presentation, narrative, system-integration, ai-process, lore, dev **Themes (optional):** osr, fate, pf2e, narration, ai, behavior, pacing, clocks, domain, grid, first-person, parallax, morale **Workflow (optional):** needs-review, example, reference Keep tags **small and stable**. Prefer editing to add existing tags rather than inventing new ones. ``` concept -> sketch -> draft -> locked \\-> deprecated ``` - Move forward only when the note has: clear **Purpose**, **Interfaces**, and at least one **Cross-link**. - **deprecated** means “kept for history”; add a banner at the top linking to its replacement. - Link the **first mention** of any othe…"
+  },
+  {
+    "id": "deed18d80d96:003",
+    "t": "AI Brain – Memory OS Protocol (v1.0)",
+    "p": "AI Brain Admin/AI Brain – Memory OS Protocol (v1.0).md",
+    "g": [
+      "AI-Brain-Admin",
+      "ai-process",
+      "automation",
+      "protocol",
+      "taxonomy"
+    ],
+    "s": "Create a top-level **00 – Index** note with: - Section links to each folder - Optional Dataview queries by `status` and `type` (see included index note) - Obsidian Git auto-commit every 5m; auto-push after commit. - `.gitignore` filters cache, temp, and plugin noise. - Prefer Git for **text**. Use Obsidian Sync for heavy media. - Increment **(vX.Y)** in this note when rules change. - Add migration steps in **Changelog**. --- - 2025-08-15: v1.0 initial lock; derived from import rehearsal."
+  },
+  {
+    "id": "a9809de294c8:001",
+    "t": "Memory OS – Lint Checklist",
+    "p": "AI Brain Admin/Memory OS – Lint Checklist.md",
+    "g": [
+      "AI-Brain-Admin",
+      "ai-process",
+      "checklist",
+      "lint"
+    ],
+    "s": "- [ ] Filename matches `Category – Title (status).md` - [ ] `title` in YAML matches `Category – Title` - [ ] `type` is one of: mechanic, procedural, presentation, narrative, system-integration, ai-process, lore, dev - [ ] `status` is one of: sketch, draft, locked, concept, deprecated - [ ] `tags` only use approved tags (see Protocol §4) - [ ] At least one `[[internal link]]` - [ ] Has `## Changelog` with a new entry - [ ] Not an orphan (≥1 inbound link)"
+  },
+  {
+    "id": "0e4bc12d3e64:001",
+    "t": "Memory OS Protocol",
+    "p": "AI Brain Admin/Memory_OS_Protocol_v1.1.md",
+    "g": [
+      "AI-Brain-Admin",
+      "ai-brain",
+      "protocol",
+      "workflow"
+    ],
+    "s": "The Memory OS is the operational framework for creating, storing, retrieving, and maintaining all AI Brain notes. It ensures that every file in the AI Brain follows consistent formatting, metadata standards, and retrieval-friendly practices. This protocol governs **all** AI-generated content stored in the AI Brain vault. Manual note creation by the user is not part of the workflow. - All files follow: `<Folder> – <Title>.md` - Folder name is capitalized and matches the vault directory structure exactly. - Title is written exactly as the user specifies in the \"Save\" command. **Trigger:** User command in the form `Save <Title> under <Folder>`. **Output:** - **Filename:** `<Folder> – <Title>.md…"
+  },
+  {
+    "id": "0e4bc12d3e64:002",
+    "t": "Memory OS Protocol",
+    "p": "AI Brain Admin/Memory_OS_Protocol_v1.1.md",
+    "g": [
+      "AI-Brain-Admin",
+      "ai-brain",
+      "protocol",
+      "workflow"
+    ],
+    "s": "**Notes:** - This process applies to **all** AI-generated notes. - No manual note creation expected in project lifecycle. - Tags reflect subject matter only. - System-level metadata (status, type) is never stored in tags. - Every note is created to be immediately searchable via: - Obsidian search syntax - Dataview queries - Backlinks and unlinked mentions - Protocol updates are versioned (v1.1, v1.2, etc.). - Any change to schema, naming, or folder structure must be recorded in this document. - All AI Brain notes are produced under this protocol without exception. - Deviations require explicit user approval and are recorded in the protocol change log. ---"
+  },
+  {
+    "id": "fd58fc680752:001",
+    "t": "00 – Retrieval Playbook (v1.0)",
+    "p": "AI Brain Admin/Playbooks/00 – Retrieval Playbook (v1.0).md",
+    "g": [
+      "AI-Brain-Admin",
+      "Playbooks",
+      "ai-process",
+      "playbook",
+      "retrieval"
+    ],
+    "s": "**Objective:** Prove you (and the AI) can find the exact note, sentence, or field you need within 10–30 seconds. 1. **Find by filename** - Search: `file:\"Fighter Class Interpretation\"` - Open the result. Confirm frontmatter is present and `status: locked`. 2. **Find by tag** - Search: `tag:lore tag:fighter` - Confirm it returns *only* the Fighter note. 3. **Find by cross-link** - Open `Mechanics – “Everything is a Monster” OSR Philosophy (locked)` and navigate to its **backlinks**. - Confirm you see the Fighter note listed. 4. **Find by phrase** - Search this exact sentence fragment: `stack the odds until losing becomes impossible`. - Confirm it jumps to the quote in the Fighter note. 5. **F…"
+  },
+  {
+    "id": "fd58fc680752:002",
+    "t": "00 – Retrieval Playbook (v1.0)",
+    "p": "AI Brain Admin/Playbooks/00 – Retrieval Playbook (v1.0).md",
+    "g": [
+      "AI-Brain-Admin",
+      "Playbooks",
+      "ai-process",
+      "playbook",
+      "retrieval"
+    ],
+    "s": "- Q1: What is the Fighter’s **Flavor Hook** line, verbatim? - Q2: List the three bullets under **Cultural Interpretation**. - Q3: Which two notes are listed under **Interfaces / Cross-links**? - Q4: What is the **status** and **type** in the Fighter note’s YAML? - Q5: What is the **Provenance** purpose line? *Pass criteria:* All five answers match the note exactly. - If search returns too many hits, tighten with `file:`, `tag:`, or phrase quotes `\"...\"`. - If backlinks are empty, open the target notes and add at least one cross-link between them. - If Dataview shows nothing, ensure frontmatter keys are spelled correctly and `type/status` values match the Protocol. - From the command palette,…"
+  },
+  {
+    "id": "ee5ad1a8edc3:001",
+    "t": "Dataview – Status & Type dashboards",
+    "p": "AI Brain Admin/Queries/Dataview – Status & Type dashboards.md",
+    "g": [
+      "AI-Brain-Admin",
+      "Queries",
+      "ai-process",
+      "dataview",
+      "queries"
+    ],
+    "s": "```dataview TABLE file.link as Note, status, type, file.mtime as Updated FROM \"\" WHERE status = \"locked\" AND type = \"lore\" SORT file.mtime desc ``` ```dataview TABLE file.link as Note, status, tags, file.mtime as Updated FROM \"\" WHERE status = \"draft\" AND type = \"mechanic\" SORT file.mtime desc ``` > Manually check these for at least one `[[internal link]]` ```dataview TABLE file.link as Note, status, type FROM \"\" WHERE !contains(file.content, \"[[\") SORT file.mtime desc ``` ```dataview TABLE file.link as Note, status, type, file.mtime as Updated FROM \"\" SORT file.mtime desc LIMIT 20 ```"
+  },
+  {
+    "id": "0a6c8d0d619a:001",
+    "t": "Search Macros – Fast Retrieval",
+    "p": "AI Brain Admin/Queries/Search Macros – Fast Retrieval.md",
+    "g": [
+      "AI-Brain-Admin",
+      "Queries",
+      "ai-process",
+      "queries",
+      "search"
+    ],
+    "s": "Use these in Obsidian’s search bar. - **By filename (exact):** - `file:\"Fighter Class Interpretation\"` - **By tag combo:** - `tag:lore tag:fighter` - **By type + status (Dataview required for full dashboard):** - `type: lore status: locked` (as frontmatter keys in filters if using plugins) - **By phrase (exact):** - `\"stack the odds until losing becomes impossible\"` - **Find notes with no outbound links:** - `-\"[[\"` (negative search for page links), or use the Dataview query in the dashboards note - **Find notes touched today:** - `modified:day`"
+  },
+  {
+    "id": "e8c87adf0fc2:001",
+    "t": "README – Memory OS Templates & How-To",
+    "p": "AI Brain Admin/README – Memory OS.md",
+    "g": [
+      "AI-Brain-Admin",
+      "ai-process",
+      "reference"
+    ],
+    "s": "**How to use** 1. Pick the right template from `/AI Brain Admin/Templates`. 2. Save it as `Category – Title (status).md` in the correct folder. 3. Fill **Purpose**, **Interfaces**, and at least one **Cross-link**. 4. Update `updated: YYYY-MM-DD` and add a Changelog line. 5. Done. Obsidian Git will auto-commit and push. **Tip:** Keep titles short and unique. Use **aliases** if you need alternate names."
+  },
+  {
+    "id": "537a2579434c:001",
+    "t": "AI Process – <Title>",
+    "p": "AI Brain Admin/Templates/Template – AI Process (sketch).md",
+    "g": [
+      "AI-Brain-Admin",
+      "Templates",
+      "ai-process"
+    ],
+    "s": "**Purpose** <What problem does this solve?> **Summary** <One short paragraph that a stranger could understand.> **Interfaces / Cross-links** - [[<Related note>]] - [[<Another related note>]] **Details** - Rules / mechanics / constraints here. **Open Questions** - Q1: - Q2: - 2025-08-15: created (sketch) - Source: <chat, doc, or idea seed> - Decision: <why this note exists>"
+  },
+  {
+    "id": "18950fe7f6cb:001",
+    "t": "Dev – <Title>",
+    "p": "AI Brain Admin/Templates/Template – Dev (sketch).md",
+    "g": [
+      "AI-Brain-Admin",
+      "Templates",
+      "dev"
+    ],
+    "s": "**Purpose** <What problem does this solve?> **Summary** <One short paragraph that a stranger could understand.> **Interfaces / Cross-links** - [[<Related note>]] - [[<Another related note>]] **Details** - Rules / mechanics / constraints here. **Open Questions** - Q1: - Q2: - 2025-08-15: created (sketch) - Source: <chat, doc, or idea seed> - Decision: <why this note exists>"
+  },
+  {
+    "id": "7e8d30f20389:001",
+    "t": "Lore – <Title>",
+    "p": "AI Brain Admin/Templates/Template – Lore (sketch).md",
+    "g": [
+      "AI-Brain-Admin",
+      "Templates",
+      "lore"
+    ],
+    "s": "**Purpose** <What problem does this solve?> **Summary** <One short paragraph that a stranger could understand.> **Interfaces / Cross-links** - [[<Related note>]] - [[<Another related note>]] **Details** - Rules / mechanics / constraints here. **Open Questions** - Q1: - Q2: - 2025-08-15: created (sketch) - Source: <chat, doc, or idea seed> - Decision: <why this note exists>"
+  },
+  {
+    "id": "35ef48fa31e1:001",
+    "t": "Mechanics – <Title>",
+    "p": "AI Brain Admin/Templates/Template – Mechanics (sketch).md",
+    "g": [
+      "AI-Brain-Admin",
+      "Templates",
+      "mechanic"
+    ],
+    "s": "**Purpose** <What problem does this solve?> **Summary** <One short paragraph that a stranger could understand.> **Interfaces / Cross-links** - [[<Related note>]] - [[<Another related note>]] **Details** - Rules / mechanics / constraints here. **Open Questions** - Q1: - Q2: - 2025-08-15: created (sketch) - Source: <chat, doc, or idea seed> - Decision: <why this note exists>"
+  },
+  {
+    "id": "d60077152a1b:001",
+    "t": "Presentation – <Title>",
+    "p": "AI Brain Admin/Templates/Template – Presentation (sketch).md",
+    "g": [
+      "AI-Brain-Admin",
+      "Templates",
+      "presentation"
+    ],
+    "s": "**Purpose** <What problem does this solve?> **Summary** <One short paragraph that a stranger could understand.> **Interfaces / Cross-links** - [[<Related note>]] - [[<Another related note>]] **Details** - Rules / mechanics / constraints here. **Open Questions** - Q1: - Q2: - 2025-08-15: created (sketch) - Source: <chat, doc, or idea seed> - Decision: <why this note exists>"
+  },
+  {
+    "id": "149edb53429a:001",
+    "t": "Procedural – <Title>",
+    "p": "AI Brain Admin/Templates/Template – Procedural (sketch).md",
+    "g": [
+      "AI-Brain-Admin",
+      "Templates",
+      "procedural"
+    ],
+    "s": "**Purpose** <What problem does this solve?> **Summary** <One short paragraph that a stranger could understand.> **Interfaces / Cross-links** - [[<Related note>]] - [[<Another related note>]] **Details** - Rules / mechanics / constraints here. **Open Questions** - Q1: - Q2: - 2025-08-15: created (sketch) - Source: <chat, doc, or idea seed> - Decision: <why this note exists>"
+  },
+  {
+    "id": "4004b5b98b84:001",
+    "t": "Systems – <Title>",
+    "p": "AI Brain Admin/Templates/Template – System Integration (sketch).md",
+    "g": [
+      "AI-Brain-Admin",
+      "Templates",
+      "system-integration"
+    ],
+    "s": "**Purpose** <What problem does this solve?> **Summary** <One short paragraph that a stranger could understand.> **Interfaces / Cross-links** - [[<Related note>]] - [[<Another related note>]] **Details** - Rules / mechanics / constraints here. **Open Questions** - Q1: - Q2: - 2025-08-15: created (sketch) - Source: <chat, doc, or idea seed> - Decision: <why this note exists>"
+  },
+  {
+    "id": "7470ce7335a6:001",
+    "t": "Idea Card 1: Companion mechanic description",
+    "p": "AI Brain/Raw Exports/AI_Brain_All_Conversations.md",
+    "g": [
+      "AI-Brain",
+      "Raw-Exports"
+    ],
+    "s": "**Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads. --- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads. --- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import No…"
+  },
+  {
+    "id": "7470ce7335a6:002",
+    "t": "Idea Card 1: Companion mechanic description",
+    "p": "AI Brain/Raw Exports/AI_Brain_All_Conversations.md",
+    "g": [
+      "AI-Brain",
+      "Raw-Exports"
+    ],
+    "s": "**Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads. --- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads. --- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON…"
+  },
+  {
+    "id": "7470ce7335a6:003",
+    "t": "Idea Card 1: Companion mechanic description",
+    "p": "AI Brain/Raw Exports/AI_Brain_All_Conversations.md",
+    "g": [
+      "AI-Brain",
+      "Raw-Exports"
+    ],
+    "s": "**Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads. --- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads. --- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical…"
+  },
+  {
+    "id": "7470ce7335a6:004",
+    "t": "Idea Card 1: Companion mechanic description",
+    "p": "AI Brain/Raw Exports/AI_Brain_All_Conversations.md",
+    "g": [
+      "AI-Brain",
+      "Raw-Exports"
+    ],
+    "s": "--- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads. --- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads. --- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Impor…"
+  },
+  {
+    "id": "7470ce7335a6:005",
+    "t": "Idea Card 1: Companion mechanic description",
+    "p": "AI Brain/Raw Exports/AI_Brain_All_Conversations.md",
+    "g": [
+      "AI-Brain",
+      "Raw-Exports"
+    ],
+    "s": "**Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads. --- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads. --- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON…"
+  },
+  {
+    "id": "7470ce7335a6:006",
+    "t": "Idea Card 1: Companion mechanic description",
+    "p": "AI Brain/Raw Exports/AI_Brain_All_Conversations.md",
+    "g": [
+      "AI-Brain",
+      "Raw-Exports"
+    ],
+    "s": "**Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads. --- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads. --- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical…"
+  },
+  {
+    "id": "7470ce7335a6:007",
+    "t": "Idea Card 1: Companion mechanic description",
+    "p": "AI Brain/Raw Exports/AI_Brain_All_Conversations.md",
+    "g": [
+      "AI-Brain",
+      "Raw-Exports"
+    ],
+    "s": "--- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads. --- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads. --- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Impor…"
+  },
+  {
+    "id": "7470ce7335a6:008",
+    "t": "Idea Card 1: Companion mechanic description",
+    "p": "AI Brain/Raw Exports/AI_Brain_All_Conversations.md",
+    "g": [
+      "AI-Brain",
+      "Raw-Exports"
+    ],
+    "s": "**Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads. --- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads. --- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON…"
+  },
+  {
+    "id": "7470ce7335a6:009",
+    "t": "Idea Card 1: Companion mechanic description",
+    "p": "AI Brain/Raw Exports/AI_Brain_All_Conversations.md",
+    "g": [
+      "AI-Brain",
+      "Raw-Exports"
+    ],
+    "s": "**Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads. --- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads. --- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical…"
+  },
+  {
+    "id": "7470ce7335a6:010",
+    "t": "Idea Card 1: Companion mechanic description",
+    "p": "AI Brain/Raw Exports/AI_Brain_All_Conversations.md",
+    "g": [
+      "AI-Brain",
+      "Raw-Exports"
+    ],
+    "s": "--- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads. --- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads."
+  },
+  {
+    "id": "dcb08702f954:001",
+    "t": "AI Brain Conversation Archive",
+    "p": "AI Brain/Raw Exports/AI_Brain_All_Conversations_With_ToC.md",
+    "g": [
+      "AI-Brain",
+      "Raw-Exports"
+    ],
+    "s": "- [Idea Card 1: Companion mechanic description](#idea-card-1-companion-mechanic-description) - [Idea Card 2: Game soundtrack recommendations](#idea-card-2-game-soundtrack-recommendations) - [Idea Card 3: Monitor Health Diagnosis](#idea-card-3-monitor-health-diagnosis) - [Idea Card 4: Conan d20 encounter building](#idea-card-4-conan-d20-encounter-building) - [Idea Card 5: Oukoku e Tsuzuku Michi](#idea-card-5-oukoku-e-tsuzuku-michi) - [Idea Card 6: Pirate class features](#idea-card-6-pirate-class-features) - [Idea Card 7: Export Data function](#idea-card-7-export-data-function) - [Idea Card 8: Chauvinist definition explained](#idea-card-8-chauvinist-definition-explained) - [Idea Card 9: Battle…"
+  },
+  {
+    "id": "dcb08702f954:002",
+    "t": "AI Brain Conversation Archive",
+    "p": "AI Brain/Raw Exports/AI_Brain_All_Conversations_With_ToC.md",
+    "g": [
+      "AI-Brain",
+      "Raw-Exports"
+    ],
+    "s": "--- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads. --- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads. --- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Impor…"
+  },
+  {
+    "id": "dcb08702f954:003",
+    "t": "AI Brain Conversation Archive",
+    "p": "AI Brain/Raw Exports/AI_Brain_All_Conversations_With_ToC.md",
+    "g": [
+      "AI-Brain",
+      "Raw-Exports"
+    ],
+    "s": "**Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads. --- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads. --- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON…"
+  },
+  {
+    "id": "dcb08702f954:004",
+    "t": "AI Brain Conversation Archive",
+    "p": "AI Brain/Raw Exports/AI_Brain_All_Conversations_With_ToC.md",
+    "g": [
+      "AI-Brain",
+      "Raw-Exports"
+    ],
+    "s": "**Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads. --- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads. --- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical…"
+  },
+  {
+    "id": "dcb08702f954:005",
+    "t": "AI Brain Conversation Archive",
+    "p": "AI Brain/Raw Exports/AI_Brain_All_Conversations_With_ToC.md",
+    "g": [
+      "AI-Brain",
+      "Raw-Exports"
+    ],
+    "s": "--- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads. --- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads. --- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Impor…"
+  },
+  {
+    "id": "dcb08702f954:006",
+    "t": "AI Brain Conversation Archive",
+    "p": "AI Brain/Raw Exports/AI_Brain_All_Conversations_With_ToC.md",
+    "g": [
+      "AI-Brain",
+      "Raw-Exports"
+    ],
+    "s": "**Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads. --- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads. --- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON…"
+  },
+  {
+    "id": "dcb08702f954:007",
+    "t": "AI Brain Conversation Archive",
+    "p": "AI Brain/Raw Exports/AI_Brain_All_Conversations_With_ToC.md",
+    "g": [
+      "AI-Brain",
+      "Raw-Exports"
+    ],
+    "s": "**Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads. --- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads. --- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical…"
+  },
+  {
+    "id": "dcb08702f954:008",
+    "t": "AI Brain Conversation Archive",
+    "p": "AI Brain/Raw Exports/AI_Brain_All_Conversations_With_ToC.md",
+    "g": [
+      "AI-Brain",
+      "Raw-Exports"
+    ],
+    "s": "--- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads. --- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads. --- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Impor…"
+  },
+  {
+    "id": "dcb08702f954:009",
+    "t": "AI Brain Conversation Archive",
+    "p": "AI Brain/Raw Exports/AI_Brain_All_Conversations_With_ToC.md",
+    "g": [
+      "AI-Brain",
+      "Raw-Exports"
+    ],
+    "s": "**Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads. --- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads. --- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON…"
+  },
+  {
+    "id": "dcb08702f954:010",
+    "t": "AI Brain Conversation Archive",
+    "p": "AI Brain/Raw Exports/AI_Brain_All_Conversations_With_ToC.md",
+    "g": [
+      "AI-Brain",
+      "Raw-Exports"
+    ],
+    "s": "**Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads. --- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads. --- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical…"
+  },
+  {
+    "id": "dcb08702f954:011",
+    "t": "AI Brain Conversation Archive",
+    "p": "AI Brain/Raw Exports/AI_Brain_All_Conversations_With_ToC.md",
+    "g": [
+      "AI-Brain",
+      "Raw-Exports"
+    ],
+    "s": "--- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads. --- **Date:** Unknown (from export) **Tags:** [Imported], [Conversation] **Summary:** Raw conversation text available in export. **Import Notes:** This card represents a conversation exported from the raw JSON. Use it as a reference point when discussing historical design threads."
+  },
+  {
     "id": "439f4a44c75a:001",
     "t": "# Quicklinks",
     "p": "AI_INDEX.md",
     "g": [],
-    "s": "<!-- QUICKLINKS:START --> - [AI_INDEX.md](/AI_INDEX.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_INDEX.md) - [AI_QUICKLINKS.md](/AI_QUICKLINKS.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_QUICKLINKS.md) - [CHANGE_FEED.md](/CHANGE_FEED.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/CHANGE_FEED.md) - [QUICKLINK_PINS.txt](/QUICKLINK_PINS.txt) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/QUICKLINK_PINS.txt) - [README.md](/README.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README.md) …"
+    "s": "<!-- QUICKLINKS:START --> - [AI_INDEX.md](/AI_INDEX.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_INDEX.md) - [AI_QUICKLINKS.md](/AI_QUICKLINKS.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_QUICKLINKS.md) - [README.md](/README.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README.md) - [01 - Game BibleCore Vision2025-08-14_CORE_Vision_Goals_v1 [ARCHIVED].md](/AI%20Brain/Archive/01%20-%20Game%20BibleCore%20Vision2025-08-14_CORE_Vision_Goals_v1%20%5BARCHIVED%5D.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI%20Brain/Archiv…"
   },
   {
     "id": "439f4a44c75a:002",
     "t": "# Quicklinks",
     "p": "AI_INDEX.md",
     "g": [],
-    "s": "_Auto-generated on 2025-08-14 20:26:12 UTC_ > Links go to **raw** files when possible (best for AI), with a fallback GitHub view."
+    "s": "_Auto-generated on 2025-08-21 02:37:27 UTC_ > Links go to **raw** files when possible (best for AI), with a fallback GitHub view."
   },
   {
     "id": "439f4a44c75a:003",
@@ -408,7 +1207,7 @@
     "t": "# Quicklinks",
     "p": "AI_INDEX.md",
     "g": [],
-    "s": "- [2025 08 13 INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/2025-08-13_INDEX.md) <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/2025-08-13_INDEX.md\">(view on GitHub)</a></sup></sub> - [2025 08 13 INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/Comparative%20Analysis/2025-08-13_INDEX.md) <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/Comparative%20Analysis/2025-08-13_INDEX.md\">(view on GitHub)</a></sup></sub> - [2025 08 13 INDEX](htt…"
+    "s": "- [AI Brain – Memory OS Protocol (skeleton)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/AI%20Brain%20%E2%80%93%20Memory%20OS%20Protocol%20%28skeleton%29.md) <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Review%20Before%20Import/AI%20Brain%20%E2%80%93%20Memory%20OS%20Protocol%20%28skeleton%29.md\">(view on GitHub)</a></sup></sub> - [Presentation – Dynamic Text Narration Layer (locked)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/02%20%E2%80%93%20R%26D%20Lab/%21Staging%20-%20Re…"
   },
   {
     "id": "439f4a44c75a:006",
@@ -433,6 +1232,20 @@
   },
   {
     "id": "439f4a44c75a:009",
+    "t": "# Quicklinks",
+    "p": "AI_INDEX.md",
+    "g": [],
+    "s": "- [01 Game BibleCore Vision2025 08 14 CORE Vision Goals v1 [ARCHIVED]](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI%20Brain/Archive/01%20-%20Game%20BibleCore%20Vision2025-08-14_CORE_Vision_Goals_v1%20%5BARCHIVED%5D.md) <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI%20Brain/Archive/01%20-%20Game%20BibleCore%20Vision2025-08-14_CORE_Vision_Goals_v1%20%5BARCHIVED%5D.md\">(view on GitHub)</a></sup></sub> - [Lore – Fighter Class Interpretation [ARCHIVED]](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI%20Brain/Archive/Lore%20%E2%80%93%20Fighter%20Class%20Interpretation%20%5BARCHIVED%5D.md) <sub…"
+  },
+  {
+    "id": "439f4a44c75a:010",
+    "t": "# Quicklinks",
+    "p": "AI_INDEX.md",
+    "g": [],
+    "s": "- [00 – Index (Memory OS)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI%20Brain%20Admin/00%20%E2%80%93%20Index%20%28Memory%20OS%29.md) <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI%20Brain%20Admin/00%20%E2%80%93%20Index%20%28Memory%20OS%29.md\">(view on GitHub)</a></sup></sub> - [AI Brain – Memory OS Protocol (v1.0)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI%20Brain%20Admin/AI%20Brain%20%E2%80%93%20Memory%20OS%20Protocol%20%28v1.0%29.md) <sub><sup><a href=\"https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI%20Brain%20Admin/AI%20Brain%20%E2%80%93%20Memory%20OS%20Pro…"
+  },
+  {
+    "id": "439f4a44c75a:011",
     "t": "# Quicklinks",
     "p": "AI_INDEX.md",
     "g": [],
@@ -471,7 +1284,28 @@
     "t": "AI Quicklinks",
     "p": "AI_QUICKLINKS.md",
     "g": [],
-    "s": "_Auto-generated; top active notes._ - [AI_INDEX.md](/AI_INDEX.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_INDEX.md) - [AI_QUICKLINKS.md](/AI_QUICKLINKS.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_QUICKLINKS.md) - [CHANGE_FEED.md](/CHANGE_FEED.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/CHANGE_FEED.md) - [QUICKLINK_PINS.txt](/QUICKLINK_PINS.txt) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/QUICKLINK_PINS.txt) - [README.md](/README.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/R…"
+    "s": "_Auto-generated; top active notes._ - [AI_INDEX.md](/AI_INDEX.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_INDEX.md) - [AI_QUICKLINKS.md](/AI_QUICKLINKS.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI_QUICKLINKS.md) - [README.md](/README.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/README.md) - [01 - Game BibleCore Vision2025-08-14_CORE_Vision_Goals_v1 [ARCHIVED].md](/AI%20Brain/Archive/01%20-%20Game%20BibleCore%20Vision2025-08-14_CORE_Vision_Goals_v1%20%5BARCHIVED%5D.md) · [Raw](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI%20Br…"
+  },
+  {
+    "id": "5353c59756b7:001",
+    "t": "AI Brain ARCHITECTURE",
+    "p": "ARCHITECTURE.md",
+    "g": [],
+    "s": "A private, tiered semantic knowledge base with continuous indexing and a live mirror so assistants can answer with full context—without relying on chat memory. - **Source of truth (GitHub)**: Markdown notes, scripts, workflows. - **Generated artifacts (Netlify)**: `_brain/ai_brain.json`, `_brain/search_index.json`, `search.html`, `health.html/json`. - **Workflows (GitHub Actions)**: - Quick workflows on push (regen search/quicklinks/site index/health). - Build All (heavy) on schedule/manual. - Monitor Health (fetches `/health.json` and fails if stale). - **Policy**: - `_brain/policy.json` + `CANON_POLICY.md` define what is ACTIVE vs ARCHIVED/DEPRECATED. 1. You edit Markdown → push to GitHub.…"
+  },
+  {
+    "id": "f5b191bee40c:001",
+    "t": "Canon Policy",
+    "p": "CANON_POLICY.md",
+    "g": [],
+    "s": "**Goal:** Ensure assistants answer from **ACTIVE** doctrine by default. Archived/Deprecated content is ignored unless the user says **\"include archive\"**. - **ACTIVE** — current, authoritative design. - **DEPRECATED** — replaced; for history only. - **ARCHIVED** — retired/experimental; history only. 1) Default scope: **ACTIVE only**. 2) If a query mentions an archived/deprecated concept (e.g., legacy terms): - Prefer the replacement listed in the Canon Map. - If none exists, say: “That concept is archived. Current doctrine is …” and cite the active doc. 3) Only include archived content if the user writes **\"include archive\"**."
+  },
+  {
+    "id": "41892f91ea4e:001",
+    "t": "Canon Status (Quick Reference)",
+    "p": "CANON_STATUS.md",
+    "g": [],
+    "s": "- (Add your current pillars here with links) - Harem — replaced by: (link or “none; see core doctrine”) - Heat/Doom — replaced by: (link) - Progress Clock — replaced by: (link) - (List items placed under `AI Brain/Archive/`)"
   },
   {
     "id": "2e9db42a6519:001",
@@ -635,18 +1469,67 @@
     "s": "- 2025-08-13 22:17 — `2287e7d` by altondavisver4: Initial commit"
   },
   {
+    "id": "831373520502:001",
+    "t": "AI Brain CHANGELOG",
+    "p": "CHANGELOG_AI_BRAIN.md",
+    "g": [],
+    "s": "Keep a brief log of infra changes so future assistants understand why behavior changed. - 2025-08-21 – Added Ops Pack (runbook, architecture, troubleshooting, canon policy, policy.json, filters, lints)."
+  },
+  {
     "id": "8ec9a00bfd09:001",
-    "t": "README",
+    "t": "AI Brain",
     "p": "README.md",
     "g": [],
-    "s": "<!-- Workflow status badges --> [![Build All](https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/actions/workflows/build-all.yml/badge.svg)](https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/actions/workflows/build-all.yml) [![AI Index](https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/actions/workflows/build-ai-index.yml/badge.svg)](https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/actions/workflows/build-ai-index.yml) [![Quicklinks](https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/actions/workflows/build-quicklinks.yml/badge.svg)](https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/actions/workflows/build-quicklinks.yml) [![Site Index](https://github.com/a…"
+    "s": "The **AI Brain** is a structured knowledge system built to extend ChatGPT’s memory and navigation speed for long-term indie game development. It is not a “brain” in the traditional sense, but a **knowledge index + workflow automation system** designed to make it easy for any AI assistant (including future ChatGPT sessions) to load, navigate, and optimize Alton’s project data. --- - Provide **fast, structured recall** of design docs, rulesets, and notes. - Act as a **persistent memory layer** that survives across ChatGPT sessions. - Standardize **file naming, indexing, and workflows** so assistants can work without confusion. - Support **game design** (Pathfinder d20, FATE hybrid, OSR mechani…"
   },
   {
     "id": "8ec9a00bfd09:002",
-    "t": "README",
+    "t": "AI Brain",
     "p": "README.md",
     "g": [],
-    "s": "---"
+    "s": "- **Build All** → Full site + index regeneration (heavy, scheduled). - **Quick Workflows** → Incremental updates (triggered on file edits). - **Monitor Health** → Continuously checks that the AI Brain outputs are up-to-date and operational. - Health endpoints (`health.html`, `health.json`) confirm uptime and freshness of outputs. - The **Monitor Health** GitHub Action reads these to validate live status. - If health checks fail, review the workflow logs and re-run builds as necessary. --- 1. **Start here.** Read this README before exploring. 2. **Check health.** Visit `https://psiopera-octopus-ogre-4372.netlify.app/health.json` to confirm system health. 3. **Search smartly.** Use `/search` f…"
+  },
+  {
+    "id": "8ec9a00bfd09:003",
+    "t": "AI Brain",
+    "p": "README.md",
+    "g": [],
+    "s": "By keeping names explicit and chronological, indexing remains accurate and contextually meaningful. --- - **Monitor Health failures?** - Re-run the relevant workflow (`Quick` or `Build All`). - Check that `write_health.py` is generating updated content. - Verify that health endpoints are reachable (Netlify site must be up and updated). - **If search is stale?** - Ensure Quick Workflows have run. - Check that `search_index.json` was generated and committed. - **Build problems?** - Confirm YAML syntax, triggers, and file paths in `.github/workflows`. - Use manual build triggers if needed. --- - Future assistants may prefer reading directly from GitHub via connector (after you enable it). - To …"
+  },
+  {
+    "id": "8ec9a00bfd09:004",
+    "t": "AI Brain",
+    "p": "README.md",
+    "g": [],
+    "s": "--- - ✅ Source docs live in vault - ✅ Incremental plus scheduled builds - ✅ Netlify live with search and health - ⏳ Future: embedding, SRD import, AI-driven summary tools --- _Authored by Alton — Aspiring Solo Indie Game Dev, co-creating game systems and AI memory workflows with ChatGPT._"
+  },
+  {
+    "id": "5b83d49e4c8d:001",
+    "t": "AI Brain",
+    "p": "README_AI_BRAIN.md",
+    "g": [],
+    "s": "The **AI Brain** is a structured knowledge system built to extend ChatGPT’s memory and navigation speed for long-term indie game development. It is not a “brain” in the traditional sense, but a **knowledge index + workflow automation system** designed to make it easy for any AI assistant (including future ChatGPT sessions) to load, navigate, and optimize Alton’s project data. --- - Provide **fast, structured recall** of design docs, rulesets, and notes. - Act as a **persistent memory layer** that survives across ChatGPT sessions. - Standardize **file naming, indexing, and workflows** so assistants can work without confusion. - Support **game design** (Pathfinder d20, FATE hybrid, OSR mechani…"
+  },
+  {
+    "id": "5b83d49e4c8d:002",
+    "t": "AI Brain",
+    "p": "README_AI_BRAIN.md",
+    "g": [],
+    "s": "- **Build All** → Full site + index regeneration (heavy, scheduled). - **Quick Workflows** → Incremental updates (triggered on file edits). - **Monitor Health** → Continuously checks that the AI Brain outputs are up-to-date and operational. - Health endpoints (`health.html`, `health.json`) confirm uptime and freshness of outputs. - The **Monitor Health** GitHub Action reads these to validate live status. - If health checks fail, review the workflow logs and re-run builds as necessary. --- 1. **Start here.** Read this README before exploring. 2. **Check health.** Visit `https://psiopera-octopus-ogre-4372.netlify.app/health.json` to confirm system health. 3. **Search smartly.** Use `/search` f…"
+  },
+  {
+    "id": "5b83d49e4c8d:003",
+    "t": "AI Brain",
+    "p": "README_AI_BRAIN.md",
+    "g": [],
+    "s": "By keeping names explicit and chronological, indexing remains accurate and contextually meaningful. --- - **Monitor Health failures?** - Re-run the relevant workflow (`Quick` or `Build All`). - Check that `write_health.py` is generating updated content. - Verify that health endpoints are reachable (Netlify site must be up and updated). - **If search is stale?** - Ensure Quick Workflows have run. - Check that `search_index.json` was generated and committed. - **Build problems?** - Confirm YAML syntax, triggers, and file paths in `.github/workflows`. - Use manual build triggers if needed. --- - Future assistants may prefer reading directly from GitHub via connector (after you enable it). - To …"
+  },
+  {
+    "id": "5b83d49e4c8d:004",
+    "t": "AI Brain",
+    "p": "README_AI_BRAIN.md",
+    "g": [],
+    "s": "--- - ✅ Source docs live in vault - ✅ Incremental plus scheduled builds - ✅ Netlify live with search and health - ⏳ Future: embedding, SRD import, AI-driven summary tools --- _Authored by Alton — Aspiring Solo Indie Game Dev, co-creating game systems and AI memory workflows with ChatGPT._"
   },
   {
     "id": "298d84852253:001",
@@ -670,6 +1553,13 @@
     "s": "- [AI Quicklinks](AI_QUICKLINKS.md) — top active notes (with Raw links) - [Tags Index](TAGS_INDEX.md) — browse by #tag (see /tags/) - [Change Feed](CHANGE_FEED.md) — commits in the last 14 days - [Cache Snapshot](cache.html) — inline content of top notes for fast reads"
   },
   {
+    "id": "c201acded983:001",
+    "t": "Repository Ops Docs (for the AI Brain)",
+    "p": "README_OPS.md",
+    "g": [],
+    "s": "This folder contains operational documentation and guardrails so **any assistant or person** can maintain the AI Brain without prior chat history. **Start here:** - `RUNBOOK.md` — step-by-step operations (daily/weekly), deployments, and \"what to do when X fails\". - `ARCHITECTURE.md` — how the brain works (sources, indexes, Netlify, GitHub Actions). - `TROUBLESHOOTING.md` — symptom → cause → fix playbooks. - `CANON_POLICY.md` — how \"Active vs Archived/Deprecated\" content is enforced. - `CANON_STATUS.md` — current canon lists with pointers to replacements. - `_brain/policy.json` — machine-readable policy for builders/lints. - `CHANGELOG_AI_BRAIN.md` — log major infra changes so future iteratio…"
+  },
+  {
     "id": "2923ba2d8606:001",
     "t": "Quicklinks Automation Pack",
     "p": "README_QUICKLINKS_AUTOMATION.md",
@@ -682,6 +1572,20 @@
     "p": "README_SUPER_INDEX.md",
     "g": [],
     "s": "This repo emits: - `/_brain/ai_super_index.json` — unified index with tier membership and link graph. - `/_brain/snapshots/` — rolling JSONL.GZ snapshots of raw markdown (`LATEST` points to current). Use `ai_super_index.json` for instant cross-tier navigation and related-note jumps. Use the snapshot when hosting is unavailable to recover raw content quickly."
+  },
+  {
+    "id": "84602c1325b0:001",
+    "t": "AI Brain RUNBOOK",
+    "p": "RUNBOOK.md",
+    "g": [],
+    "s": "Audience: humans and AI assistants maintaining the AI Brain. --- 1. Open Netlify health: - `/health.json` should have `timestamp` within 15 minutes of now. - `/health.html` should show the latest commit. 2. Check GitHub Actions: - `Monitor Health` should be passing. - Quick workflows (Search/Quicklinks/Site Index) should be green on your last push. 1. Run **Build All** (manual or scheduled) to refresh everything. 2. Confirm: - `_brain/ai_brain.json` and `_brain/search_index.json` updated. - `/search.html` loads and finds new docs. 3. Speed snapshot (optional): run the speed-check workflow if enabled. 1. Open the failing job → read the first error line. 2. Common fixes: - YAML syntax or wrong…"
+  },
+  {
+    "id": "84602c1325b0:002",
+    "t": "AI Brain RUNBOOK",
+    "p": "RUNBOOK.md",
+    "g": [],
+    "s": "1. Ensure the repo is intact on GitHub. 2. Re-run `Build All`. If Netlify is stale, trigger a fresh deploy. 3. If health fails, run `write_health.py` locally or via the workflow that calls it."
   },
   {
     "id": "9baae657abad:001",
@@ -698,5 +1602,12 @@
     "p": "TAGS_INDEX.md",
     "g": [],
     "s": "- [tag](./tags/tag.md) (1)"
+  },
+  {
+    "id": "280827c5d66e:001",
+    "t": "TROUBLESHOOTING",
+    "p": "TROUBLESHOOTING.md",
+    "g": [],
+    "s": "- Cause: `health.json` missing numeric `timestamp` or not regenerated. - Fix: 1) Ensure `write_health.py` writes `\"timestamp\": <epoch-seconds>`. 2) Re-run the workflow that invokes `write_health.py` (Site Index or Quicklinks). 3) Re-run `Monitor Health` (it fetches `/health.json` from Netlify). - Cause: deployment cache or previous build not triggered. - Fix: trigger a redeploy on Netlify or push a no-op commit; ensure quick workflows commit regenerated artifacts. - Cause: Archived files still included in indexes. - Fix: 1) Add front-matter flags to archived docs. 2) Ensure `_brain/policy.json` exists. 3) Re-run `Build All`. 4) Run post-filter: `scripts/filter_search_index_archived.py`. - Ca…"
   }
 ]
