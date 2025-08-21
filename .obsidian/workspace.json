@@ -29,13 +29,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI_INDEX.md",
+                "file": "0000-00-00_META_File-Naming-Rules_v1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "AI_INDEX"
+              "title": "0000-00-00_META_File-Naming-Rules_v1"
             }
           }
         ]
@@ -70,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "one machine",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,7 +91,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -194,15 +195,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "106da0aec8fa7108",
+  "active": "e00f70e1d55c068e",
   "lastOpenFiles": [
+    "AI Brain/Archive/Procedural – Unified Action Loop (draft).md",
+    "0000-00-00_META_File-Naming-Rules_v1.md",
+    "AI_INDEX.md",
     "AI Brain/Archive/Lore – Fighter Class Interpretation (locked).md",
     "AI Brain/Archive/Systems – OSR Engagement Checks (locked).md",
     "AI Brain/Archive/Systems – OSR Domain Play Hooks (draft).md",
     "AI Brain/Archive/Systems – Zone-Route Terminology Separation (locked).md",
     "AI Brain/Archive/Special – “Everything is Attackable” Quest Philosophy (draft).md",
     "AI Brain/Archive/Special – Group Entities with Morale-Based Disbanding (draft).md",
-    "AI Brain/Archive/Procedural – Unified Action Loop (draft).md",
     "AI Brain/Archive/Procedural – Codex as Quest Generator (concept).md",
     "AI Brain/Archive/Procedural – One Machine Storyteller Engine (draft).md",
     "AI Brain/Archive/Mechanics – Universal Narrative RNG Doctrine + Roll Interpreter Module (locked).md",
@@ -220,8 +223,6 @@
     "02 – R&D Lab/!Staging - Review Before Import/Procedural/Procedural – Codex as Quest Generator (concept).md",
     "02 – R&D Lab/!Staging - Review Before Import/Mechanics/Mechanics – Universal Narrative RNG Doctrine + Roll Interpreter Module (locked).md",
     "02 – R&D Lab/!Staging - Review Before Import/Mechanics/Mechanics – Progress Clocks for All Obstacles (draft).md",
-    "02 – R&D Lab/!Staging - Review Before Import/Mechanics/Mechanics – FATE–PF2E Hybrid Framework (draft).md",
-    "02 – R&D Lab/!Staging - Review Before Import/Mechanics/Mechanics – Encounter Definition – Desire vs. Obstacle (locked).md",
     "AI Brain/Archive",
     "AI Brain/New folder",
     "build_brain_index.py",
