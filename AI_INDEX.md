@@ -1,6 +1,6 @@
 # AI Index
 
-_Auto-generated on 2025-08-20 23:27:47 UTC_
+_Auto-generated on 2025-08-21 00:02:50 UTC_
 
 > Links go to **raw** files when possible (best for AI), with a fallback GitHub view.
 
@@ -59,8 +59,6 @@ _Auto-generated on 2025-08-20 23:27:47 UTC_
   <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/01%20%E2%80%93%20Game%20Bible/Assets%20%28Final%20Approved%29/2025-08-13_INDEX.md">(view on GitHub)</a></sup></sub>
 - [2025 08 13 INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/01%20%E2%80%93%20Game%20Bible/Characters/2025-08-13_INDEX.md)  
   <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/01%20%E2%80%93%20Game%20Bible/Characters/2025-08-13_INDEX.md">(view on GitHub)</a></sup></sub>
-- [01   Game BibleCore Vision2025 08 14 CORE Vision Goals v1](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/01%20%E2%80%93%20Game%20Bible/Core%20Vision/01%20-%20Game%20BibleCore%20Vision2025-08-14_CORE_Vision_Goals_v1.md)  
-  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/01%20%E2%80%93%20Game%20Bible/Core%20Vision/01%20-%20Game%20BibleCore%20Vision2025-08-14_CORE_Vision_Goals_v1.md">(view on GitHub)</a></sup></sub>
 - [2025 08 13 INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/01%20%E2%80%93%20Game%20Bible/Core%20Vision/2025-08-13_INDEX.md)  
   <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/01%20%E2%80%93%20Game%20Bible/Core%20Vision/2025-08-13_INDEX.md">(view on GitHub)</a></sup></sub>
 - [2025 08 14 CORE Vision Goals v1](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/01%20%E2%80%93%20Game%20Bible/Core%20Vision/2025-08-14_CORE_Vision_Goals_v1.md)  
@@ -75,8 +73,6 @@ _Auto-generated on 2025-08-20 23:27:47 UTC_
   <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/01%20%E2%80%93%20Game%20Bible/Systems/2025-08-14_SYSTEM_Key-Systems_Overview_v1.md">(view on GitHub)</a></sup></sub>
 - [2025 08 13 INDEX](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/01%20%E2%80%93%20Game%20Bible/World%20%26%20Lore/2025-08-13_INDEX.md)  
   <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/01%20%E2%80%93%20Game%20Bible/World%20%26%20Lore/2025-08-13_INDEX.md">(view on GitHub)</a></sup></sub>
-- [Lore – Fighter Class Interpretation (locked)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/01%20%E2%80%93%20Game%20Bible/World%20%26%20Lore/Lore%20%E2%80%93%20Fighter%20Class%20Interpretation%20%28locked%29.md)  
-  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/01%20%E2%80%93%20Game%20Bible/World%20%26%20Lore/Lore%20%E2%80%93%20Fighter%20Class%20Interpretation%20%28locked%29.md">(view on GitHub)</a></sup></sub>
 
 ## 02 – R&D Lab
 
@@ -196,6 +192,10 @@ _Auto-generated on 2025-08-20 23:27:47 UTC_
 
 ## AI Brain
 
+- [01   Game BibleCore Vision2025 08 14 CORE Vision Goals v1](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI%20Brain/Archive/01%20-%20Game%20BibleCore%20Vision2025-08-14_CORE_Vision_Goals_v1.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI%20Brain/Archive/01%20-%20Game%20BibleCore%20Vision2025-08-14_CORE_Vision_Goals_v1.md">(view on GitHub)</a></sup></sub>
+- [Lore – Fighter Class Interpretation (locked)](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI%20Brain/Archive/Lore%20%E2%80%93%20Fighter%20Class%20Interpretation%20%28locked%29.md)  
+  <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI%20Brain/Archive/Lore%20%E2%80%93%20Fighter%20Class%20Interpretation%20%28locked%29.md">(view on GitHub)</a></sup></sub>
 - [AI Brain All Conversations](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI%20Brain/Raw%20Exports/AI_Brain_All_Conversations.md)  
   <sub><sup><a href="https://github.com/altondavisver4/Dungeonpunk-Dev-Vault/blob/main/AI%20Brain/Raw%20Exports/AI_Brain_All_Conversations.md">(view on GitHub)</a></sup></sub>
 - [AI Brain All Conversations With ToC](https://raw.githubusercontent.com/altondavisver4/Dungeonpunk-Dev-Vault/main/AI%20Brain/Raw%20Exports/AI_Brain_All_Conversations_With_ToC.md)  
