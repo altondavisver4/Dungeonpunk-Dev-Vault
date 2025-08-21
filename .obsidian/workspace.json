@@ -33,13 +33,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 – R&D Lab/!Staging - Review Before Import/Mechanics/Mechanics – FATE–PF2E Hybrid Framework (draft).md",
+                "file": "AI Brain/Archive/Lore – Fighter Class Interpretation (locked).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Mechanics – FATE–PF2E Hybrid Framework (draft)"
+              "title": "Lore – Fighter Class Interpretation (locked)"
             }
           }
         ]
@@ -74,7 +74,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "harem",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -198,8 +198,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dfe35c712a722c37",
+  "active": "106da0aec8fa7108",
   "lastOpenFiles": [
+    "01 – Game Bible/World & Lore/2025-08-13_INDEX.md",
+    "AI Brain/Archive/01 - Game BibleCore Vision2025-08-14_CORE_Vision_Goals_v1.md",
+    "02 – R&D Lab/!Staging - Review Before Import/AI Brain – Memory OS Protocol (skeleton).md",
+    "02 – R&D Lab/!Staging - Review Before Import/Systems/Systems – OSR Engagement Checks (locked).md",
+    "02 – R&D Lab/!Staging - Review Before Import/Systems/Systems – OSR Domain Play Hooks (draft).md",
+    "02 – R&D Lab/!Staging - Review Before Import/Procedural/Procedural – One Machine Storyteller Engine (draft).md",
+    "02 – R&D Lab/!Staging - Review Before Import/Procedural/Procedural – Codex as Quest Generator (concept).md",
+    "02 – R&D Lab/!Staging - Review Before Import/Mechanics/Mechanics – Universal Narrative RNG Doctrine + Roll Interpreter Module (locked).md",
+    "02 – R&D Lab/!Staging - Review Before Import/Mechanics/Mechanics – Progress Clocks for All Obstacles (draft).md",
+    "02 – R&D Lab/!Staging - Review Before Import/Mechanics/Mechanics – FATE–PF2E Hybrid Framework (draft).md",
     "02 – R&D Lab/!Staging - Review Before Import/Mechanics/Mechanics – Encounter Definition – Desire vs. Obstacle (locked).md",
     "02 – R&D Lab/!Staging - Review Before Import/Mechanics/Mechanics – Behavior Card System (draft).md",
     "02 – R&D Lab/!Staging - Review Before Import/Mechanics/Mechanics – “Everything is a Monster” OSR Philosophy (locked).md",
@@ -225,16 +235,6 @@
     "02 – R&D Lab/Factions & Cultures/Gangs – Ethnic Pulpy Archetypes (draft).md",
     "02 – R&D Lab/Workflow Protocols/R&D – Iteration Workflow Commands (v1.0).md",
     "02 – R&D Lab/Theme & Setting Studies/Lore/Lore – Ten Foundational Themes.md",
-    "AI Brain Admin/Memory_OS_Protocol_v1.1.md",
-    "AI_Brain_Admin/Memory_OS_Protocol_v1.1.md",
-    "01 – Game Bible/World & Lore/Lore – Fighter Class Interpretation (locked).md",
-    "03 – Assets/2025-08-13_INDEX.md",
-    "02 – R&D Lab/!Staging - Review Before Import/Procedural/Procedural – Unified Action Loop (draft).md",
-    "02 – R&D Lab/!Staging - Review Before Import/Mechanics/Mechanics – Universal Narrative RNG Doctrine + Roll Interpreter Module (locked).md",
-    "AI_INDEX.md",
-    "AI Brain Admin/Queries/Dataview – Status & Type dashboards.md",
-    "AI Brain Admin/Queries/Search Macros – Fast Retrieval.md",
-    "AI Brain Admin/AI Brain – Memory OS Protocol (v1.0).md",
-    "02 – R&D Lab/!Staging - Review Before Import/AI Brain – Memory OS Protocol (skeleton).md"
+    "AI Brain Admin/Memory_OS_Protocol_v1.1.md"
   ]
 }
