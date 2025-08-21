@@ -194,8 +194,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "106da0aec8fa7108",
+  "active": "b2c367ad5a682473",
   "lastOpenFiles": [
+    "TROUBLESHOOTING.md",
+    "RUNBOOK.md",
+    "README_OPS.md",
+    "CHANGELOG_AI_BRAIN.md",
+    "CANON_STATUS.md",
+    "CANON_POLICY.md",
+    "ARCHITECTURE.md",
+    "scripts/lint_no_archived_in_active.py",
+    "scripts/filter_search_index_archived.py",
+    "_brain/policy.json",
     "02 – R&D Lab/Theme & Setting Studies/Narrative_Doctrine_Political_Powder_Keg.md",
     "AI Brain/Archive/Mechanics – Behavior Card System [ARCHIVED].md",
     "AI Brain/Archive/Systems – Zone-Route Terminology Separation [ARCHIVED].md",
@@ -215,22 +225,12 @@
     "AI Brain/Archive/01 - Game BibleCore Vision2025-08-14_CORE_Vision_Goals_v1 [ARCHIVED].md",
     "AI Brain/Archive/Procedural – Unified Action Loop (draft).md",
     "0000-00-00_META_File-Naming-Rules_v1.md",
-    "AI_INDEX.md",
-    "AI Brain/Archive/Lore – Fighter Class Interpretation (locked).md",
-    "AI Brain/Archive/Systems – OSR Engagement Checks (locked).md",
-    "AI Brain/Archive/Systems – OSR Domain Play Hooks (draft).md",
-    "AI Brain/Archive/Systems – Zone-Route Terminology Separation (locked).md",
-    "AI Brain/Archive/Special – “Everything is Attackable” Quest Philosophy (draft).md",
-    "AI Brain/Archive/Special – Group Entities with Morale-Based Disbanding (draft).md",
     "AI Brain/Archive",
     "AI Brain/New folder",
     "build_brain_index.py",
     "AI Brain/Raw Exports/chat.html",
     "AI Brain/Raw Exports/conversations.json",
     "AI Brain/Raw Exports",
-    "AI Brain",
-    "AI Brain Exports",
-    "New folder",
-    "02 – R&D Lab/Compiles"
+    "AI Brain"
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "archive_rules": {
+    "path_prefixes": [
+      "AI Brain/Archive"
+    ],
+    "title_markers": [
+      "[ARCHIVE]",
+      "[DEPRECATED]"
+    ],
+    "front_matter_flags": [
+      "archived",
+      "deprecated",
+      "status"
+    ],
+    "front_matter_values": [
+      "archived",
+      "deprecated"
+    ]
+  },
+  "replacement_map": {
+    "harem": "",
+    "heat/doom": "",
+    "progress clock": ""
+  },
+  "default_scope": "ACTIVE_ONLY"
+}
