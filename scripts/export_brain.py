@@ -2,6 +2,24 @@
 import os, json, re, time
 from pathlib import Path
 from utils_common import MD_LINK, WIKI, FRONT, sha
+from datetime import date, datetime
+
+def _json_safe(obj):
+    """Make non-JSON-native objects serializable."""
+    if isinstance(obj, (datetime, date)):
+        return obj.isoformat()
+    if isinstance(obj, Path):
+        return str(obj)
+    # Fallback: string-ify anything else unexpected
+    return str(obj)
+
+def _deep_json_safe(x):
+    """Recursively convert dict/list structures to JSON-safe values."""
+    if isinstance(x, dict):
+        return {k: _deep_json_safe(v) for k, v in x.items()}
+    if isinstance(x, list):
+        return [_deep_json_safe(v) for v in x]
+    return _json_safe(x)
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTDIR = ROOT / "_brain"
@@ -94,7 +112,7 @@ def collect():
              "files_count": len(files), "attachments_count": len(attachments),
              "files": sorted(files, key=lambda x: x["path"].lower()), "attachments": sorted(attachments),
              "manifest": manifest}
-    (OUTDIR / "ai_brain.json").write_text(json.dumps(brain, ensure_ascii=False, indent=2), encoding="utf-8")
+    (OUTDIR / "ai_brain.json").write_text(json.dumps(brain, ensure_ascii=False, indent=2, default=_json_safe), encoding="utf-8")
     print("Wrote _brain/ai_brain.json with", len(files), "notes")
 if __name__ == "__main__":
     collect()
