@@ -11,14 +11,10 @@
             "id": "d860e1971df0b8ec",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 – R&D Lab/!Staging - Review Before Import/Mechanics/Mechanics – Universal Narrative RNG Doctrine + Roll Interpreter Module (locked).md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Mechanics – Universal Narrative RNG Doctrine + Roll Interpreter Module (locked)"
+              "title": "New tab"
             }
           }
         ]
@@ -33,13 +29,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Brain/Archive/Lore – Fighter Class Interpretation (locked).md",
+                "file": "AI_INDEX.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Lore – Fighter Class Interpretation (locked)"
+              "title": "AI_INDEX"
             }
           }
         ]
@@ -74,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "harem",
+                "query": "one machine",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -200,6 +196,21 @@
   },
   "active": "106da0aec8fa7108",
   "lastOpenFiles": [
+    "AI Brain/Archive/Lore – Fighter Class Interpretation (locked).md",
+    "AI Brain/Archive/Systems – OSR Engagement Checks (locked).md",
+    "AI Brain/Archive/Systems – OSR Domain Play Hooks (draft).md",
+    "AI Brain/Archive/Systems – Zone-Route Terminology Separation (locked).md",
+    "AI Brain/Archive/Special – “Everything is Attackable” Quest Philosophy (draft).md",
+    "AI Brain/Archive/Special – Group Entities with Morale-Based Disbanding (draft).md",
+    "AI Brain/Archive/Procedural – Unified Action Loop (draft).md",
+    "AI Brain/Archive/Procedural – Codex as Quest Generator (concept).md",
+    "AI Brain/Archive/Procedural – One Machine Storyteller Engine (draft).md",
+    "AI Brain/Archive/Mechanics – Universal Narrative RNG Doctrine + Roll Interpreter Module (locked).md",
+    "AI Brain/Archive/Mechanics – Progress Clocks for All Obstacles (draft).md",
+    "AI Brain/Archive/Mechanics – FATE–PF2E Hybrid Framework (draft).md",
+    "AI Brain/Archive/Mechanics – Encounter Definition – Desire vs. Obstacle (locked).md",
+    "AI Brain/Archive/Mechanics – Behavior Card System (draft).md",
+    "AI Brain/Archive/Mechanics – “Everything is a Monster” OSR Philosophy (locked).md",
     "01 – Game Bible/World & Lore/2025-08-13_INDEX.md",
     "AI Brain/Archive/01 - Game BibleCore Vision2025-08-14_CORE_Vision_Goals_v1.md",
     "02 – R&D Lab/!Staging - Review Before Import/AI Brain – Memory OS Protocol (skeleton).md",
@@ -211,13 +222,8 @@
     "02 – R&D Lab/!Staging - Review Before Import/Mechanics/Mechanics – Progress Clocks for All Obstacles (draft).md",
     "02 – R&D Lab/!Staging - Review Before Import/Mechanics/Mechanics – FATE–PF2E Hybrid Framework (draft).md",
     "02 – R&D Lab/!Staging - Review Before Import/Mechanics/Mechanics – Encounter Definition – Desire vs. Obstacle (locked).md",
-    "02 – R&D Lab/!Staging - Review Before Import/Mechanics/Mechanics – Behavior Card System (draft).md",
-    "02 – R&D Lab/!Staging - Review Before Import/Mechanics/Mechanics – “Everything is a Monster” OSR Philosophy (locked).md",
-    "AI Brain Admin/Playbooks/00 – Retrieval Playbook (v1.0).md",
     "AI Brain/Archive",
     "AI Brain/New folder",
-    "AI Brain/Raw Exports/AI_Brain_All_Conversations_With_ToC.md",
-    "AI Brain/Raw Exports/AI_Brain_All_Conversations.md",
     "build_brain_index.py",
     "AI Brain/Raw Exports/chat.html",
     "AI Brain/Raw Exports/conversations.json",
@@ -225,16 +231,6 @@
     "AI Brain",
     "AI Brain Exports",
     "New folder",
-    "README.md",
-    "README_AI_BRAIN.md",
-    "readme.md",
-    "02 – R&D Lab/Compiles/R&D – Theme Compile – Mixed Source (annotated).md",
-    "02 – R&D Lab/Compiles/R&D – Theme Compile – Canon-Only Tone Pass.md",
-    "02 – R&D Lab/Compiles",
-    "02 – R&D Lab/Imports/R&D – Cyberpunk Theme Imports (for stress test).md",
-    "02 – R&D Lab/Factions & Cultures/Gangs – Ethnic Pulpy Archetypes (draft).md",
-    "02 – R&D Lab/Workflow Protocols/R&D – Iteration Workflow Commands (v1.0).md",
-    "02 – R&D Lab/Theme & Setting Studies/Lore/Lore – Ten Foundational Themes.md",
-    "AI Brain Admin/Memory_OS_Protocol_v1.1.md"
+    "02 – R&D Lab/Compiles"
   ]
 }
